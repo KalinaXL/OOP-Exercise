@@ -1,0 +1,57 @@
+adaptive-icon;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher.xml
+adaptive-icon;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher_round.xml
+android.support.design.widget.BottomNavigationView;obj\Debug\90\res\layout\activity_main.xml
+background;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher.xml
+background;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher_round.xml
+Button;obj\Debug\90\res\layout\activity_login.xml
+cache-path;C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\lp\35\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+color;obj\Debug\90\res\values\colors.xml
+color;obj\Debug\90\res\values\ic_launcher_background.xml
+corners;obj\Debug\90\res\drawable\edit_text_login_style.xml
+corners;obj\Debug\90\res\drawable\list_item_style.xml
+dimen;obj\Debug\90\res\values\dimens.xml
+EditText;obj\Debug\90\res\layout\activity_login.xml
+ExpandableListView;obj\Debug\90\res\layout\fragment_scheduler.xml
+external-cache-path;C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\lp\35\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+external-path;C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\lp\35\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+foreground;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher.xml
+foreground;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher_round.xml
+FrameLayout;obj\Debug\90\res\layout\activity_main.xml
+gradient;obj\Debug\90\res\drawable\login_background.xml
+ImageView;obj\Debug\90\res\layout\activity_login.xml
+item;obj\Debug\90\res\menu\navigation.xml
+item;obj\Debug\90\res\values\styles.xml
+LinearLayout;obj\Debug\90\res\layout\activity_login.xml
+LinearLayout;obj\Debug\90\res\layout\activity_main.xml
+LinearLayout;obj\Debug\90\res\layout\fragment_scheduler.xml
+LinearLayout;obj\Debug\90\res\layout\listheaderview.xml
+menu;obj\Debug\90\res\menu\navigation.xml
+path;obj\Debug\90\res\drawable\ic_dashboard_black_24dp.xml
+path;obj\Debug\90\res\drawable\ic_home_black_24dp.xml
+path;obj\Debug\90\res\drawable\ic_notifications_black_24dp.xml
+paths;C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\lp\35\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+ProgressBar;obj\Debug\90\res\layout\activity_login.xml
+RelativeLayout;obj\Debug\90\res\layout\activity_login.xml
+RelativeLayout;obj\Debug\90\res\layout\listitemview.xml
+resources;obj\Debug\90\res\values\colors.xml
+resources;obj\Debug\90\res\values\dimens.xml
+resources;obj\Debug\90\res\values\ic_launcher_background.xml
+resources;obj\Debug\90\res\values\strings.xml
+resources;obj\Debug\90\res\values\styles.xml
+rotate;obj\Debug\90\res\drawable\progressbar_style.xml
+scale;obj\Debug\90\res\anim\scale.xml
+shape;obj\Debug\90\res\drawable\edit_text_login_style.xml
+shape;obj\Debug\90\res\drawable\list_item_style.xml
+shape;obj\Debug\90\res\drawable\login_background.xml
+size;obj\Debug\90\res\drawable\progressbar_style.xml
+string;obj\Debug\90\res\values\strings.xml
+stroke;obj\Debug\90\res\drawable\edit_text_login_style.xml
+stroke;obj\Debug\90\res\drawable\list_item_style.xml
+style;obj\Debug\90\res\values\styles.xml
+TextView;obj\Debug\90\res\layout\fragment_scheduler.xml
+TextView;obj\Debug\90\res\layout\listheaderview.xml
+TextView;obj\Debug\90\res\layout\listitemview.xml
+vector;obj\Debug\90\res\drawable\ic_dashboard_black_24dp.xml
+vector;obj\Debug\90\res\drawable\ic_home_black_24dp.xml
+vector;obj\Debug\90\res\drawable\ic_notifications_black_24dp.xml
+View;obj\Debug\90\res\layout\listitemview.xml
