@@ -7,22 +7,23 @@
     android:weightSum = "100"
     android:background="@drawable/login_background">
     <ImageView
-        android:layout_marginTop="90dp"
-        android:src="@android:drawable/ic_menu_gallery"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/logo"
+        android:layout_width="138dp"
+        android:layout_height="140dp"
         android:minWidth="25px"
         android:minHeight="25px"
         android:layout_gravity="center"
         android:id="@+id/imageViewLogo"
         android:layout_weight="15"/>
     <EditText
+        android:id="@+id/txtUsername"
         android:layout_marginTop="50dp"
         android:layout_marginLeft="75dp"
         android:layout_marginRight="75dp"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="15"
+        android:layout_weight="14"
         android:hint="Tên đăng nhập"
         android:textSize="17dp"
         android:paddingLeft="15dp"
@@ -30,18 +31,30 @@
         android:inputType="textNoSuggestions"
     />
     <EditText
-        android:layout_marginTop="20dp"
+        android:id="@+id/txtPassword"
+        android:layout_marginTop="25dp"
         android:layout_marginLeft="75dp"
         android:layout_marginRight="75dp"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="15"
+        android:layout_weight="14"
         android:hint="Mật khẩu"
         android:paddingLeft="15dp"
         android:textSize="17dp"
         android:inputType="textPassword"
         android:background = "@drawable/edit_text_login_style"
     />
+    <CheckBox
+        android:id="@+id/checkBoxRememberMe"
+        android:text="Nhớ tài khoản?"
+        android:textSize="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="10dp"
+        android:clickable="true" 
+         />
     <RelativeLayout
         android:layout_marginTop="50dp"
         android:layout_width="match_parent"

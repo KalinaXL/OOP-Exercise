@@ -56,6 +56,12 @@ namespace OOP_Exercise.Resources.Fragments
         public override View GetChildView(int groupPosition, int childPosition, bool isLastChild, View convertView, ViewGroup parent)
         {
             var subjects = Items[titleName[groupPosition]][childPosition];
+
+            /*Expand the view today
+             *ExpandableListView mELV = parent as ExpandableListView;
+             * mELV.ExpandGroup(groupPosition);
+             * 
+             */
             View view = convertView;
             if (view == null)
             {
@@ -119,7 +125,7 @@ namespace OOP_Exercise.Resources.Fragments
 
             titleNames = new List<string>() { "Thứ 2","Thứ 3","Thứ 4" };
             schedulerOfDay = new Dictionary<string, List<Subject>>();
-            List<Subject> subs = new List<Subject>() { new Subject("OOP","H6","12:00-15:00") , new Subject("DSA","H2","7:00-10:00") };
+            List<Subject> subs = new List<Subject>() { new Subject("OOP","H6-114","07:00-10:00") , new Subject("DSA","H2-206","07:00-10:00") };
             schedulerOfDay.Add("Thứ 2", subs);
             schedulerOfDay.Add("Thứ 3", subs);
             schedulerOfDay.Add("Thứ 4", subs);
