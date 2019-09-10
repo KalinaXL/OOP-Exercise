@@ -1,4 +1,4 @@
-﻿namespace DataOfUser
+﻿namespace OOP_Exercise
 {
     public class Question
     {

@@ -306,4 +306,14 @@ C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\r
 C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\md582a7d267e85ce7f2e0569c851d0af8be\SubjectAdapter.java
 C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\md582a7d267e85ce7f2e0569c851d0af8be\SubjectAdapter_MyViewSubject.java
 C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\md582a7d267e85ce7f2e0569c851d0af8be\SpaceDecoration.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\md518d6e2676f2421928ae7911ba7f365fb\QuizActivity.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\layout\content_quiz.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\layout\app_bar_question.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\layout\activity_quiz.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\drawable\ques_no_ans.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\drawable\ques_has_ans.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\layout\layout_grid_ans_sheet_item.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\md5ea9257fae210c0c5127d800d09245f41\AnswerSheetAdapter.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\md5ea9257fae210c0c5127d800d09245f41\AnswerSheetAdapter_MyViewAnswer.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\layout\header_answer_sheet.xml
 C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\OOP Exercise.csprojAssemblyReference.cache
