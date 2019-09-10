@@ -23,6 +23,7 @@ namespace OOP_Exercise
             SetContentView(Resource.Layout.activity_main);
 
             BottomNavigationView navigation = FindViewById<BottomNavigationView>(Resource.Id.navigation);
+            
             navigation.SetOnNavigationItemSelectedListener(this);
             fragScheduler = new FragmentScheduler();
             fragTest = new FragmentTest();
@@ -69,12 +70,17 @@ namespace OOP_Exercise
         {
             if (fragment.IsVisible)
                 return;
-            var trans = SupportFragmentManager.BeginTransaction();
-            trans.Replace(Resource.Id.frameLayout, fragment);
-            trans.AddToBackStack(null);
-            trans.Commit();
+            RunOnUiThread(()=>
+            {
+                var trans = SupportFragmentManager.BeginTransaction();
+                trans.Replace(Resource.Id.frameLayout, fragment);
+                trans.AddToBackStack(null);
+                trans.Commit();
+                 currentFragment = fragment;
+            }
+            );
 
-            currentFragment = fragment;
+           
         }
     }
 }

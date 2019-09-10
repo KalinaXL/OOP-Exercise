@@ -3,6 +3,6 @@
   <PropertyGroup>
     <AndroidDesignerPreferredTheme>AppTheme</AndroidDesignerPreferredTheme>
     <AndroidDesignerPreferredDevice>Nexus 5</AndroidDesignerPreferredDevice>
-    <SelectedDevice>Genymotion Phone</SelectedDevice>
+    <SelectedDevice>Genymotion Custom Phone</SelectedDevice>
   </PropertyGroup>
 </Project>

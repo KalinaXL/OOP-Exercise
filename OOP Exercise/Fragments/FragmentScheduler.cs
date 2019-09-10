@@ -5,9 +5,11 @@ using System.Text;
 
 
 using Android.Content;
+using Android.Icu.Util;
 using Android.OS;
 using Android.Runtime;
 using Android.Support.V4.App;
+
 using Android.Util;
 using Android.Views;
 using Android.Widget;
@@ -26,12 +28,14 @@ namespace OOP_Exercise.Resources.Fragments
         TextView endTime;
         TextView subjectName;
         TextView roomName;
+      
 
         public CustomExpandableListAdapter(Context context, List<string> titleName,Dictionary<string,List<Subject>> items)
         {
             this.context = context;
             this.titleName = titleName;
             this.Items = items;
+           
         }
         
         public override int GroupCount { get => titleName.Count; }
@@ -57,17 +61,15 @@ namespace OOP_Exercise.Resources.Fragments
         {
             var subjects = Items[titleName[groupPosition]][childPosition];
 
-            /*Expand the view today
-             *ExpandableListView mELV = parent as ExpandableListView;
-             * mELV.ExpandGroup(groupPosition);
-             * 
-             */
+            //Expand the view today
+             
             View view = convertView;
             if (view == null)
             {
                 view = LayoutInflater.From(context).Inflate(Resource.Layout.listItemView, null, false);
             }
-            
+           
+           
 
             var times = subjects.Time.Split('-');
             startTime = view.FindViewById<TextView>(Resource.Id.startTime);
@@ -102,7 +104,8 @@ namespace OOP_Exercise.Resources.Fragments
             {
                 view = LayoutInflater.From(context).Inflate(Resource.Layout.listHeaderView, null, false);
             }
-            
+           
+
             titleHeaderName = view.FindViewById<TextView>(Resource.Id.titleHeaderName);
             titleHeaderName.Text = titleName[groupPosition];
             return view;
