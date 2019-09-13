@@ -10,7 +10,7 @@ using OOP_Exercise.Resources.Fragments;
 using SupportFragment = Android.Support.V4.App.Fragment;
 namespace OOP_Exercise
 {
-    [Activity(Label = "@string/app_name", Theme = "@style/Theme.AppCompat.Light.NoActionBar")]
+    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme.NoActionBar")]
     public class MainActivity : AppCompatActivity, BottomNavigationView.IOnNavigationItemSelectedListener
     {
         SupportFragment currentFragment;

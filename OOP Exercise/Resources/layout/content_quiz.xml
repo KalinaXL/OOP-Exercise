@@ -36,7 +36,7 @@
             android:id="@+id/txt_timer"
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true"
-            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
             android:textSize="24sp"
             android:textStyle="bold"
             android:textColor="#fff"
@@ -52,7 +52,7 @@
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
         <android.support.design.widget.TabLayout
             android:id="@+id/sliding_tabs"
             app:tabMode="scrollable"

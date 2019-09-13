@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Adapters\AnswerSheetAdapter.cs" />
+    <Compile Include="Adapters\QuizFragmentAdapter.cs" />
     <Compile Include="Utility Classes\CurrentQuestion.cs" />
     <Compile Include="Adapters\CustomExpandableListAdapter.cs" />
     <Compile Include="Fragments\FragmentQuiz.cs" />
@@ -70,6 +71,7 @@
     <Compile Include="Adapters\SubjectAdapter.cs" />
     <Compile Include="System Classes\MyDatabase.cs" />
     <Compile Include="System Classes\NetworkChangeReceiver.cs" />
+    <Compile Include="Utility Classes\Manager.cs" />
     <Compile Include="Utility Classes\Question.cs" />
     <Compile Include="Activities\QuizActivity.cs" />
     <Compile Include="Utility Classes\Subject.cs" />
@@ -241,6 +243,11 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\layout_grid_ans_sheet_item.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\fragment_question_item.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

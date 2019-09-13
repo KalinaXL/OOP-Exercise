@@ -23,6 +23,7 @@ Button;obj\Debug\90\res\layout\activity_login.xml
 Button;obj\Debug\90\res\layout\header_answer_sheet.xml
 cache-path;C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\lp\35\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 CheckBox;obj\Debug\90\res\layout\activity_login.xml
+CheckBox;obj\Debug\90\res\layout\fragment_question_item.xml
 color;obj\Debug\90\res\values\colors.xml
 color;obj\Debug\90\res\values\ic_launcher_background.xml
 corners;obj\Debug\90\res\drawable\edit_text_login_style.xml
@@ -36,9 +37,11 @@ foreground;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher.xml
 foreground;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher_round.xml
 FrameLayout;obj\Debug\90\res\layout\activity_main.xml
 FrameLayout;obj\Debug\90\res\layout\fragment_first_quiz.xml
+FrameLayout;obj\Debug\90\res\layout\fragment_question_item.xml
 gradient;obj\Debug\90\res\drawable\login_background.xml
 GridLayout;obj\Debug\90\res\layout\fragment_select_term.xml
 ImageView;obj\Debug\90\res\layout\activity_login.xml
+ImageView;obj\Debug\90\res\layout\fragment_question_item.xml
 ImageView;obj\Debug\90\res\layout\fragment_select_term.xml
 ImageView;obj\Debug\90\res\layout\itemsubjectgridview.xml
 include;obj\Debug\90\res\layout\activity_quiz.xml
@@ -49,6 +52,7 @@ LinearLayout;obj\Debug\90\res\layout\activity_login.xml
 LinearLayout;obj\Debug\90\res\layout\activity_main.xml
 LinearLayout;obj\Debug\90\res\layout\content_quiz.xml
 LinearLayout;obj\Debug\90\res\layout\fragment_first_quiz.xml
+LinearLayout;obj\Debug\90\res\layout\fragment_question_item.xml
 LinearLayout;obj\Debug\90\res\layout\fragment_quiz.xml
 LinearLayout;obj\Debug\90\res\layout\fragment_scheduler.xml
 LinearLayout;obj\Debug\90\res\layout\fragment_select_subject.xml
@@ -62,8 +66,10 @@ path;obj\Debug\90\res\drawable\ic_home_black_24dp.xml
 path;obj\Debug\90\res\drawable\ic_notifications_black_24dp.xml
 paths;C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\lp\35\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 ProgressBar;obj\Debug\90\res\layout\activity_login.xml
+ProgressBar;obj\Debug\90\res\layout\fragment_question_item.xml
 RelativeLayout;obj\Debug\90\res\layout\activity_login.xml
 RelativeLayout;obj\Debug\90\res\layout\content_quiz.xml
+RelativeLayout;obj\Debug\90\res\layout\fragment_question_item.xml
 RelativeLayout;obj\Debug\90\res\layout\header_answer_sheet.xml
 RelativeLayout;obj\Debug\90\res\layout\itemsubjectgridview.xml
 RelativeLayout;obj\Debug\90\res\layout\layout_grid_ans_sheet_item.xml
@@ -89,6 +95,7 @@ stroke;obj\Debug\90\res\drawable\edit_text_login_style.xml
 stroke;obj\Debug\90\res\drawable\list_item_style.xml
 style;obj\Debug\90\res\values\styles.xml
 TextView;obj\Debug\90\res\layout\content_quiz.xml
+TextView;obj\Debug\90\res\layout\fragment_question_item.xml
 TextView;obj\Debug\90\res\layout\fragment_select_term.xml
 TextView;obj\Debug\90\res\layout\itemsubjectgridview.xml
 TextView;obj\Debug\90\res\layout\layout_subject_item.xml

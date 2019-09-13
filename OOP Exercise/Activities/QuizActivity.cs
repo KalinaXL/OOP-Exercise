@@ -4,7 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Timers;
 using Android.App;
-using Android.Content;
 using Android.OS;
 using Android.Runtime;
 using Android.Support.Design.Widget;
@@ -15,6 +14,8 @@ using Android.Support.V7.Widget;
 using Android.Views;
 using Android.Widget;
 using OOP_Exercise.Adapters;
+using OOP_Exercise.Fragments;
+using OOP_Exercise.Utility_Classes;
 
 namespace OOP_Exercise
 {
@@ -25,11 +26,15 @@ namespace OOP_Exercise
         RecyclerView answerSheetView;
         Timer countDownTimer;
         AnswerSheetAdapter adapter;
-        List<CurrentQuestion> currQuesList;
-        List<Question> questionList;
+
+       
        
         TextView txtTimer;
         TextView txtQuesAns;
+
+        TabLayout tabLayout;
+        ViewPager viewPager;
+
         protected override void OnDestroy()
         {
             if (countDownTimer != null)
@@ -42,6 +47,7 @@ namespace OOP_Exercise
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             SetContentView(Resource.Layout.activity_quiz);
             Android.Support.V7.Widget.Toolbar toolbar = FindViewById<Android.Support.V7.Widget.Toolbar>(Resource.Id.toolbar);
+            toolbar.Title = "Mon thi";
             SetSupportActionBar(toolbar);
 
            
@@ -54,21 +60,46 @@ namespace OOP_Exercise
             navigationView.SetNavigationItemSelectedListener(this);
 
             GetQuestions();
-            if (questionList.Count > 0)
+            if (Manager.questionList.Count > 0)
             {
                 txtQuesAns = FindViewById<TextView>(Resource.Id.txt_question_answered);
                 txtTimer = FindViewById<TextView>(Resource.Id.txt_timer);
                 txtQuesAns.Visibility = txtTimer.Visibility = ViewStates.Visible;
                 txtQuesAns.Text = "0/20";
-                TimerCountDown();
+               
 
                 answerSheetView = FindViewById<RecyclerView>(Resource.Id.grid_answer);
                 answerSheetView.HasFixedSize = true;
                 answerSheetView.SetLayoutManager(new GridLayoutManager(this, 10));
-                adapter = new AnswerSheetAdapter(this, currQuesList);
+                adapter = new AnswerSheetAdapter(this, Manager.CurrQuesList);
                 answerSheetView.SetAdapter(adapter);
+                TimerCountDown();
+                viewPager = FindViewById<ViewPager>(Resource.Id.viewpager);
+                tabLayout = FindViewById<TabLayout>(Resource.Id.sliding_tabs);
+
+                GenerateFragmentList();
+
+                QuizFragmentAdapter quizFragmentAdapter = new QuizFragmentAdapter(SupportFragmentManager, this, Manager.FragmentQuizList);
+                viewPager.Adapter = quizFragmentAdapter;
+
+                tabLayout.SetupWithViewPager(viewPager);
+            }   
+
+        }
+
+        private void GenerateFragmentList()
+        {
+            int numberOfQues = Manager.questionList.Count;
+            for (int i = 0; i < numberOfQues; i++)
+            {
+                Bundle bundle = new Bundle();
+                bundle.PutInt("index", i);
+                FragmentQuiz fragQuiz = new FragmentQuiz();
+                fragQuiz.Arguments = bundle;
+                Manager.FragmentQuizList.Add(fragQuiz);
             }
         }
+
         void TimerCountDown()
         {
             if (countDownTimer == null)
@@ -100,21 +131,38 @@ namespace OOP_Exercise
         }
 
         private void GetQuestions()
-        {
-            currQuesList = new List<CurrentQuestion>();
-            questionList = new List<Question>()
+        { 
+            if (Manager.questionList.Count > 0)
             {
-                new Question("A","a","a","a","a",1),
-                 new Question("A","a","a","a","a",1),
-                  new Question("A","a","a","a","a",1),
-                  new Question("A","a","a","a","a",1),
-                  new Question("A","a","a","a","a",1),
-            };
+                Manager.questionList.Clear();
+                Manager.CurrQuesList.Clear();
+            }
+            Manager.questionList.Add(new Question("Câu hỏi 1", "1", "2", "3", "4", 1));
+            Manager.questionList.Add(new Question("Câu hỏi 2", "1", "2", "3", "4", 1));
+            Manager.questionList.Add(new Question("Câu hỏi 3", "1", "2", "3", "4", 1));
+            Manager.questionList.Add(new Question("Câu hỏi 4", "1", "2", "3", "4", 1));
+            Manager.questionList.Add(new Question("Câu hỏi 5", "1", "2", "3", "4", 1));
+            Manager.questionList.Add(new Question("Câu hỏi 6", "1", "2", "3", "4", 1));
+            Manager.questionList.Add(new Question("Câu hỏi 7", "1", "2", "3", "4", 1));
+            Manager.questionList.Add(new Question("Câu hỏi 8", "1", "2", "3", "4", 1));
 
-            int lenOfQuesList = questionList.Count;
+            Manager.questionList.Add(new Question("Câu hỏi 1", "1", "2", "3", "4", 1));
+            Manager.questionList.Add(new Question("Câu hỏi 2", "1", "2", "3", "4", 1));
+            Manager.questionList.Add(new Question("Câu hỏi 3", "1", "2", "3", "4", 1));
+            Manager.questionList.Add(new Question("Câu hỏi 4", "1", "2", "3", "4", 1));
+            Manager.questionList.Add(new Question("Câu hỏi 5", "1", "2", "3", "4", 1));
+            Manager.questionList.Add(new Question("Câu hỏi 6", "1", "2", "3", "4", 1));
+            Manager.questionList.Add(new Question("Câu hỏi 7", "1", "2", "3", "4", 1));
+            Manager.questionList.Add(new Question("Câu hỏi 8", "1", "2", "3", "4", 1));
+
+            Manager.questionList.Add(new Question("Câu hỏi 5", "1", "2", "3", "4", 1));
+            Manager.questionList.Add(new Question("Câu hỏi 6", "1", "2", "3", "4", 1));
+            Manager.questionList.Add(new Question("Câu hỏi 7", "1", "2", "3", "4", 1));
+            Manager.questionList.Add(new Question("Câu hỏi 8", "1", "2", "3", "4", 1));
+            int lenOfQuesList = Manager.questionList.Count;
             for (int i = 0; i < lenOfQuesList; i++)
             {
-                currQuesList.Add(new CurrentQuestion(i, false));
+                Manager.CurrQuesList.Add(new CurrentQuestion(i, false));
             }
         }
 

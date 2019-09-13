@@ -316,4 +316,6 @@ C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\r
 C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\md5ea9257fae210c0c5127d800d09245f41\AnswerSheetAdapter.java
 C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\md5ea9257fae210c0c5127d800d09245f41\AnswerSheetAdapter_MyViewAnswer.java
 C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\layout\header_answer_sheet.xml
-C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\OOP Exercise.csprojAssemblyReference.cache
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\md582a7d267e85ce7f2e0569c851d0af8be\FragmentQuiz.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\md5ea9257fae210c0c5127d800d09245f41\QuizFragmentAdapter.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\layout\fragment_question_item.xml
