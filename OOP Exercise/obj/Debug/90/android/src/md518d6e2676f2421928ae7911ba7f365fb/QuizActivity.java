@@ -17,6 +17,7 @@ public class QuizActivity
 			"n_onCreateOptionsMenu:(Landroid/view/Menu;)Z:GetOnCreateOptionsMenu_Landroid_view_Menu_Handler\n" +
 			"n_onOptionsItemSelected:(Landroid/view/MenuItem;)Z:GetOnOptionsItemSelected_Landroid_view_MenuItem_Handler\n" +
 			"n_onRequestPermissionsResult:(I[Ljava/lang/String;[I)V:GetOnRequestPermissionsResult_IarrayLjava_lang_String_arrayIHandler\n" +
+			"n_onActivityResult:(IILandroid/content/Intent;)V:GetOnActivityResult_IILandroid_content_Intent_Handler\n" +
 			"n_onNavigationItemSelected:(Landroid/view/MenuItem;)Z:GetOnNavigationItemSelected_Landroid_view_MenuItem_Handler:Android.Support.Design.Widget.NavigationView/IOnNavigationItemSelectedListenerInvoker, Xamarin.Android.Support.Design\n" +
 			"";
 		mono.android.Runtime.register ("OOP_Exercise.QuizActivity, OOP Exercise", QuizActivity.class, __md_methods);
@@ -77,6 +78,14 @@ public class QuizActivity
 	}
 
 	private native void n_onRequestPermissionsResult (int p0, java.lang.String[] p1, int[] p2);
+
+
+	public void onActivityResult (int p0, int p1, android.content.Intent p2)
+	{
+		n_onActivityResult (p0, p1, p2);
+	}
+
+	private native void n_onActivityResult (int p0, int p1, android.content.Intent p2);
 
 
 	public boolean onNavigationItemSelected (android.view.MenuItem p0)

@@ -60,8 +60,11 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Activities\ResultActivity.cs" />
     <Compile Include="Adapters\AnswerSheetAdapter.cs" />
+    <Compile Include="Adapters\QuestionValAdapter.cs" />
     <Compile Include="Adapters\QuizFragmentAdapter.cs" />
+    <Compile Include="Fragments\SpaceDecoration.cs" />
     <Compile Include="Utility Classes\CurrentQuestion.cs" />
     <Compile Include="Adapters\CustomExpandableListAdapter.cs" />
     <Compile Include="Fragments\FragmentQuiz.cs" />
@@ -71,9 +74,10 @@
     <Compile Include="Adapters\SubjectAdapter.cs" />
     <Compile Include="System Classes\MyDatabase.cs" />
     <Compile Include="System Classes\NetworkChangeReceiver.cs" />
-    <Compile Include="Utility Classes\Manager.cs" />
+    <Compile Include="Utility Classes\DataManager.cs" />
     <Compile Include="Utility Classes\Question.cs" />
     <Compile Include="Activities\QuizActivity.cs" />
+    <Compile Include="Utility Classes\StateOfQuestion.cs" />
     <Compile Include="Utility Classes\Subject.cs" />
     <Compile Include="Activities\LoginActivity.cs" />
     <Compile Include="Activities\MainActivity.cs" />
@@ -248,6 +252,44 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\fragment_question_item.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\activity_result.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\baseline_check_black_18dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\number_right_answer_style.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\layout_question_val.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\right_question_style.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\wrong_question_style.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\missed_question_style.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\menu\result_item.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

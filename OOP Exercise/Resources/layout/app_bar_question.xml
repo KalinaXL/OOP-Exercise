@@ -15,7 +15,16 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
-            app:popupTheme="@style/AppTheme.PopupOverlay" />
+            android:layout_gravity="left"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+            <Button
+                android:text="Nộp bài"
+                android:id="@+id/btnSubmit"
+                android:layout_marginLeft="250dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+            />
+        </android.support.v7.widget.Toolbar>
 
     </android.support.design.widget.AppBarLayout>
 

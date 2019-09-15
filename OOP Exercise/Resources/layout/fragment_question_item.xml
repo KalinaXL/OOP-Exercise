@@ -35,6 +35,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
         />
+        
         <TextView
             android:text="Chọn câu trả lời đúng nhất"
             android:textSize="10sp"
@@ -43,29 +44,46 @@
             android:textStyle="italic"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
-        <CheckBox
-            android:id="@+id/checkBoxA"
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        <RadioButton
+            android:id="@+id/choiceA"
             android:text="Answer A"
             android:layout_marginLeft="17dp"
+            
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
-        <CheckBox
-            android:id="@+id/checkBoxB"
+        <RadioButton
+            android:id="@+id/choiceB"
             android:layout_marginLeft="17dp"
+                android:layout_marginTop="10dp"
             android:text="Answer B"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
-        <CheckBox
-            android:id="@+id/checkBoxC"
+        <RadioButton
+            android:id="@+id/choiceC"
             android:layout_marginLeft="17dp"
+                android:layout_marginTop="10dp"
             android:text="Answer C"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
-        <CheckBox
-            android:id="@+id/checkBoxD"
+        <RadioButton
+            android:id="@+id/choiceD"
             android:layout_marginLeft="17dp"
+            android:layout_marginTop="10dp"
             android:text = "Answer D"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
+        <RadioButton
+            android:id="@+id/choiceE"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="10dp"
+            android:text = "Answer E"
+            android:layout_width="wrap_content"
+            android:visibility="gone"
+            android:layout_height="wrap_content"/>
+        </RadioGroup>
     </LinearLayout>
 </RelativeLayout>
