@@ -6,6 +6,9 @@ using Android.Preferences;
 using Android.Views;
 using Android.Widget;
 using System;
+using System.Threading;
+using System.Threading.Tasks;
+using Xamarin.Essentials;
 
 namespace OOP_Exercise
 {
@@ -18,7 +21,7 @@ namespace OOP_Exercise
         EditText txtPassword;
         CheckBox checkBoxRememberMe;
 
-        NetworkChangeReceiver networkReceiver;
+       
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -28,7 +31,7 @@ namespace OOP_Exercise
             FindWidgetFromId();
             btnLogin.Click += BtnLogin_Click;
             GetAccountPrefers();
-            networkReceiver = new NetworkChangeReceiver();
+           
             // Create your application here
         }
 
@@ -65,18 +68,16 @@ namespace OOP_Exercise
             txtPassword = FindViewById<EditText>(Resource.Id.txtPassword);
         }
 
-        [Obsolete]
-        void NetWorkDisconnect()
-        {
-            Intent intent = new Intent(this, networkReceiver.Class);
-            RegisterReceiver(networkReceiver, new IntentFilter(ConnectivityManager.ConnectivityAction));
-        }
+      
 
         [Obsolete]
         private void BtnLogin_Click(object sender, EventArgs e)
-        { 
+        {
+
+            
+
             progressBar.Visibility = ViewStates.Visible;
-            btnLogin.Visibility = ViewStates.Invisible;
+            btnLogin.Visibility = ViewStates.Gone;
             if (txtUsername.Text.Length == 0)
             {
                 progressBar.Visibility = ViewStates.Invisible;
@@ -102,13 +103,15 @@ namespace OOP_Exercise
                 return;
             }
 
-            NetWorkDisconnect();
-            if (!networkReceiver.IsActive)
+            if (Connectivity.NetworkAccess == NetworkAccess.None)
             {
-                progressBar.Visibility = ViewStates.Invisible;
+                Toast.MakeText(this, "Không thể kết nối với Wifi/3G/4G", ToastLength.Short).Show();
+                progressBar.Visibility = ViewStates.Gone;
                 btnLogin.Visibility = ViewStates.Visible;
                 return;
             }
+           
+           
 
             if (txtUsername.Text == "a" && txtPassword.Text == "1")
             {
@@ -127,16 +130,13 @@ namespace OOP_Exercise
                 AlertDialog alert = dialog.Create();
                 alert.SetTitle("Thông báo");
                 alert.SetMessage("Sai tên đăng nhập hoặc mật khẩu");
-                alert.SetButton("OK",(c,events)=> { });
+                alert.SetButton("OK", (c, events) => { });
                 alert.Show();
             }
             
+            
         }
 
-        protected override void OnStop()
-        {
-            base.OnStop();
-            UnregisterReceiver(networkReceiver);
-        }
+      
     }
 }

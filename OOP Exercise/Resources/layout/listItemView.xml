@@ -17,36 +17,45 @@
         <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
+            android:layout_marginLeft="5dp"
             android:layout_marginTop="15dp"
             android:id="@+id/blockTime"
             >
-        <TextView
-            android:id="@+id/startTime"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="12:00"
-            android:textSize="17dp"
-        />
+            <ImageView
+                android:id="@+id/imgClock"
+                android:layout_marginTop="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/baseline_timer_black_18dp"
+            />
+            <TextView
+                android:id="@+id/startTime"
+                android:layout_toRightOf="@id/imgClock"
+                 android:layout_marginLeft="7dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12:00"
+                android:textSize="17dp"
+            />
     
-        <View
-            android:id="@+id/horizontal_line"
-            android:layout_toRightOf="@id/startTime"
-            android:layout_width="10dp"
-            android:layout_height="1dp"
-            android:background="#000"
-            android:layout_centerInParent="true"
-            android:layout_marginLeft="5dp"
-            android:layout_marginRight="5dp"
-        />
-          <TextView
-            android:id="@+id/endTime"
-            android:layout_toRightOf="@id/horizontal_line"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="15:00"
-            android:textSize="17dp"
-        />
+            <View
+                android:id="@+id/horizontal_line"
+                android:layout_toRightOf="@id/startTime"
+                android:layout_width="10dp"
+                android:layout_height="1dp"
+                android:background="#000"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+            />
+              <TextView
+                android:id="@+id/endTime"
+                android:layout_toRightOf="@id/horizontal_line"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15:00"
+                android:textSize="17dp"
+            />
    
             </RelativeLayout>
         <RelativeLayout 
@@ -58,14 +67,24 @@
             android:layout_marginLeft="22dp"
             android:paddingRight="20dp"
             >
+            <ImageView
+                android:id="@+id/imgDescription"
+                android:layout_marginTop="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/outline_description_black_18dp"
+                
+            />
              <TextView
             android:id="@+id/subjectName"
+            android:layout_toRightOf="@id/imgDescription"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Mon hoc"
             android:textSize="20dp"
             android:paddingLeft="10dp"
-        />
+            />
+            
              <View
             android:id="@+id/horizontal_line"
             android:layout_below="@id/subjectName"
@@ -74,7 +93,8 @@
             android:background="#000"
             android:layout_centerInParent="true"
             android:backgroundTint="#00AA00"
-        />
+            />
+            
             <TextView
             android:id="@+id/roomName"
             android:layout_below="@id/subjectName"
@@ -83,7 +103,16 @@
             android:text="Phong hoc"
             android:textSize="17dp"
             android:layout_alignParentRight="true"
-        />
+            />
+             <ImageView
+                android:layout_below="@id/subjectName"
+                android:layout_marginTop="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/roomName"
+                android:background="@drawable/outline_room_black_18dp"
+                
+            />
          </RelativeLayout>
 
     </RelativeLayout>

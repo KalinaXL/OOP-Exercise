@@ -38,7 +38,7 @@ namespace OOP_Exercise
         TabLayout tabLayout;
         ViewPager viewPager;
         QuizFragmentAdapter quizFragmentAdapter;
-        byte numOfQuesAnswered;
+       
         int numOfQues = 0;
         protected override void OnDestroy()
         {
@@ -66,7 +66,7 @@ namespace OOP_Exercise
 
             
 
-            numOfQuesAnswered = 0;
+            DataManager.NumOfQuesAnswered = 0;
             GetQuestions();
             numOfQues = DataManager.QuestionsList.Count;
             if (numOfQues > 0)
@@ -109,6 +109,7 @@ namespace OOP_Exercise
                 dialog.SetCancelable(true);
                 dialog.SetPositiveButton("YES", delegate
                 {
+                    countDownTimer.Stop();
                     Intent intent = new Intent(this, typeof(ResultActivity));
                     intent.PutExtra("Answers", DataManager.AnswersChoosed);
                     StartActivityForResult(intent, 9999);
@@ -151,11 +152,12 @@ namespace OOP_Exercise
 
         private void FragQuiz_RadioChanged(object sender, EventArgs e)
         {
+            if (DataManager.IsReadResult)
+                return;
             adapter.NotifyDataSetChanged();
-            ++numOfQuesAnswered;
             RunOnUiThread(() => 
             {
-                txtQuesAns.Text = String.Format("{0}/{1}", numOfQuesAnswered, numOfQues);
+                txtQuesAns.Text = String.Format("{0}/{1}", DataManager.NumOfQuesAnswered, numOfQues);
             });
         }
 
@@ -180,7 +182,12 @@ namespace OOP_Exercise
         {
             --TOTAL_TIME;
             if (TOTAL_TIME == 0)
+            {
                 countDownTimer.Stop();
+                Intent intent = new Intent(this, typeof(ResultActivity));
+                intent.PutExtra("Answers", DataManager.AnswersChoosed);
+                StartActivityForResult(intent, 9999);
+            }
             RunOnUiThread(() =>
             {
                 txtTimer.Text = $"{TOTAL_TIME / 60}:{TOTAL_TIME % 60}";

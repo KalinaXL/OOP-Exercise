@@ -51,6 +51,7 @@ ImageView;obj\Debug\90\res\layout\activity_login.xml
 ImageView;obj\Debug\90\res\layout\fragment_question_item.xml
 ImageView;obj\Debug\90\res\layout\fragment_select_term.xml
 ImageView;obj\Debug\90\res\layout\itemsubjectgridview.xml
+ImageView;obj\Debug\90\res\layout\listitemview.xml
 include;obj\Debug\90\res\layout\activity_quiz.xml
 include;obj\Debug\90\res\layout\app_bar_question.xml
 item;obj\Debug\90\res\menu\navigation.xml

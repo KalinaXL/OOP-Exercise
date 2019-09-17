@@ -16,5 +16,6 @@ namespace OOP_Exercise.Utility_Classes
        
         public static List<Question> QuestionsList = new List<Question>();
         public static byte[] AnswersChoosed;
+        public static int NumOfQuesAnswered;
     }
 }

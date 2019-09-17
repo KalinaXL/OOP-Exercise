@@ -15,18 +15,24 @@ namespace OOP_Exercise
 {
     class NetworkChangeReceiver : BroadcastReceiver
     {
-        public bool IsActive { get; set; }
+        public bool IsActive;
+        public bool isFinished;
+        public NetworkChangeReceiver()
+        {
+            this.IsActive = true;
+        }
         public override void OnReceive(Context context, Intent intent)
         {
             ConnectivityManager connectivityManager = (ConnectivityManager)context.GetSystemService(Context.ConnectivityService);
             NetworkInfo netInfo = connectivityManager.ActiveNetworkInfo;
             if (netInfo == null || netInfo.IsConnected == false)
             {
-                Toast.MakeText(context, "Không thể kết nối với Internet", ToastLength.Short).Show();
+                Toast.MakeText(context, "Không thể kết nối với Wifi/3G/4G", ToastLength.Short).Show();
                 IsActive = false;
             }
             else
                 IsActive = true;
+            isFinished = true;
         }
     }
 }

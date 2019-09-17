@@ -21,14 +21,14 @@ namespace OOP_Exercise.Fragments
         RadioButton choiceA, choiceB, choiceC, choiceD, choiceE;
         Question question;
         int indexOfQuestion;
-
+        bool isAnswer;
         public event EventHandler RadioChanged;
       
 
         public override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            
+            isAnswer = false;   
 
             // Create your fragment here
         }
@@ -86,8 +86,15 @@ namespace OOP_Exercise.Fragments
             {
                 DataManager.AnswersChoosed[indexOfQuestion] = 5;
                 DataManager.CurrQuesList[indexOfQuestion].IsAnswered = true;
+                if (!isAnswer)
+                {
+                    ++DataManager.NumOfQuesAnswered;
+                    isAnswer = true;
+                }
                 if (RadioChanged != null)
                     RadioChanged(null, null);
+
+                
             }
         }
 
@@ -96,8 +103,14 @@ namespace OOP_Exercise.Fragments
             if ((sender as RadioButton).Checked)
                 DataManager.AnswersChoosed[indexOfQuestion] = 4;
             DataManager.CurrQuesList[indexOfQuestion].IsAnswered = true;
+            if (!isAnswer)
+            {
+                ++DataManager.NumOfQuesAnswered;
+                isAnswer = true;
+            }
             if (RadioChanged != null)
                 RadioChanged(null, null);
+           
         }
 
         private void ChoiceC_CheckedChange(object sender, CompoundButton.CheckedChangeEventArgs e)
@@ -105,8 +118,14 @@ namespace OOP_Exercise.Fragments
             if ((sender as RadioButton).Checked)
                 DataManager.AnswersChoosed[indexOfQuestion] = 3;
             DataManager.CurrQuesList[indexOfQuestion].IsAnswered = true;
+            if (!isAnswer)
+            {
+                ++DataManager.NumOfQuesAnswered;
+                isAnswer = true;
+            }
             if (RadioChanged != null)
                 RadioChanged(null, null);
+           
         }
 
         private void ChoiceB_CheckedChange(object sender, CompoundButton.CheckedChangeEventArgs e)
@@ -114,8 +133,14 @@ namespace OOP_Exercise.Fragments
             if ((sender as RadioButton).Checked)
                 DataManager.AnswersChoosed[indexOfQuestion] = 2;
             DataManager.CurrQuesList[indexOfQuestion].IsAnswered = true;
+            if (!isAnswer)
+            {
+                ++DataManager.NumOfQuesAnswered;
+                isAnswer = true;
+            }
             if (RadioChanged != null)
                 RadioChanged(null, null);
+           
         }
 
         private void ChoiceA_CheckedChange(object sender, CompoundButton.CheckedChangeEventArgs e)
@@ -123,8 +148,14 @@ namespace OOP_Exercise.Fragments
             if ((sender as RadioButton).Checked)
                 DataManager.AnswersChoosed[indexOfQuestion] = 1;
             DataManager.CurrQuesList[indexOfQuestion].IsAnswered = true;
+            if (!isAnswer)
+            {
+                ++DataManager.NumOfQuesAnswered;
+                isAnswer = true;
+            }
             if (RadioChanged != null)
                 RadioChanged(null, null);
+            
         }
 
         public byte GetAnswerChoosed()
