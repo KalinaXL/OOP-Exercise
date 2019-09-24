@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 
 using Android.Content;
+using Android.OS;
 using Android.Support.V7.Widget;
 using Android.Views;
 
@@ -42,8 +43,10 @@ namespace OOP_Exercise.Fragments
 
         private void Myview_ClickSelectSubject(object sender, EventArgs e)
         {
-            //(sender as TextView).Visibility = ViewStates.Invisible;
             Intent intent = new Intent(this.context, typeof(QuizActivity));
+            Bundle bundle = new Bundle();
+            bundle.PutString("SubjectName", (sender as TextView).Text);
+            intent.PutExtras(bundle);
             this.context.StartActivity(intent);
         }
 
@@ -68,6 +71,7 @@ namespace OOP_Exercise.Fragments
                 
             }
         }
+        
 
 
     }

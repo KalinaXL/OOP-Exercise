@@ -1,21 +1,19 @@
-﻿namespace OOP_Exercise
+﻿using SQLite;
+
+namespace OOP_Exercise
 {
     public class Question
     {
-        public string contentOfQuestion { get; set; }
-        public string optionA { get; set; }
-        public string optionB { get; set; }
-        public string optionC { get; set; }
-        public string optionD { get; set; }
-        public byte rightKey { get; set; }
-        public Question(string contentQs, string optionA, string optionB, string optionC, string optionD, byte rightKey)
-        {
-            this.contentOfQuestion = contentQs;
-            this.optionA = optionA;
-            this.optionB = optionB;
-            this.optionC = optionC;
-            this.optionD = optionD;
-            this.rightKey = rightKey;
-        }
+        [PrimaryKey, AutoIncrement]
+        public int ID { get; set; }
+        public string QuestionText { get; set; }
+        public string AnswerA { get; set; }
+        public string AnswerB { get; set; }
+        public string AnswerC { get; set; }
+        public string AnswerD { get; set; }
+        public string AnswerE { get; set; }
+        public byte CorrectAnswer { get; set; }
+        public byte CategoryID { get; set; }
+      
     }
 }

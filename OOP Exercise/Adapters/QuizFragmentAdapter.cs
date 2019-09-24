@@ -31,6 +31,7 @@ namespace OOP_Exercise.Adapters
         }
         public override ICharSequence GetPageTitleFormatted(int position)
         {
+            
             return new Java.Lang.StringBuilder($"Câu hỏi {position+1}");
         }
     }

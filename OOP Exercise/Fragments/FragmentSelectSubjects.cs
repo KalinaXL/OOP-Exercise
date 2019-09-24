@@ -29,7 +29,7 @@ namespace OOP_Exercise.Fragments
             // return inflater.Inflate(Resource.Layout.YourFragment, container, false);
 
             View view = inflater.Inflate(Resource.Layout.fragment_select_subject, container, false);
-            toolbar = view.FindViewById<Android.Support.V7.Widget.Toolbar>(Resource.Id.toolbar);
+            toolbar = view.FindViewById<Toolbar>(Resource.Id.toolbar);
             toolbar.Title = "Chọn môn";
 
             recyclerView = view.FindViewById<RecyclerView>(Resource.Id.recyclerView);

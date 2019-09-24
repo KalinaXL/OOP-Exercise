@@ -101,7 +101,7 @@ namespace OOP_Exercise.Activities
                     stateOfQues[i] = StateOfQuestion.MISSED;
                    
                 }
-                else if (answersOfUser[i] == DataManager.QuestionsList[i].rightKey)
+                else if (answersOfUser[i] == DataManager.QuestionsList[i].CorrectAnswer)
                 {
                     stateOfQues[i] = StateOfQuestion.RIGHT;
                     ++numRight;

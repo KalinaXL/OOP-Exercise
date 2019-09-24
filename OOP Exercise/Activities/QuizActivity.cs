@@ -1,12 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Timers;
 using Android.App;
 using Android.Content;
-using Android.OS;
+
+
 using Android.Runtime;
 using Android.Support.Design.Widget;
 using Android.Support.V4.View;
@@ -15,17 +17,22 @@ using Android.Support.V7.App;
 using Android.Support.V7.Widget;
 using Android.Views;
 using Android.Widget;
+using DataOfUser;
+
 using OOP_Exercise.Activities;
 using OOP_Exercise.Adapters;
 using OOP_Exercise.Fragments;
 using OOP_Exercise.Utility_Classes;
+using SQLite;
+using Android.Net;
+using Android.OS;
 
 namespace OOP_Exercise
 {
     [Activity(Label = "QuizActivity", Theme = "@style/AppTheme.NoActionBar")]
     public class QuizActivity : AppCompatActivity, NavigationView.IOnNavigationItemSelectedListener
     {
-        int TOTAL_TIME = 45 * 60;
+        int TOTAL_TIME = 0;
         RecyclerView answerSheetView;
         System.Timers.Timer countDownTimer;
         AnswerSheetAdapter adapter;
@@ -40,6 +47,7 @@ namespace OOP_Exercise
         QuizFragmentAdapter quizFragmentAdapter;
        
         int numOfQues = 0;
+        string subjectName = "";
         protected override void OnDestroy()
         {
             if (countDownTimer != null)
@@ -52,7 +60,8 @@ namespace OOP_Exercise
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             SetContentView(Resource.Layout.activity_quiz);
             Android.Support.V7.Widget.Toolbar toolbar = FindViewById<Android.Support.V7.Widget.Toolbar>(Resource.Id.toolbar);
-            toolbar.Title = "Mon thi";
+            subjectName = Intent.GetStringExtra("SubjectName");
+            toolbar.Title = subjectName;
             SetSupportActionBar(toolbar);
 
            
@@ -64,7 +73,10 @@ namespace OOP_Exercise
             NavigationView navigationView = FindViewById<NavigationView>(Resource.Id.nav_view);
             navigationView.SetNavigationItemSelectedListener(this);
 
-            
+        
+
+
+            DatabaseUtility.CloneExistingDatabase();
 
             DataManager.NumOfQuesAnswered = 0;
             GetQuestions();
@@ -97,6 +109,7 @@ namespace OOP_Exercise
             else
             {
                 Toast.MakeText(this, "Không có dữ liệu câu hỏi về môn này", ToastLength.Short).Show();
+                Finish();
             }
 
         }
@@ -207,28 +220,17 @@ namespace OOP_Exercise
                 for (int i = 0; i < DataManager.AnswersChoosed.Length; i++)
                     DataManager.AnswersChoosed[i] = 0;
             }
-            DataManager.QuestionsList.Add(new Question("Câu hỏi 1", "1", "2", "3", "4", 1));
-            DataManager.QuestionsList.Add(new Question("Câu hỏi 2", "1", "2", "3", "4", 1));
-            DataManager.QuestionsList.Add(new Question("Câu hỏi 3", "1", "2", "3", "4", 1));
-            DataManager.QuestionsList.Add(new Question("Câu hỏi 4", "1", "2", "3", "4", 1));
-            DataManager.QuestionsList.Add(new Question("Câu hỏi 5", "1", "2", "3", "4", 1));
-            DataManager.QuestionsList.Add(new Question("Câu hỏi 6", "1", "2", "3", "4", 1));
-            DataManager.QuestionsList.Add(new Question("Câu hỏi 7", "1", "2", "3", "4", 1));
-            DataManager.QuestionsList.Add(new Question("Câu hỏi 8", "1", "2", "3", "4", 1));
 
-            DataManager.QuestionsList.Add(new Question("Câu hỏi 1", "1", "2", "3", "4", 1));
-            DataManager.QuestionsList.Add(new Question("Câu hỏi 2", "1", "2", "3", "4", 1));
-            DataManager.QuestionsList.Add(new Question("Câu hỏi 3", "1", "2", "3", "4", 1));
-            DataManager.QuestionsList.Add(new Question("Câu hỏi 4", "1", "2", "3", "4", 1));
-            DataManager.QuestionsList.Add(new Question("Câu hỏi 5", "1", "2", "3", "4", 1));
-            DataManager.QuestionsList.Add(new Question("Câu hỏi 6", "1", "2", "3", "4", 1));
-            DataManager.QuestionsList.Add(new Question("Câu hỏi 7", "1", "2", "3", "4", 1));
-            DataManager.QuestionsList.Add(new Question("Câu hỏi 8", "1", "2", "3", "4", 1));
+            SQLiteConnection sql = new SQLiteConnection(DatabaseUtility.dbPath);
+            var categories = sql.Query<Category>("SELECT * FROM Category").Where(x => x.IsMidTerm == DataManager.IsMidTerm && x.Name == String.Join(' ', Encoding.UTF8.GetBytes(subjectName))).ToList();
+            if (categories.Count == 0)
+                return;
+            TOTAL_TIME = categories[0].TotalTime * 60;
+            int IDCategory = categories[0].ID;
+            
+            DataManager.QuestionsList = sql.Query<Question>("SELECT * FROM Questions").Where(x => x.ID == IDCategory).ToList();
 
-            DataManager.QuestionsList.Add(new Question("Câu hỏi 5", "1", "2", "3", "4", 1));
-            DataManager.QuestionsList.Add(new Question("Câu hỏi 6", "1", "2", "3", "4", 1));
-            DataManager.QuestionsList.Add(new Question("Câu hỏi 7", "1", "2", "3", "4", 1));
-            DataManager.QuestionsList.Add(new Question("Câu hỏi 8", "1", "2", "3", "4", 1));
+            
             int lenOfQuesList = DataManager.QuestionsList.Count;
             for (int i = 0; i < lenOfQuesList; i++)
             {

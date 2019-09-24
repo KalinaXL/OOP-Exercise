@@ -72,11 +72,11 @@ namespace OOP_Exercise.Fragments
 
         void LoadContent()
         {
-            txtQuestionContent.Text = question.contentOfQuestion;
-            choiceA.Text = question.optionA;
-            choiceB.Text = question.optionB;
-            choiceC.Text = question.optionC;
-            choiceD.Text = question.optionD;
+            txtQuestionContent.Text = question.QuestionText;
+            choiceA.Text = question.AnswerA;
+            choiceB.Text = question.AnswerB;
+            choiceC.Text = question.AnswerC;
+            choiceD.Text = question.AnswerD;
           
         }
 
@@ -168,7 +168,7 @@ namespace OOP_Exercise.Fragments
             if (choiceA == null || choiceB == null || choiceC == null || choiceD == null)
                 return;
             choiceA.Enabled = choiceB.Enabled = choiceC.Enabled = choiceD.Enabled = false;
-            byte rightKey = DataManager.QuestionsList[indexOfQuestion].rightKey;
+            byte rightKey = DataManager.QuestionsList[indexOfQuestion].CorrectAnswer;
             this.Activity.RunOnUiThread(() =>
             {
                 switch (rightKey)

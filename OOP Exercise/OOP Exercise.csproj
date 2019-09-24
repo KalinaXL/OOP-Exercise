@@ -58,6 +58,9 @@
     <Reference Include="Mono.Android" />
     <Reference Include="System.Numerics" />
     <Reference Include="System.Numerics.Vectors" />
+    <Reference Include="xNet">
+      <HintPath>..\..\..\..\..\..\xNet.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Activities\ResultActivity.cs" />
@@ -74,6 +77,7 @@
     <Compile Include="Adapters\SubjectAdapter.cs" />
     <Compile Include="System Classes\MyDatabase.cs" />
     <Compile Include="System Classes\NetworkChangeReceiver.cs" />
+    <Compile Include="Utility Classes\DatabaseUtility.cs" />
     <Compile Include="Utility Classes\DataManager.cs" />
     <Compile Include="Utility Classes\Question.cs" />
     <Compile Include="Activities\QuizActivity.cs" />
@@ -85,8 +89,10 @@
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="System Classes\ThreadSharedPrefes.cs" />
+    <Compile Include="Utility Classes\Category.cs" />
   </ItemGroup>
   <ItemGroup>
+    <AndroidAsset Include="Assets\database.db" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Properties\AndroidManifest.xml">
       <SubType>Designer</SubType>
@@ -125,6 +131,9 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_launcher_round.png" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="sqlite-net-pcl">
+      <Version>1.6.292</Version>
+    </PackageReference>
     <PackageReference Include="Xamarin.Android.Support.Design" Version="28.0.0.1" />
     <PackageReference Include="Xamarin.Android.Support.Core.Utils" Version="28.0.0.1" />
     <PackageReference Include="Xamarin.Android.Support.CustomTabs" Version="28.0.0.1" />
@@ -301,6 +310,9 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\outline_description_black_18dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Login And Scrape Data\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

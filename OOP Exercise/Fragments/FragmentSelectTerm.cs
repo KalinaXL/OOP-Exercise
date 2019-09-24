@@ -11,12 +11,13 @@ using Android.Support.V4.App;
 using Android.Util;
 using Android.Views;
 using Android.Widget;
+using OOP_Exercise.Utility_Classes;
 
 namespace OOP_Exercise.Fragments
 {
     public class FragmentSelectTerm : Fragment
     {
-        public static event EventHandler ClickSelectTerm;
+        public static  EventHandler ClickSelectTerm;
         LinearLayout midTerm;
         LinearLayout finalTerm;
         
@@ -36,18 +37,22 @@ namespace OOP_Exercise.Fragments
             finalTerm = view.FindViewById<LinearLayout>(Resource.Id.layout_final_term);
             midTerm.Click += MidTerm_Click;
             finalTerm.Click += FinalTerm_Click;
-           
             return view;
         }
 
-        private void FinalTerm_Click(object sender, EventArgs e)
+      
+
+        private void FinalTerm_Click(object sender,EventArgs e)
         {
+              DataManager.IsMidTerm = 0;
               ClickSelectTerm(sender, e);
         }
 
         private void MidTerm_Click(object sender, EventArgs e)
         {
-              ClickSelectTerm(sender, e);
+            DataManager.IsMidTerm = 1;
+            ClickSelectTerm(sender, e);
         }
     }
+   
 }

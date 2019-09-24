@@ -1,12 +1,15 @@
 ﻿using Android.App;
+using Android.Database;
 using Android.OS;
 using Android.Runtime;
 using Android.Support.Design.Widget;
 using Android.Support.V7.App;
 using Android.Views;
 using Android.Widget;
+using DataOfUser;
 using OOP_Exercise.Fragments;
 using OOP_Exercise.Resources.Fragments;
+using System;
 using SupportFragment = Android.Support.V4.App.Fragment;
 namespace OOP_Exercise
 {
@@ -16,6 +19,7 @@ namespace OOP_Exercise
         SupportFragment currentFragment;
         FragmentScheduler fragScheduler;
         FragmentTest fragTest;
+      
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -33,9 +37,8 @@ namespace OOP_Exercise
             trans.Commit();
 
             currentFragment = fragScheduler;
-           
 
-
+            
 
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)

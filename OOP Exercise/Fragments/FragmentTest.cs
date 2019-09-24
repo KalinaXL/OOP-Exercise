@@ -19,8 +19,6 @@ namespace OOP_Exercise.Fragments
         FragmentSelectTerm fragSelectTerm;
         FragmentSelectSubjects fragSelectSuject;
 
-
-
         public override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
