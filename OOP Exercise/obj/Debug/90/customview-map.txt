@@ -118,6 +118,7 @@ stroke;obj\Debug\90\res\drawable\list_item_style.xml
 stroke;obj\Debug\90\res\drawable\number_right_answer_style.xml
 style;obj\Debug\90\res\values\styles.xml
 TextView;obj\Debug\90\res\layout\activity_result.xml
+TextView;obj\Debug\90\res\layout\app_bar_question.xml
 TextView;obj\Debug\90\res\layout\content_quiz.xml
 TextView;obj\Debug\90\res\layout\fragment_question_item.xml
 TextView;obj\Debug\90\res\layout\fragment_select_term.xml
@@ -126,6 +127,7 @@ TextView;obj\Debug\90\res\layout\layout_question_val.xml
 TextView;obj\Debug\90\res\layout\layout_subject_item.xml
 TextView;obj\Debug\90\res\layout\listheaderview.xml
 TextView;obj\Debug\90\res\layout\listitemview.xml
+Toolbar;obj\Debug\90\res\layout\fragment_scheduler.xml
 vector;obj\Debug\90\res\drawable\ic_dashboard_black_24dp.xml
 vector;obj\Debug\90\res\drawable\ic_home_black_24dp.xml
 vector;obj\Debug\90\res\drawable\ic_notifications_black_24dp.xml

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Android.Graphics;
 using Android.Icu.Util;
 using Android.OS;
 using Android.Runtime;
@@ -16,6 +17,7 @@ namespace OOP_Exercise.Resources.Fragments
 {
     public class FragmentScheduler : Fragment
     {
+        Toolbar toolbar;
         ExpandableListView expandListView;
         List<string> titleNames;
         Dictionary<string, List<Subject>> schedulerOfDay;
@@ -42,6 +44,11 @@ namespace OOP_Exercise.Resources.Fragments
 
             View view = inflater.Inflate(Resource.Layout.fragment_scheduler, container, false);
             expandListView = view.FindViewById<ExpandableListView>(Resource.Id.expandableListView);
+            toolbar = view.FindViewById<Toolbar>(Resource.Id.toolbarSheduler);
+            toolbar.Title = "Lịch học tuần 39";
+            
+            toolbar.TextAlignment = TextAlignment.Center;
+            toolbar.SetTitleTextColor(Color.White);
             CustomExpandableListAdapter adapter = new CustomExpandableListAdapter(this.Activity, titleNames, schedulerOfDay);
             expandListView.SetAdapter(adapter);
             return view;

@@ -8,6 +8,7 @@ using Android.Support.V7.Widget;
 using Android.Views;
 
 using Android.Widget;
+using Java.Lang;
 
 namespace OOP_Exercise.Fragments
 {
@@ -43,11 +44,17 @@ namespace OOP_Exercise.Fragments
 
         private void Myview_ClickSelectSubject(object sender, EventArgs e)
         {
-            Intent intent = new Intent(this.context, typeof(QuizActivity));
-            Bundle bundle = new Bundle();
-            bundle.PutString("SubjectName", (sender as TextView).Text);
-            intent.PutExtras(bundle);
-            this.context.StartActivity(intent);
+            Handler h = new Handler();
+            Toast.MakeText(this.context, "Đang tải dữ liệu...", ToastLength.Long).Show();
+            Action action = async () =>
+            {
+                Intent intent = new Intent(this.context, typeof(QuizActivity));
+                Bundle bundle = new Bundle();
+                bundle.PutString("SubjectName", (sender as TextView).Text);
+                intent.PutExtras(bundle);
+                this.context.StartActivity(intent);
+            };
+            h.Post(action);
         }
 
         public class MyViewSubject : RecyclerView.ViewHolder

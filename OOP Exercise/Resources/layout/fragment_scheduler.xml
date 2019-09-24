@@ -19,7 +19,12 @@
         android:paddingBottom="2dp"
        
     />-->
-       
+       <Toolbar
+           android:id="@+id/toolbarSheduler"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="?attr/colorPrimary"
+        />
 
     <ExpandableListView
         android:layout_marginTop="20dp"

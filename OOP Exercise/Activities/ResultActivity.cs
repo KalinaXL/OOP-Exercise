@@ -81,11 +81,17 @@ namespace OOP_Exercise.Activities
 
         private void ViewQuizAnswer()
         {
-            DataManager.IsReadResult = true;
-            Intent intent = new Intent();
-            intent.PutExtra("Action", "View_Answer");
-            SetResult(Android.App.Result.Ok, intent);
-            Finish();
+            Handler handler = new Handler();
+            Toast.MakeText(this, "Đang tải ...", ToastLength.Long).Show();
+            Action action = () =>
+            {
+                DataManager.IsReadResult = true;
+                Intent intent = new Intent();
+                intent.PutExtra("Action", "View_Answer");
+                SetResult(Android.App.Result.Ok, intent);
+                Finish();
+            };
+            handler.Post(action);
         }
 
         void EvaluateAnswer()

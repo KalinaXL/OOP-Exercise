@@ -26,6 +26,7 @@ using OOP_Exercise.Utility_Classes;
 using SQLite;
 using Android.Net;
 using Android.OS;
+using System.Threading.Tasks;
 
 namespace OOP_Exercise
 {
@@ -61,7 +62,8 @@ namespace OOP_Exercise
             SetContentView(Resource.Layout.activity_quiz);
             Android.Support.V7.Widget.Toolbar toolbar = FindViewById<Android.Support.V7.Widget.Toolbar>(Resource.Id.toolbar);
             subjectName = Intent.GetStringExtra("SubjectName");
-            toolbar.Title = subjectName;
+            TextView txtSubjecTest = FindViewById<TextView>(Resource.Id.txtSubjectTest);
+            txtSubjecTest.Text = subjectName;
             SetSupportActionBar(toolbar);
 
            
@@ -76,10 +78,11 @@ namespace OOP_Exercise
         
 
 
-            DatabaseUtility.CloneExistingDatabase();
+            //DatabaseUtility.CloneExistingDatabase();
 
             DataManager.NumOfQuesAnswered = 0;
             GetQuestions();
+            
             numOfQues = DataManager.QuestionsList.Count;
             if (numOfQues > 0)
             {
@@ -113,6 +116,7 @@ namespace OOP_Exercise
             }
 
         }
+   
         
         private void BtnSubmit_Click(object sender, EventArgs e)
         {

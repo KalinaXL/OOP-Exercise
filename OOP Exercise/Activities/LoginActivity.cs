@@ -5,6 +5,7 @@ using Android.OS;
 using Android.Preferences;
 using Android.Views;
 using Android.Widget;
+using OOP_Exercise.Utility_Classes;
 using System;
 using System.Threading;
 using System.Threading.Tasks;
@@ -119,6 +120,10 @@ namespace OOP_Exercise
                 Intent intent = new Intent(this, typeof(MainActivity));
                 SaveAccountPrefers();
                 this.StartActivity(intent);
+                new Thread(async () =>
+                {
+                    DatabaseUtility.CloneExistingDatabase();
+                }).Start();
                 //this.OverridePendingTransition();
                 this.Finish();
             }

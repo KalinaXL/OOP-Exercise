@@ -9,7 +9,7 @@ using Android.Widget;
 using DataOfUser;
 using OOP_Exercise.Fragments;
 using OOP_Exercise.Resources.Fragments;
-using System;
+
 using SupportFragment = Android.Support.V4.App.Fragment;
 namespace OOP_Exercise
 {
@@ -59,6 +59,7 @@ namespace OOP_Exercise
                    // textMessage.SetText(Resource.String.title_dashboard);
                     return true;
                 case Resource.Id.navigation_test:
+                    
                     ShowFragment(fragTest);
                     //textMessage.SetText(Resource.String.title_notifications);
                     return true;
