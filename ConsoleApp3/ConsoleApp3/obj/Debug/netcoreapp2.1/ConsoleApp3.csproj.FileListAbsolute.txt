@@ -1,0 +1,14 @@
+E:\MinhLong\MT-183\OPP\Assignment\APP-TKB\ConsoleApp3\ConsoleApp3\obj\Debug\netcoreapp2.1\ConsoleApp3.csproj.CoreCompileInputs.cache
+E:\MinhLong\MT-183\OPP\Assignment\APP-TKB\ConsoleApp3\ConsoleApp3\obj\Debug\netcoreapp2.1\ConsoleApp3.AssemblyInfoInputs.cache
+E:\MinhLong\MT-183\OPP\Assignment\APP-TKB\ConsoleApp3\ConsoleApp3\obj\Debug\netcoreapp2.1\ConsoleApp3.AssemblyInfo.cs
+E:\MinhLong\MT-183\OPP\Assignment\APP-TKB\ConsoleApp3\ConsoleApp3\bin\Debug\netcoreapp2.1\ConsoleApp3.deps.json
+E:\MinhLong\MT-183\OPP\Assignment\APP-TKB\ConsoleApp3\ConsoleApp3\bin\Debug\netcoreapp2.1\ConsoleApp3.runtimeconfig.json
+E:\MinhLong\MT-183\OPP\Assignment\APP-TKB\ConsoleApp3\ConsoleApp3\bin\Debug\netcoreapp2.1\ConsoleApp3.runtimeconfig.dev.json
+E:\MinhLong\MT-183\OPP\Assignment\APP-TKB\ConsoleApp3\ConsoleApp3\bin\Debug\netcoreapp2.1\ConsoleApp3.dll
+E:\MinhLong\MT-183\OPP\Assignment\APP-TKB\ConsoleApp3\ConsoleApp3\bin\Debug\netcoreapp2.1\ConsoleApp3.pdb
+E:\MinhLong\MT-183\OPP\Assignment\APP-TKB\ConsoleApp3\ConsoleApp3\bin\Debug\netcoreapp2.1\xNet.dll
+E:\MinhLong\MT-183\OPP\Assignment\APP-TKB\ConsoleApp3\ConsoleApp3\obj\Debug\netcoreapp2.1\ConsoleApp3.csprojAssemblyReference.cache
+E:\MinhLong\MT-183\OPP\Assignment\APP-TKB\ConsoleApp3\ConsoleApp3\obj\Debug\netcoreapp2.1\ConsoleApp3.csproj.CopyComplete
+E:\MinhLong\MT-183\OPP\Assignment\APP-TKB\ConsoleApp3\ConsoleApp3\obj\Debug\netcoreapp2.1\ConsoleApp3.dll
+E:\MinhLong\MT-183\OPP\Assignment\APP-TKB\ConsoleApp3\ConsoleApp3\obj\Debug\netcoreapp2.1\ConsoleApp3.pdb
+E:\MinhLong\MT-183\OPP\Assignment\APP-TKB\ConsoleApp3\ConsoleApp3\bin\Debug\netcoreapp2.1\System.Web.Extensions.dll
