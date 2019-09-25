@@ -5,6 +5,7 @@ using Android.OS;
 using Android.Preferences;
 using Android.Views;
 using Android.Widget;
+using OOP_Exercise.Login_And_Scrape_Data;
 using OOP_Exercise.Utility_Classes;
 using System;
 using System.Threading;
@@ -69,20 +70,12 @@ namespace OOP_Exercise
             txtPassword = FindViewById<EditText>(Resource.Id.txtPassword);
         }
 
-      
-
-        [Obsolete]
-        private void BtnLogin_Click(object sender, EventArgs e)
+        private void  BtnLogin_Click(object sender, EventArgs e)
         {
-
+                     
             
-
-            progressBar.Visibility = ViewStates.Visible;
-            btnLogin.Visibility = ViewStates.Gone;
             if (txtUsername.Text.Length == 0)
             {
-                progressBar.Visibility = ViewStates.Invisible;
-                btnLogin.Visibility = ViewStates.Visible;
                 AlertDialog.Builder dialog = new AlertDialog.Builder(this);
                 AlertDialog alert = dialog.Create();
                 alert.SetTitle("Thông báo");
@@ -93,8 +86,6 @@ namespace OOP_Exercise
             }
             else if (txtPassword.Text.Length == 0)
             {
-                progressBar.Visibility = ViewStates.Invisible;
-                btnLogin.Visibility = ViewStates.Visible;
                 AlertDialog.Builder dialog = new AlertDialog.Builder(this);
                 AlertDialog alert = dialog.Create();
                 alert.SetTitle("Thông báo");
@@ -103,23 +94,30 @@ namespace OOP_Exercise
                 alert.Show();
                 return;
             }
+           
 
             if (Connectivity.NetworkAccess == NetworkAccess.None)
             {
                 Toast.MakeText(this, "Không thể kết nối với Wifi/3G/4G", ToastLength.Short).Show();
-                progressBar.Visibility = ViewStates.Gone;
-                btnLogin.Visibility = ViewStates.Visible;
                 return;
             }
-           
-           
 
-            if (txtUsername.Text == "a" && txtPassword.Text == "1")
+            progressBar.Visibility = ViewStates.Visible;
+            btnLogin.Visibility = ViewStates.Gone;
+            Thread.Sleep(10000);
+            bool isLoginSuccess = true;
+            //bool isLoginSuccess = LoginUtility.CrawlData(txtUsername.Text, txtPassword.Text);
+            
+            if (isLoginSuccess)
             {
+                Handler handler = new Handler();
                 SaveAccountPrefers();
-                Intent intent = new Intent(this, typeof(MainActivity));
-                SaveAccountPrefers();
-                this.StartActivity(intent);
+                Action action = new Action(() =>
+                {
+                    Intent intent = new Intent(this, typeof(MainActivity));
+                    this.StartActivity(intent);
+                });
+                handler.Post(action);
                 new Thread(async () =>
                 {
                     DatabaseUtility.CloneExistingDatabase();
@@ -129,7 +127,7 @@ namespace OOP_Exercise
             }
             else
             {
-                progressBar.Visibility = ViewStates.Invisible;
+                progressBar.Visibility = ViewStates.Gone;
                 btnLogin.Visibility = ViewStates.Visible;
                 AlertDialog.Builder dialog = new AlertDialog.Builder(this);
                 AlertDialog alert = dialog.Create();

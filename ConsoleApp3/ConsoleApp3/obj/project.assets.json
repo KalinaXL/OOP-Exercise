@@ -728,25 +728,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\MinhLong\\.nuget\\packages\\": {},
+    "C:\\Users\\Nguyen Huynh Minh\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\MinhLong\\MT-183\\OPP\\Assignment\\APP-TKB\\ConsoleApp3\\ConsoleApp3\\ConsoleApp3.csproj",
+      "projectUniqueName": "C:\\Users\\Nguyen Huynh Minh\\source\\repos\\OOP Exercise\\ConsoleApp3\\ConsoleApp3\\ConsoleApp3.csproj",
       "projectName": "ConsoleApp3",
-      "projectPath": "E:\\MinhLong\\MT-183\\OPP\\Assignment\\APP-TKB\\ConsoleApp3\\ConsoleApp3\\ConsoleApp3.csproj",
-      "packagesPath": "C:\\Users\\MinhLong\\.nuget\\packages\\",
-      "outputPath": "E:\\MinhLong\\MT-183\\OPP\\Assignment\\APP-TKB\\ConsoleApp3\\ConsoleApp3\\obj\\",
+      "projectPath": "C:\\Users\\Nguyen Huynh Minh\\source\\repos\\OOP Exercise\\ConsoleApp3\\ConsoleApp3\\ConsoleApp3.csproj",
+      "packagesPath": "C:\\Users\\Nguyen Huynh Minh\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Nguyen Huynh Minh\\source\\repos\\OOP Exercise\\ConsoleApp3\\ConsoleApp3\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\MinhLong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Nguyen Huynh Minh\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -772,6 +772,7 @@
       "netcoreapp2.1": {
         "dependencies": {
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true

@@ -71,7 +71,7 @@
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent">
                 <ImageView
-                    android:src="@drawable/logo"
+                    android:src="@drawable/finalterm"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     

@@ -3,25 +3,25 @@
 
     <item
         android:id="@+id/navigation_scheduler"
-        android:icon="@drawable/ic_home_black_24dp"
+        android:icon="@drawable/ic_scheduler"
         android:title="@string/title_scheduler" />
 
     <item
         android:id="@+id/navigation_exam"
-        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:icon="@drawable/ic_exam"
         android:title="@string/title_exam_time" />
 
     <item
         android:id="@+id/navigation_test"
-        android:icon="@drawable/ic_notifications_black_24dp"
+        android:icon="@drawable/ic_test"
         android:title="@string/title_testing" />
     <item
           android:id="@+id/navigation_info"
-          android:icon="@drawable/ic_notifications_black_24dp"
+          android:icon="@drawable/ic_account"
           android:title="@string/title_info" />
     <item
           android:id="@+id/navigation_others"
-          android:icon="@drawable/ic_notifications_black_24dp"
+          android:icon="@drawable/ic_info"
           android:title="@string/title_others" />
 
 </menu>

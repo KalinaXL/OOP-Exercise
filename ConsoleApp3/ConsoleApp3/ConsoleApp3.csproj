@@ -10,11 +10,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="System.Web.Extensions">
-      <HintPath>F:\data\Software\System.Web.Extensions\System.Web.Extensions.dll</HintPath>
-    </Reference>
     <Reference Include="xNet">
-      <HintPath>C:\Users\MinhLong\Downloads\xNet.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\xNet.dll</HintPath>
     </Reference>
   </ItemGroup>
 

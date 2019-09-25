@@ -12,7 +12,7 @@ using System.Net;
 using System.Text;
 using xNet;
 using System.Text.RegularExpressions;
-using System.Web.Script.Serialization;
+
 using Newtonsoft.Json;
 
 
@@ -40,8 +40,15 @@ namespace Test
             #endregion
 
             #region Get LT, execution and cookies
-
-            HttpResponse response = request.Get(Config.loginUrl);
+            HttpResponse response;
+            try
+            {
+                response = request.Get(Config.loginUrl);
+            }
+            catch
+            {
+                return;
+            }
             string sourceLoginPage = response.ToString();
 
             string[] listLT = Regex.Match(sourceLoginPage, @"<input type=""hidden"" name=""lt"" value=""(.*?) /", RegexOptions.IgnoreCase).Value.Split('"');
@@ -84,7 +91,8 @@ namespace Test
 
                 //Get token
                 token = String.Format("_token={0}", token);
-
+                if (token.Length != 40)
+                    return;
                 //Get Information of Student
                 response = request.Post(Config.scheduleUrl, token, Config.ContentTypeToGetData);
                 var json_tkb = response.ToString();
@@ -100,7 +108,7 @@ namespace Test
                 {
                     //Console.WriteLine(json_tkb.ToString());
 
-                    var jss = new JavaScriptSerializer();
+                   
                     var subject_info = JsonConvert.DeserializeObject<List<ThongtinSV>>(json_tkb.ToString());
                     var exam = JsonConvert.DeserializeObject<ConsoleApp3.ExamSchedule>(json_exam.ToString());
 
@@ -119,6 +127,7 @@ namespace Test
                 Console.WriteLine("Login Fail");
                 Console.WriteLine("We have a problem: " + ex.Message.ToString());
             }
+            Console.WriteLine("Bla bla");
         }
         #endregion
 

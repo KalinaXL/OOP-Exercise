@@ -68,6 +68,13 @@
     <Compile Include="Adapters\QuestionValAdapter.cs" />
     <Compile Include="Adapters\QuizFragmentAdapter.cs" />
     <Compile Include="Fragments\SpaceDecoration.cs" />
+    <Compile Include="Login And Scrape Data\Lichhoc.cs" />
+    <Compile Include="Login And Scrape Data\Lichthi.cs" />
+    <Compile Include="Login And Scrape Data\LoginManager.cs" />
+    <Compile Include="Login And Scrape Data\ExamScheduler.cs" />
+    <Compile Include="Login And Scrape Data\LoginUtility.cs" />
+    <Compile Include="Login And Scrape Data\Namhoc.cs" />
+    <Compile Include="Login And Scrape Data\ThongtinSV.cs" />
     <Compile Include="Utility Classes\CurrentQuestion.cs" />
     <Compile Include="Adapters\CustomExpandableListAdapter.cs" />
     <Compile Include="Fragments\FragmentQuiz.cs" />
@@ -110,7 +117,6 @@
     <AndroidResource Include="Resources\values\styles.xml" />
     <AndroidResource Include="Resources\drawable\ic_home_black_24dp.xml" />
     <AndroidResource Include="Resources\drawable\ic_dashboard_black_24dp.xml" />
-    <AndroidResource Include="Resources\drawable\ic_notifications_black_24dp.xml" />
     <AndroidResource Include="Resources\menu\navigation.xml" />
     <AndroidResource Include="Resources\mipmap-anydpi-v26\ic_launcher.xml" />
     <AndroidResource Include="Resources\mipmap-anydpi-v26\ic_launcher_round.xml" />
@@ -131,6 +137,9 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_launcher_round.png" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json">
+      <Version>12.0.2</Version>
+    </PackageReference>
     <PackageReference Include="sqlite-net-pcl">
       <Version>1.6.292</Version>
     </PackageReference>
@@ -311,8 +320,24 @@
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\outline_description_black_18dp.png" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Login And Scrape Data\" />
+    <AndroidResource Include="Resources\drawable\finalterm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ic_test.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ic_scheduler.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ic_exam.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ic_info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ic_account.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

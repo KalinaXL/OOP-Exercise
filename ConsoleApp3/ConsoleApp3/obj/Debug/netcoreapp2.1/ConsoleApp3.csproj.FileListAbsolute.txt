@@ -12,3 +12,16 @@ E:\MinhLong\MT-183\OPP\Assignment\APP-TKB\ConsoleApp3\ConsoleApp3\obj\Debug\netc
 E:\MinhLong\MT-183\OPP\Assignment\APP-TKB\ConsoleApp3\ConsoleApp3\obj\Debug\netcoreapp2.1\ConsoleApp3.dll
 E:\MinhLong\MT-183\OPP\Assignment\APP-TKB\ConsoleApp3\ConsoleApp3\obj\Debug\netcoreapp2.1\ConsoleApp3.pdb
 E:\MinhLong\MT-183\OPP\Assignment\APP-TKB\ConsoleApp3\ConsoleApp3\bin\Debug\netcoreapp2.1\System.Web.Extensions.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\ConsoleApp3\ConsoleApp3\obj\Debug\netcoreapp2.1\ConsoleApp3.csprojAssemblyReference.cache
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\ConsoleApp3\ConsoleApp3\obj\Debug\netcoreapp2.1\ConsoleApp3.csproj.CoreCompileInputs.cache
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\ConsoleApp3\ConsoleApp3\obj\Debug\netcoreapp2.1\ConsoleApp3.AssemblyInfoInputs.cache
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\ConsoleApp3\ConsoleApp3\obj\Debug\netcoreapp2.1\ConsoleApp3.AssemblyInfo.cs
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\ConsoleApp3\ConsoleApp3\obj\Debug\netcoreapp2.1\ConsoleApp3.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\ConsoleApp3\ConsoleApp3\obj\Debug\netcoreapp2.1\ConsoleApp3.pdb
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\ConsoleApp3\ConsoleApp3\bin\Debug\netcoreapp2.1\ConsoleApp3.deps.json
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\ConsoleApp3\ConsoleApp3\bin\Debug\netcoreapp2.1\ConsoleApp3.runtimeconfig.json
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\ConsoleApp3\ConsoleApp3\bin\Debug\netcoreapp2.1\ConsoleApp3.runtimeconfig.dev.json
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\ConsoleApp3\ConsoleApp3\bin\Debug\netcoreapp2.1\ConsoleApp3.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\ConsoleApp3\ConsoleApp3\bin\Debug\netcoreapp2.1\ConsoleApp3.pdb
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\ConsoleApp3\ConsoleApp3\bin\Debug\netcoreapp2.1\xNet.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\ConsoleApp3\ConsoleApp3\obj\Debug\netcoreapp2.1\ConsoleApp3.csproj.CopyComplete
