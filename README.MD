@@ -1,7 +1,7 @@
 Ứng dụng mobile trên nền tảng Android
 viết bằng C# - Xamarin
 1.	Giới thiệu về sản phẩm:
-•	Đây là bài tập lớn của môn Lập trình hướng đối tượng, được thực hiện bởi nhóm Blue Stream
+• Đây là bài tập lớn của môn Lập trình hướng đối tượng, được thực hiện bởi nhóm Blue Stream
 •	Ứng dụng chạy trên nền tảng Android tối thiểu từ 5.0 trở lên, tối nhất tốt với tỉ lệ màn hình 16:9
 •	Chỉ có sinh viên trường Đại học Bách Khoa TP.HCM mới có thể sử dụng sản phầm này.
 •	Vì hạn chế về nhiều mặt: thời gian, kiến thức, kinh nghiệm,… nên sản phẩm làm khá chậm, cũng như có nhiều vấn đề phát sinh.
