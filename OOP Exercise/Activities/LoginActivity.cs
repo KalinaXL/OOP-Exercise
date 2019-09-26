@@ -70,7 +70,7 @@ namespace OOP_Exercise
             txtPassword = FindViewById<EditText>(Resource.Id.txtPassword);
         }
 
-        private void  BtnLogin_Click(object sender, EventArgs e)
+        private async void  BtnLogin_Click(object sender, EventArgs e)
         {
                      
             
@@ -102,11 +102,13 @@ namespace OOP_Exercise
                 return;
             }
 
-            progressBar.Visibility = ViewStates.Visible;
-            btnLogin.Visibility = ViewStates.Gone;
-            Thread.Sleep(10000);
-            bool isLoginSuccess = true;
-            //bool isLoginSuccess = LoginUtility.CrawlData(txtUsername.Text, txtPassword.Text);
+            RunOnUiThread(new Action(()=>
+             {
+                progressBar.Visibility = ViewStates.Visible;
+                btnLogin.Visibility = ViewStates.Gone;
+            }));
+
+            bool isLoginSuccess =  await LoginUtility.CrawlData(txtUsername.Text, txtPassword.Text);
             
             if (isLoginSuccess)
             {
