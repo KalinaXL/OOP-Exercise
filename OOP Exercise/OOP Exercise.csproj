@@ -65,13 +65,15 @@
   <ItemGroup>
     <Compile Include="Activities\ResultActivity.cs" />
     <Compile Include="Adapters\AnswerSheetAdapter.cs" />
+    <Compile Include="Adapters\ExamSchedulerAdapter.cs" />
     <Compile Include="Adapters\QuestionValAdapter.cs" />
     <Compile Include="Adapters\QuizFragmentAdapter.cs" />
+    <Compile Include="Fragments\FragmentExam.cs" />
     <Compile Include="Fragments\SpaceDecoration.cs" />
     <Compile Include="Login And Scrape Data\Lichhoc.cs" />
     <Compile Include="Login And Scrape Data\Lichthi.cs" />
     <Compile Include="Login And Scrape Data\LoginManager.cs" />
-    <Compile Include="Login And Scrape Data\ExamScheduler.cs" />
+    <Compile Include="Login And Scrape Data\ExamSchedule.cs" />
     <Compile Include="Login And Scrape Data\LoginUtility.cs" />
     <Compile Include="Login And Scrape Data\Namhoc.cs" />
     <Compile Include="Login And Scrape Data\ThongtinSV.cs" />
@@ -86,6 +88,7 @@
     <Compile Include="System Classes\NetworkChangeReceiver.cs" />
     <Compile Include="Utility Classes\DatabaseUtility.cs" />
     <Compile Include="Utility Classes\DataManager.cs" />
+    <Compile Include="Utility Classes\ExamScheduler.cs" />
     <Compile Include="Utility Classes\Question.cs" />
     <Compile Include="Activities\QuizActivity.cs" />
     <Compile Include="Utility Classes\StateOfQuestion.cs" />
@@ -213,14 +216,6 @@
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\itemSubjectGridView.xml">
-      <SubType>Designer</SubType>
-    </AndroidResource>
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\textbook.png" />
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\drawable\midterm.png" />
   </ItemGroup>
   <ItemGroup>
@@ -279,9 +274,6 @@
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\baseline_check_black_18dp.png" />
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\drawable\number_right_answer_style.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
@@ -320,7 +312,11 @@
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\outline_description_black_18dp.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\fragment_exam_scheduler.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\finalterm.png" />
   </ItemGroup>
@@ -338,6 +334,17 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\ic_account.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\layout_exem_item.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ic_chevron_left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ic_chevron_right.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

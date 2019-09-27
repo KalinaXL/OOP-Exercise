@@ -19,6 +19,7 @@ namespace OOP_Exercise
         SupportFragment currentFragment;
         FragmentScheduler fragScheduler;
         FragmentTest fragTest;
+        FragmentExam fragExam;
       
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -29,8 +30,7 @@ namespace OOP_Exercise
             BottomNavigationView navigation = FindViewById<BottomNavigationView>(Resource.Id.navigation);
             
             navigation.SetOnNavigationItemSelectedListener(this);
-            fragScheduler = new FragmentScheduler();
-            fragTest = new FragmentTest();
+            InitFragment();
 
             var trans = SupportFragmentManager.BeginTransaction();
             trans.Add(Resource.Id.frameLayout, fragScheduler, "Fragment Scheduler");
@@ -40,6 +40,12 @@ namespace OOP_Exercise
 
             
 
+        }
+        void InitFragment()
+        {
+            fragScheduler = new FragmentScheduler();
+            fragTest = new FragmentTest();
+            fragExam = new FragmentExam();
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
@@ -53,18 +59,21 @@ namespace OOP_Exercise
             {
                 case Resource.Id.navigation_scheduler:
                     ShowFragment(fragScheduler);
-                    //textMessage.SetText(Resource.String.title_home);
+                    
                     return true;
                 case Resource.Id.navigation_exam:
-                   // textMessage.SetText(Resource.String.title_dashboard);
+                    ShowFragment(fragExam);
+                  
                     return true;
                 case Resource.Id.navigation_test:
-                    
                     ShowFragment(fragTest);
-                    //textMessage.SetText(Resource.String.title_notifications);
+                    
                     return true;
                 case Resource.Id.navigation_info:
-                    //textMessage.SetText(Resource.String.title_notifications);
+                   //TO DO
+                    return true;
+                case Resource.Id.navigation_others:
+                    //TO DO
                     return true;
             }
             return false;

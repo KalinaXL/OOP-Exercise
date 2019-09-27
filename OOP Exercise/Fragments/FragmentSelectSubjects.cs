@@ -8,6 +8,7 @@ using Android.Support.V7.Widget;
 
 using Android.Util;
 using Android.Views;
+using OOP_Exercise.Login_And_Scrape_Data;
 
 namespace OOP_Exercise.Fragments
 {
@@ -36,7 +37,9 @@ namespace OOP_Exercise.Fragments
             recyclerView.HasFixedSize = true;
             recyclerView.SetLayoutManager(new GridLayoutManager(this.Activity, 2));
 
-            SubjectAdapter adapter = new SubjectAdapter(this.Activity, new List<string> { "Giải tích 1", "Hóa đại cương", "Vật lí 1", "Cấu trúc rời rạc","Hệ thống số","Nhập môn điện toán" });
+            List<string> subjectList = (from item in LoginManager.Scheduler[0].tkb select item.ten_mh).ToList();
+
+            SubjectAdapter adapter = new SubjectAdapter(this.Activity, subjectList);
             recyclerView.AddItemDecoration(new SpaceDecoration(20));
             recyclerView.SetAdapter(adapter);
             return view;

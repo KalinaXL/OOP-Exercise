@@ -62,14 +62,16 @@ namespace OOP_Exercise.Resources.Fragments
            
            
 
-            var times = subjects.Time.Split('-');
+           
             startTime = view.FindViewById<TextView>(Resource.Id.startTime);
-            startTime.Text = times[0];
+            startTime.Text = subjects.TimeStart;
 
             endTime = view.FindViewById<TextView>(Resource.Id.endTime);
-            endTime.Text = times[1];
+            endTime.Text = subjects.TimeEnd;
 
             subjectName = view.FindViewById<TextView>(Resource.Id.subjectName);
+            if (subjects.Name.Length > 30)
+                subjectName.TextSize = 15;
             subjectName.Text = subjects.Name;
 
             roomName = view.FindViewById<TextView>(Resource.Id.roomName);

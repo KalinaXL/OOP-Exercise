@@ -125,7 +125,7 @@ namespace OOP_Exercise.Login_And_Scrape_Data
 
                 //}).Start();
                 Task getScheduler = new Task(new Action(() => { LoginManager.Scheduler = JsonConvert.DeserializeObject<List<ThongtinSV>>(json_tkb); }));
-                Task getExam = new Task(new Action(() => { LoginManager.Exam = JsonConvert.DeserializeObject<ExamScheduler>(json_exam); }));
+                Task getExam = new Task(new Action(() => { LoginManager.Exam = JsonConvert.DeserializeObject<ExamSchedule>(json_exam); }));
 
                 //new Thread(() =>
                 //{

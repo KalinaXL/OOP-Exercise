@@ -39,7 +39,6 @@ namespace OOP_Exercise
 
         void SaveAccountPrefers()
         {
-
             if (!checkBoxRememberMe.Checked)
                 return;
             new ThreadSharedPrefes(this, txtUsername.Text, txtPassword.Text).Run();
@@ -101,13 +100,16 @@ namespace OOP_Exercise
                 Toast.MakeText(this, "Không thể kết nối với Wifi/3G/4G", ToastLength.Short).Show();
                 return;
             }
-
+            new Thread(() =>
+            {
+                LoginManager.GetWeekAndYear();
+            }).Start();
             RunOnUiThread(new Action(()=>
              {
                 progressBar.Visibility = ViewStates.Visible;
                 btnLogin.Visibility = ViewStates.Gone;
-            }));
-
+                txtUsername.Enabled = txtPassword.Enabled = false;
+             }));
             bool isLoginSuccess =  await LoginUtility.CrawlData(txtUsername.Text, txtPassword.Text);
             
             if (isLoginSuccess)
@@ -131,10 +133,11 @@ namespace OOP_Exercise
             {
                 progressBar.Visibility = ViewStates.Gone;
                 btnLogin.Visibility = ViewStates.Visible;
+                txtUsername.Enabled = txtPassword.Enabled = true;
                 AlertDialog.Builder dialog = new AlertDialog.Builder(this);
                 AlertDialog alert = dialog.Create();
                 alert.SetTitle("Thông báo");
-                alert.SetMessage("Sai tên đăng nhập hoặc mật khẩu");
+                alert.SetMessage("Đăng nhập thất bại! Vui lòng thử lại sau!");
                 alert.SetButton("OK", (c, events) => { });
                 alert.Show();
             }

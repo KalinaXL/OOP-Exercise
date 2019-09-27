@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Globalization;
 
 namespace OOP_Exercise.Login_And_Scrape_Data
 {
@@ -15,6 +17,20 @@ namespace OOP_Exercise.Login_And_Scrape_Data
         public static string ContentTypeToGetData = "application/x-www-form-urlencoded; charset=UTF-8";
 
         public static List<ThongtinSV> Scheduler { get; set; }
-        public static ExamScheduler Exam { get; set; }
+        public static ExamSchedule Exam { get; set; }
+        public static int CurrentWeekOfYear { get; set; }
+        public static int Year { get; set; }
+       
+        public static void GetWeekAndYear()
+        {
+            CultureInfo myCI = new CultureInfo("vi-VN");
+            Calendar myCal = myCI.Calendar;
+            CalendarWeekRule myCWR = myCI.DateTimeFormat.CalendarWeekRule;
+            CurrentWeekOfYear = myCal.GetWeekOfYear(DateTime.Now, myCWR, DayOfWeek.Monday);
+            Year = DateTime.Now.Year;
+           
+        }
+        
+
     }
 }
