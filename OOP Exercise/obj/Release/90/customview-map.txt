@@ -11,6 +11,7 @@ android.support.design.widget.TabLayout;obj\Release\90\res\layout\content_quiz.x
 android.support.v4.view.ViewPager;obj\Release\90\res\layout\content_quiz.xml
 android.support.v4.widget.DrawerLayout;obj\Release\90\res\layout\activity_quiz.xml
 android.support.v7.widget.CardView;obj\Release\90\res\layout\fragment_select_term.xml
+android.support.v7.widget.CardView;obj\Release\90\res\layout\layout_exam_item.xml
 android.support.v7.widget.CardView;obj\Release\90\res\layout\layout_exem_item.xml
 android.support.v7.widget.CardView;obj\Release\90\res\layout\layout_subject_item.xml
 android.support.v7.widget.CardView;obj\Release\90\res\layout\listitemview.xml
@@ -53,6 +54,7 @@ ImageView;obj\Release\90\res\layout\activity_login.xml
 ImageView;obj\Release\90\res\layout\fragment_question_item.xml
 ImageView;obj\Release\90\res\layout\fragment_scheduler.xml
 ImageView;obj\Release\90\res\layout\fragment_select_term.xml
+ImageView;obj\Release\90\res\layout\layout_exam_item.xml
 ImageView;obj\Release\90\res\layout\layout_exem_item.xml
 ImageView;obj\Release\90\res\layout\listitemview.xml
 include;obj\Release\90\res\layout\activity_quiz.xml
@@ -88,6 +90,7 @@ RelativeLayout;obj\Release\90\res\layout\content_quiz.xml
 RelativeLayout;obj\Release\90\res\layout\fragment_question_item.xml
 RelativeLayout;obj\Release\90\res\layout\fragment_scheduler.xml
 RelativeLayout;obj\Release\90\res\layout\header_answer_sheet.xml
+RelativeLayout;obj\Release\90\res\layout\layout_exam_item.xml
 RelativeLayout;obj\Release\90\res\layout\layout_exem_item.xml
 RelativeLayout;obj\Release\90\res\layout\layout_grid_ans_sheet_item.xml
 RelativeLayout;obj\Release\90\res\layout\layout_subject_item.xml
@@ -125,6 +128,7 @@ TextView;obj\Release\90\res\layout\content_quiz.xml
 TextView;obj\Release\90\res\layout\fragment_exam_scheduler.xml
 TextView;obj\Release\90\res\layout\fragment_question_item.xml
 TextView;obj\Release\90\res\layout\fragment_select_term.xml
+TextView;obj\Release\90\res\layout\layout_exam_item.xml
 TextView;obj\Release\90\res\layout\layout_exem_item.xml
 TextView;obj\Release\90\res\layout\layout_question_val.xml
 TextView;obj\Release\90\res\layout\layout_subject_item.xml

@@ -11,5 +11,6 @@ namespace OOP_Exercise.Utility_Classes
         public string Hour { get; set; }
         public string Date { get; set; }
         public string MonthYear { get; set; }
+        public bool IsMidTerm { get; set; }
     }
 }

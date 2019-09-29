@@ -14,6 +14,7 @@ using Android.Widget;
 using DataOfUser;
 using Java.Lang;
 using OOP_Exercise.Login_And_Scrape_Data;
+using OOP_Exercise.Utility_Classes;
 
 namespace OOP_Exercise.Resources.Fragments
 {
@@ -24,34 +25,33 @@ namespace OOP_Exercise.Resources.Fragments
         List<string> titleNames;
         ImageView chevronLeft;
         ImageView chevronRight;
-        Dictionary<string, List<Subject>> schedulerOfDay;
         CustomExpandableListAdapter adapter;
 
         public override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
 
-
-            // List<Subject> subs = new List<Subject>() { new Subject("OOP","H6-114","07:00-10:00") , new Subject("DSA","H2-206","07:00-10:00") };
-            //schedulerOfDay.Add("Thứ 2", subs);
-            //schedulerOfDay.Add("Thứ 3", subs);
-            //schedulerOfDay.Add("Thứ 4", subs);
-
-            GetData();
-
-           
+            // GetData();
+            titleNames = SaveInfo.SchedulerOfDay.Keys.ToList();
             // Create your fragment here
         }
 
-        void GetData()
+        //void GetData()
+        //{
+        //    string week = LoginManager.CurrentWeekOfYear.ToString();
+        //    SaveInfo.SchedulerOfDay = LoginManager.Scheduler[0].tkb
+        //                        .Where(item => item.tuan_hoc.Contains(week))
+        //                        .Select(item => new { K = item.thu1, Subject = new Subject(item.ten_mh, item.phong1, item.giobd, item.giokt,item.thu1) })
+        //                        .Distinct()
+        //                        .GroupBy(item => item.K).ToDictionary(item => item.Key, item => item.Select(item2 => item2.Subject).ToList());
+        //    titleNames = SaveInfo.SchedulerOfDay.Keys.ToList();
+        //}
+        void UpdateUI()
         {
-            string week = LoginManager.CurrentWeekOfYear.ToString();
-            schedulerOfDay = LoginManager.Scheduler[0].tkb
-                                .Where(item => item.tuan_hoc.Contains(week))
-                                .Select(item => new { K = "Thứ " + item.thu1, Subject = new Subject(item.ten_mh, item.phong1, item.giobd, item.giokt) })
-                                .Distinct()
-                                .GroupBy(item => item.K).ToDictionary(item => item.Key, item => item.Select(item2 => item2.Subject).ToList());
-            titleNames = schedulerOfDay.Keys.ToList();
+            toolbar.Title = "Lịch học tuần " + LoginManager.CurrentWeekOfYear;
+            toolbar.SetTitleTextColor(Color.White);
+            adapter = new CustomExpandableListAdapter(this.Activity, titleNames, SaveInfo.SchedulerOfDay);
+            expandListView.SetAdapter(adapter);
         }
 
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
@@ -69,7 +69,7 @@ namespace OOP_Exercise.Resources.Fragments
 
             toolbar.Title = "Lịch học tuần "+LoginManager.CurrentWeekOfYear;
             toolbar.SetTitleTextColor(Color.White);
-            adapter = new CustomExpandableListAdapter(this.Activity, titleNames, schedulerOfDay);
+            adapter = new CustomExpandableListAdapter(this.Activity, titleNames, SaveInfo.SchedulerOfDay);
             expandListView.SetAdapter(adapter);
             return view;
           
@@ -79,23 +79,17 @@ namespace OOP_Exercise.Resources.Fragments
         private void ChevronRight_Click(object sender, EventArgs e)
         {
             ++LoginManager.CurrentWeekOfYear;
-            GetData();
-            toolbar.Title = "Lịch học tuần " + LoginManager.CurrentWeekOfYear;
-            toolbar.SetTitleTextColor(Color.White);
-            adapter = new CustomExpandableListAdapter(this.Activity, titleNames, schedulerOfDay);
-            expandListView.SetAdapter(adapter);
+            DatabaseUtility.GetDataScheduler();
+            titleNames = SaveInfo.SchedulerOfDay.Keys.ToList();
+            UpdateUI();
         }
 
         private void ChevronLeft_Click(object sender, EventArgs e)
         {
             --LoginManager.CurrentWeekOfYear;
-            GetData();
-            toolbar.Title = "Lịch học tuần " + LoginManager.CurrentWeekOfYear;
-            toolbar.SetTitleTextColor(Color.White);
-            adapter = new CustomExpandableListAdapter(this.Activity, titleNames, schedulerOfDay);
-            expandListView.SetAdapter(adapter);
-            
-
+            DatabaseUtility.GetDataScheduler();
+            titleNames = SaveInfo.SchedulerOfDay.Keys.ToList();
+            UpdateUI();
         }
     }
 }

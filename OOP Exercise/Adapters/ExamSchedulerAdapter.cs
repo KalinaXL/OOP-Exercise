@@ -57,7 +57,7 @@ namespace OOP_Exercise.Adapters
 
         public override RecyclerView.ViewHolder OnCreateViewHolder(ViewGroup parent, int viewType)
         {
-            View view = LayoutInflater.From(context).Inflate(Resource.Layout.layout_exem_item,parent,false);
+            View view = LayoutInflater.From(context).Inflate(Resource.Layout.layout_exam_item,parent,false);
             TextView txtSubName = view.FindViewById<TextView>(Resource.Id.txtExSubjectName);
             TextView txtRoom = view.FindViewById<TextView>(Resource.Id.txtExRoom);
             TextView txtDate = view.FindViewById<TextView>(Resource.Id.txtExDate);

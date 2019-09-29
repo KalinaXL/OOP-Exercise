@@ -100,7 +100,7 @@ namespace OOP_Exercise.Resources.Fragments
            
 
             titleHeaderName = view.FindViewById<TextView>(Resource.Id.titleHeaderName);
-            titleHeaderName.Text = titleName[groupPosition];
+            titleHeaderName.Text = "Thứ " + titleName[groupPosition];
             return view;
         }
 

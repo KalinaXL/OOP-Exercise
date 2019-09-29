@@ -7,6 +7,7 @@ using Android.Views;
 using Android.Widget;
 using OOP_Exercise.Login_And_Scrape_Data;
 using OOP_Exercise.Utility_Classes;
+using SQLite;
 using System;
 using System.Threading;
 using System.Threading.Tasks;
@@ -14,7 +15,7 @@ using Xamarin.Essentials;
 
 namespace OOP_Exercise
 {
-    [Activity(Label = "BKStudent", MainLauncher = true)]
+    [Activity(Label = "Login")]
     public class LoginActivity : Activity
     {
         Button btnLogin;
@@ -26,29 +27,38 @@ namespace OOP_Exercise
        
         protected override void OnCreate(Bundle savedInstanceState)
         {
+            
             base.OnCreate(savedInstanceState);
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             SetContentView(Resource.Layout.activity_login);
-
             FindWidgetFromId();
-            btnLogin.Click += BtnLogin_Click;
             GetAccountPrefers();
-           
+            btnLogin.Click += BtnLogin_Click;           
             // Create your application here
         }
 
         void SaveAccountPrefers()
         {
             if (!checkBoxRememberMe.Checked)
+            {
+                new ThreadSharedPrefes(true, this).Run();
                 return;
-            new ThreadSharedPrefes(this, txtUsername.Text, txtPassword.Text).Run();
+            }
+            new ThreadSharedPrefes(true,this, txtUsername.Text, txtPassword.Text).Run();
 
         }
         void GetAccountPrefers()
         {
             ISharedPreferences prefs = PreferenceManager.GetDefaultSharedPreferences(this);
-            if (prefs.Contains("username") && prefs.Contains("password"))
-            {
+            //bool isSaveInfo = prefs.GetBoolean("IsSaveInfo", false);
+            //if (isSaveInfo)
+            //{
+            //    LoginManager.IsLoadData = true;
+            //    LoadBackData();
+            //    return;
+            //}
+            //if (prefs.Contains("username") && prefs.Contains("password"))
+            //{
                 string username = prefs.GetString("username", "Tên đăng nhập");
                 string password = prefs.GetString("password", "Mật khẩu");
                 RunOnUiThread(() => 
@@ -57,7 +67,32 @@ namespace OOP_Exercise
                     txtPassword.Text = password;
                 });
               
+            //}
+        }
+
+        private async void LoadBackData()
+        {
+            try
+            {
+                bool isSuccess = await DatabaseUtility.GetInfoDatabase();
+                if (!isSuccess)
+                    return;
             }
+            catch
+            {
+                return;
+            }
+            Handler handler = new Handler();
+          
+            Action action = new Action(() =>
+            {
+                Intent intent = new Intent(this, typeof(MainActivity));
+                this.StartActivity(intent);
+            }
+            );
+            handler.Post(action);
+            Finish();
+
         }
 
         void FindWidgetFromId()
@@ -70,9 +105,7 @@ namespace OOP_Exercise
         }
 
         private async void  BtnLogin_Click(object sender, EventArgs e)
-        {
-                     
-            
+        { 
             if (txtUsername.Text.Length == 0)
             {
                 AlertDialog.Builder dialog = new AlertDialog.Builder(this);
@@ -114,20 +147,28 @@ namespace OOP_Exercise
             
             if (isLoginSuccess)
             {
-                Handler handler = new Handler();
                 SaveAccountPrefers();
+                DatabaseUtility.GetDataScheduler();
+                DatabaseUtility.GetDataExam();
+                Handler handler = new Handler();
                 Action action = new Action(() =>
                 {
                     Intent intent = new Intent(this, typeof(MainActivity));
                     this.StartActivity(intent);
                 });
                 handler.Post(action);
-                new Thread(async () =>
+                handler.PostAtFrontOfQueue(new Action(()=>{ DatabaseUtility.SaveInfoDatabase(); }));
+                
+
+                new Thread(() =>
                 {
                     DatabaseUtility.CloneExistingDatabase();
+                   
                 }).Start();
                 //this.OverridePendingTransition();
+                
                 this.Finish();
+               
             }
             else
             {

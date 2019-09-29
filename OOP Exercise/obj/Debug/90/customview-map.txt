@@ -11,7 +11,7 @@ android.support.design.widget.TabLayout;obj\Debug\90\res\layout\content_quiz.xml
 android.support.v4.view.ViewPager;obj\Debug\90\res\layout\content_quiz.xml
 android.support.v4.widget.DrawerLayout;obj\Debug\90\res\layout\activity_quiz.xml
 android.support.v7.widget.CardView;obj\Debug\90\res\layout\fragment_select_term.xml
-android.support.v7.widget.CardView;obj\Debug\90\res\layout\layout_exem_item.xml
+android.support.v7.widget.CardView;obj\Debug\90\res\layout\layout_exam_item.xml
 android.support.v7.widget.CardView;obj\Debug\90\res\layout\layout_subject_item.xml
 android.support.v7.widget.CardView;obj\Debug\90\res\layout\listitemview.xml
 android.support.v7.widget.RecyclerView;obj\Debug\90\res\layout\activity_result.xml
@@ -24,6 +24,7 @@ android.support.v7.widget.Toolbar;obj\Debug\90\res\layout\app_bar_question.xml
 android.support.v7.widget.Toolbar;obj\Debug\90\res\layout\fragment_select_subject.xml
 background;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher.xml
 background;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher_round.xml
+bitmap;obj\Debug\90\res\drawable\slashbackground.xml
 Button;obj\Debug\90\res\layout\activity_login.xml
 Button;obj\Debug\90\res\layout\app_bar_question.xml
 Button;obj\Debug\90\res\layout\header_answer_sheet.xml
@@ -53,13 +54,15 @@ ImageView;obj\Debug\90\res\layout\activity_login.xml
 ImageView;obj\Debug\90\res\layout\fragment_question_item.xml
 ImageView;obj\Debug\90\res\layout\fragment_scheduler.xml
 ImageView;obj\Debug\90\res\layout\fragment_select_term.xml
-ImageView;obj\Debug\90\res\layout\layout_exem_item.xml
+ImageView;obj\Debug\90\res\layout\layout_exam_item.xml
 ImageView;obj\Debug\90\res\layout\listitemview.xml
 include;obj\Debug\90\res\layout\activity_quiz.xml
 include;obj\Debug\90\res\layout\app_bar_question.xml
+item;obj\Debug\90\res\drawable\slashbackground.xml
 item;obj\Debug\90\res\menu\navigation.xml
 item;obj\Debug\90\res\menu\result_item.xml
 item;obj\Debug\90\res\values\styles.xml
+layer-list;obj\Debug\90\res\drawable\slashbackground.xml
 LinearLayout;obj\Debug\90\res\layout\activity_login.xml
 LinearLayout;obj\Debug\90\res\layout\activity_main.xml
 LinearLayout;obj\Debug\90\res\layout\activity_result.xml
@@ -88,7 +91,7 @@ RelativeLayout;obj\Debug\90\res\layout\content_quiz.xml
 RelativeLayout;obj\Debug\90\res\layout\fragment_question_item.xml
 RelativeLayout;obj\Debug\90\res\layout\fragment_scheduler.xml
 RelativeLayout;obj\Debug\90\res\layout\header_answer_sheet.xml
-RelativeLayout;obj\Debug\90\res\layout\layout_exem_item.xml
+RelativeLayout;obj\Debug\90\res\layout\layout_exam_item.xml
 RelativeLayout;obj\Debug\90\res\layout\layout_grid_ans_sheet_item.xml
 RelativeLayout;obj\Debug\90\res\layout\layout_subject_item.xml
 RelativeLayout;obj\Debug\90\res\layout\listitemview.xml
@@ -125,7 +128,7 @@ TextView;obj\Debug\90\res\layout\content_quiz.xml
 TextView;obj\Debug\90\res\layout\fragment_exam_scheduler.xml
 TextView;obj\Debug\90\res\layout\fragment_question_item.xml
 TextView;obj\Debug\90\res\layout\fragment_select_term.xml
-TextView;obj\Debug\90\res\layout\layout_exem_item.xml
+TextView;obj\Debug\90\res\layout\layout_exam_item.xml
 TextView;obj\Debug\90\res\layout\layout_question_val.xml
 TextView;obj\Debug\90\res\layout\layout_subject_item.xml
 TextView;obj\Debug\90\res\layout\listheaderview.xml

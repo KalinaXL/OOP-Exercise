@@ -9,6 +9,7 @@ using Android.Support.V7.Widget;
 using Android.Util;
 using Android.Views;
 using OOP_Exercise.Login_And_Scrape_Data;
+using OOP_Exercise.Utility_Classes;
 
 namespace OOP_Exercise.Fragments
 {
@@ -37,7 +38,16 @@ namespace OOP_Exercise.Fragments
             recyclerView.HasFixedSize = true;
             recyclerView.SetLayoutManager(new GridLayoutManager(this.Activity, 2));
 
-            List<string> subjectList = (from item in LoginManager.Scheduler[0].tkb select item.ten_mh).ToList();
+            //List<string> subjectList = (from item in LoginManager.Scheduler[0].tkb where (item.ten_mh[0] != 'P') select item.ten_mh).ToList();
+            List<string> subjectList;
+            if (LoginManager.IsLoadData)
+            {
+                subjectList = (from item in SaveInfo.subjectList where (item.Name[0] != 'P') select item.Name).ToList();
+            }
+            else
+            {
+                subjectList = (from item in LoginManager.Scheduler[0].tkb where (item.ten_mh[0] != 'P') select item.ten_mh).ToList();
+            }
 
             SubjectAdapter adapter = new SubjectAdapter(this.Activity, subjectList);
             recyclerView.AddItemDecoration(new SpaceDecoration(20));

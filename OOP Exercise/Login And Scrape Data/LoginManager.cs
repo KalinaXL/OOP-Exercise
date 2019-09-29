@@ -16,6 +16,7 @@ namespace OOP_Exercise.Login_And_Scrape_Data
         public static string ContentTypeToLogin = "application/x-www-form-urlencoded";
         public static string ContentTypeToGetData = "application/x-www-form-urlencoded; charset=UTF-8";
 
+        public static bool IsLoadData { get; set; }
         public static List<ThongtinSV> Scheduler { get; set; }
         public static ExamSchedule Exam { get; set; }
         public static int CurrentWeekOfYear { get; set; }
@@ -28,9 +29,7 @@ namespace OOP_Exercise.Login_And_Scrape_Data
             CalendarWeekRule myCWR = myCI.DateTimeFormat.CalendarWeekRule;
             CurrentWeekOfYear = myCal.GetWeekOfYear(DateTime.Now, myCWR, DayOfWeek.Monday);
             Year = DateTime.Now.Year;
-           
         }
-        
 
     }
 }

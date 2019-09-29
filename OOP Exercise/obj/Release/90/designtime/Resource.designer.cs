@@ -3265,31 +3265,28 @@ namespace OOP_Exercise
 			public const int number_right_answer_style = 2131165312;
 			
 			// aapt resource value: 0x7F070081
-			public const int outline_description_black_18dp = 2131165313;
+			public const int outline_room_black_18dp = 2131165313;
 			
 			// aapt resource value: 0x7F070082
-			public const int outline_room_black_18dp = 2131165314;
+			public const int progressbar_style = 2131165314;
 			
 			// aapt resource value: 0x7F070083
-			public const int progressbar_style = 2131165315;
+			public const int ques_has_ans = 2131165315;
 			
 			// aapt resource value: 0x7F070084
-			public const int ques_has_ans = 2131165316;
+			public const int ques_no_ans = 2131165316;
 			
 			// aapt resource value: 0x7F070085
-			public const int ques_no_ans = 2131165317;
+			public const int right_question_style = 2131165317;
 			
 			// aapt resource value: 0x7F070086
-			public const int right_question_style = 2131165318;
+			public const int tooltip_frame_dark = 2131165318;
 			
 			// aapt resource value: 0x7F070087
-			public const int tooltip_frame_dark = 2131165319;
+			public const int tooltip_frame_light = 2131165319;
 			
 			// aapt resource value: 0x7F070088
-			public const int tooltip_frame_light = 2131165320;
-			
-			// aapt resource value: 0x7F070089
-			public const int wrong_question_style = 2131165321;
+			public const int wrong_question_style = 2131165320;
 			
 			static Drawable()
 			{
@@ -4346,7 +4343,7 @@ namespace OOP_Exercise
 			public const int header_answer_sheet = 2131427385;
 			
 			// aapt resource value: 0x7F0B003A
-			public const int layout_exem_item = 2131427386;
+			public const int layout_exam_item = 2131427386;
 			
 			// aapt resource value: 0x7F0B003B
 			public const int layout_grid_ans_sheet_item = 2131427387;

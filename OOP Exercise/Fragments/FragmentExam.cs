@@ -39,14 +39,10 @@ namespace OOP_Exercise.Fragments
             rcViewMidTerm.SetLayoutManager(new GridLayoutManager(this.Activity, 1));
             rcViewFinalTerm.SetLayoutManager(new GridLayoutManager(this.Activity, 1));
 
-            List<ExamScheduler> examMidList = (from item in LoginManager.Exam._20191.lichthi select new ExamScheduler() { Hour = item.gio_kt, Date = item.ngaykt,SubjectName = item.ten_mh,Room = item.phong_ktra}).ToList();
+ 
 
-            List<ExamScheduler> examFinalList = (from item in LoginManager.Exam._20191.lichthi select new ExamScheduler() {Hour = item.gio_thi, Date = item.ngaythi,SubjectName = item.ten_mh,Room = item.phong_thi }).ToList();
-
-
-
-            rcViewMidTerm.SetAdapter(new ExamSchedulerAdapter(this.Activity, examMidList));
-            rcViewFinalTerm.SetAdapter(new ExamSchedulerAdapter(this.Activity, examFinalList));
+            rcViewMidTerm.SetAdapter(new ExamSchedulerAdapter(this.Activity, SaveInfo.examMidList));
+            rcViewFinalTerm.SetAdapter(new ExamSchedulerAdapter(this.Activity, SaveInfo.examFinalList));
 
 
             rcViewMidTerm.AddItemDecoration(new SpaceDecoration(10));

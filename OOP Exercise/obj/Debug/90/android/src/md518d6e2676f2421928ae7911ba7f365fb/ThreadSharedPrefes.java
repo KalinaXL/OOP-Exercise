@@ -79,11 +79,11 @@ public class ThreadSharedPrefes
 			mono.android.TypeManager.Activate ("OOP_Exercise.ThreadSharedPrefes, OOP Exercise", "Java.Lang.ThreadGroup, Mono.Android:System.String, mscorlib", this, new java.lang.Object[] { p0, p1 });
 	}
 
-	public ThreadSharedPrefes (android.content.Context p0, java.lang.String p1, java.lang.String p2)
+	public ThreadSharedPrefes (boolean p0, android.content.Context p1, java.lang.String p2, java.lang.String p3)
 	{
 		super ();
 		if (getClass () == ThreadSharedPrefes.class)
-			mono.android.TypeManager.Activate ("OOP_Exercise.ThreadSharedPrefes, OOP Exercise", "Android.Content.Context, Mono.Android:System.String, mscorlib:System.String, mscorlib", this, new java.lang.Object[] { p0, p1, p2 });
+			mono.android.TypeManager.Activate ("OOP_Exercise.ThreadSharedPrefes, OOP Exercise", "System.Boolean, mscorlib:Android.Content.Context, Mono.Android:System.String, mscorlib:System.String, mscorlib", this, new java.lang.Object[] { p0, p1, p2, p3 });
 	}
 
 

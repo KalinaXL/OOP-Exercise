@@ -19,18 +19,25 @@ namespace OOP_Exercise
         string username;
         string password;
         Context context;
-        public ThreadSharedPrefes(Context context,string username, string password )
+        bool isSaveState;
+        public ThreadSharedPrefes(bool isSaveState, Context context, string username = null, string password = null)
         {
+            this.isSaveState = isSaveState;
             this.context = context;
             this.username = username;
             this.password = password;
         }
+        
         void SaveInfo()
         {
             ISharedPreferences sharePrefs = PreferenceManager.GetDefaultSharedPreferences(context);
             ISharedPreferencesEditor editor = sharePrefs.Edit();
-            editor.PutString("username", username);
-            editor.PutString("password", password);
+            if (username != null)
+            {
+                editor.PutString("username", username);
+                editor.PutString("password", password);
+            }
+            editor.PutBoolean("IsSaveInfo", isSaveState);
             editor.Apply();
         }
         public override void Run()
