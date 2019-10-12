@@ -4,7 +4,6 @@ viết bằng C# - Xamarin
 • Đây là bài tập lớn của môn Lập trình hướng đối tượng, được thực hiện bởi nhóm Blue Stream
 •	Ứng dụng chạy trên nền tảng Android tối thiểu từ 5.0 trở lên, tối nhất tốt với tỉ lệ màn hình 16:9
 •	Chỉ có sinh viên trường Đại học Bách Khoa TP.HCM mới có thể sử dụng sản phầm này.
-•	Vì hạn chế về nhiều mặt: thời gian, kiến thức, kinh nghiệm,… nên sản phẩm làm khá chậm, cũng như có nhiều vấn đề phát sinh.
 2.	Các chức năng dự kiến:
 •	Đăng nhập: sinh viên sẽ dùng tài khoản MyBK của mỗi cá nhân để đăng nhập vào ứng dụng. Đây là bước quan trọng và bắt buộc nếu muốn sử dụng các chức năng khác.
 •	Xem thời khóa biểu: giao diện đầu tiên sẽ thời khóa biểu của tuần học tương ứng
