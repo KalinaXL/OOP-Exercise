@@ -6,7 +6,6 @@ android.support.design.widget.AppBarLayout;obj\Debug\90\res\layout\app_bar_quest
 android.support.design.widget.AppBarLayout;obj\Debug\90\res\layout\fragment_select_subject.xml
 android.support.design.widget.BottomNavigationView;obj\Debug\90\res\layout\activity_main.xml
 android.support.design.widget.CoordinatorLayout;obj\Debug\90\res\layout\app_bar_question.xml
-android.support.design.widget.NavigationView;obj\Debug\90\res\layout\activity_quiz.xml
 android.support.design.widget.TabLayout;obj\Debug\90\res\layout\content_quiz.xml
 android.support.v4.view.ViewPager;obj\Debug\90\res\layout\content_quiz.xml
 android.support.v4.widget.DrawerLayout;obj\Debug\90\res\layout\activity_quiz.xml
@@ -89,6 +88,7 @@ RadioButton;obj\Debug\90\res\layout\fragment_question_item.xml
 RadioGroup;obj\Debug\90\res\layout\fragment_question_item.xml
 RelativeLayout;obj\Debug\90\res\layout\activity_login.xml
 RelativeLayout;obj\Debug\90\res\layout\activity_result.xml
+RelativeLayout;obj\Debug\90\res\layout\app_bar_question.xml
 RelativeLayout;obj\Debug\90\res\layout\content_quiz.xml
 RelativeLayout;obj\Debug\90\res\layout\fragment_question_item.xml
 RelativeLayout;obj\Debug\90\res\layout\fragment_scheduler.xml

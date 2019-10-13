@@ -17,25 +17,32 @@
             android:background="?attr/colorPrimary"
             android:layout_gravity="left"
             app:popupTheme="@style/AppTheme.PopupOverlay">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+               android:paddingTop="10dp"
+                >
             <TextView
                 android:id="@+id/txtSubjectTest"
-                android:layout_width="250dp"
                 android:layout_height="wrap_content"
-                android:textSize = "17dp"
-                android:text="Hoa dai cuong"
+                android:layout_width="match_parent"
+                android:textSize = "20dp"
+                android:paddingTop="7dp"
+                android:text= "Hoa dai cuong"
+                android:textColor="#fff"
             />
             <Button
                 android:text="Nộp bài"
                 android:id="@+id/btnSubmit"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
             />
+            </RelativeLayout>
         </android.support.v7.widget.Toolbar>
 
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_quiz" />
-
-   
+    <include layout="@layout/content_quiz" />   
 
 </android.support.design.widget.CoordinatorLayout>

@@ -89,6 +89,7 @@ RadioButton;obj\Release\90\res\layout\fragment_question_item.xml
 RadioGroup;obj\Release\90\res\layout\fragment_question_item.xml
 RelativeLayout;obj\Release\90\res\layout\activity_login.xml
 RelativeLayout;obj\Release\90\res\layout\activity_result.xml
+RelativeLayout;obj\Release\90\res\layout\app_bar_question.xml
 RelativeLayout;obj\Release\90\res\layout\content_quiz.xml
 RelativeLayout;obj\Release\90\res\layout\fragment_question_item.xml
 RelativeLayout;obj\Release\90\res\layout\fragment_scheduler.xml

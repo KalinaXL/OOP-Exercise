@@ -85,8 +85,7 @@ namespace OOP_Exercise.Fragments
                     ++DataManager.NumOfQuesAnswered;
                     isAnswer = true;
                 }
-                if (RadioChanged != null)
-                    RadioChanged(null, null);
+                RadioChanged?.Invoke(null, null);
 
 
             }
@@ -102,8 +101,7 @@ namespace OOP_Exercise.Fragments
                 ++DataManager.NumOfQuesAnswered;
                 isAnswer = true;
             }
-            if (RadioChanged != null)
-                RadioChanged(null, null);
+            RadioChanged?.Invoke(null, null);
 
         }
 
@@ -117,8 +115,7 @@ namespace OOP_Exercise.Fragments
                 ++DataManager.NumOfQuesAnswered;
                 isAnswer = true;
             }
-            if (RadioChanged != null)
-                RadioChanged(null, null);
+            RadioChanged?.Invoke(null, null);
 
         }
 
@@ -132,8 +129,7 @@ namespace OOP_Exercise.Fragments
                 ++DataManager.NumOfQuesAnswered;
                 isAnswer = true;
             }
-            if (RadioChanged != null)
-                RadioChanged(null, null);
+            RadioChanged?.Invoke(null, null);
 
         }
 
@@ -147,8 +143,7 @@ namespace OOP_Exercise.Fragments
                 ++DataManager.NumOfQuesAnswered;
                 isAnswer = true;
             }
-            if (RadioChanged != null)
-                RadioChanged(null, null);
+            RadioChanged?.Invoke(null, null);
 
         }
 
