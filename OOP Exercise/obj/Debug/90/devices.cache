@@ -1,9 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Devices>
-  <Device id="192.168.110.101:5555">
-    <ResultingAbi>x86</ResultingAbi>
-    <SdkVersion>21</SdkVersion>
-  </Device>
   <Device id="G0W0MX0572340SJE">
     <ResultingAbi>armeabi-v7a</ResultingAbi>
     <SdkVersion>22</SdkVersion>

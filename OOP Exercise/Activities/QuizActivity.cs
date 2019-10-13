@@ -22,7 +22,7 @@ using System.Timers;
 namespace OOP_Exercise
 {
     [Activity(Label = "QuizActivity", Theme = "@style/AppTheme.NoActionBar")]
-    public class QuizActivity : AppCompatActivity, NavigationView.IOnNavigationItemSelectedListener
+    public class QuizActivity : AppCompatActivity//, NavigationView.IOnNavigationItemSelectedListener
     {
         int TOTAL_TIME = 0;
         RecyclerView answerSheetView;
@@ -55,16 +55,16 @@ namespace OOP_Exercise
             subjectName = Intent.GetStringExtra("SubjectName");
             TextView txtSubjecTest = FindViewById<TextView>(Resource.Id.txtSubjectTest);
             txtSubjecTest.Text = subjectName;
-            SetSupportActionBar(toolbar);
+            //SetSupportActionBar(toolbar);
 
 
-            DrawerLayout drawer = FindViewById<DrawerLayout>(Resource.Id.drawer_layout);
-            ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawer, toolbar, Resource.String.navigation_drawer_open, Resource.String.navigation_drawer_close);
-            drawer.AddDrawerListener(toggle);
-            toggle.SyncState();
+            //DrawerLayout drawer = FindViewById<DrawerLayout>(Resource.Id.drawer_layout);
+            //ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawer, toolbar, Resource.String.navigation_drawer_open, Resource.String.navigation_drawer_close);
+            //drawer.AddDrawerListener(toggle);
+            //toggle.SyncState();
 
-            NavigationView navigationView = FindViewById<NavigationView>(Resource.Id.nav_view);
-            navigationView.SetNavigationItemSelectedListener(this);
+            //NavigationView navigationView = FindViewById<NavigationView>(Resource.Id.nav_view);
+            //navigationView.SetNavigationItemSelectedListener(this);
 
 
 
@@ -270,39 +270,39 @@ namespace OOP_Exercise
                 .SetAction("Action", (Android.Views.View.IOnClickListener)null).Show();
         }
 
-        public bool OnNavigationItemSelected(IMenuItem item)
-        {
-            int id = item.ItemId;
+        //public bool OnNavigationItemSelected(IMenuItem item)
+        //{
+        //    int id = item.ItemId;
 
-            //if (id == Resource.Id.nav_camera)
-            //{
-            //    // Handle the camera action
-            //}
-            //else if (id == Resource.Id.nav_gallery)
-            //{
+        //    //if (id == Resource.Id.nav_camera)
+        //    //{
+        //    //    // Handle the camera action
+        //    //}
+        //    //else if (id == Resource.Id.nav_gallery)
+        //    //{
 
-            //}
-            //else if (id == Resource.Id.nav_slideshow)
-            //{
+        //    //}
+        //    //else if (id == Resource.Id.nav_slideshow)
+        //    //{
 
-            //}
-            //else if (id == Resource.Id.nav_manage)
-            //{
+        //    //}
+        //    //else if (id == Resource.Id.nav_manage)
+        //    //{
 
-            //}
-            //else if (id == Resource.Id.nav_share)
-            //{
+        //    //}
+        //    //else if (id == Resource.Id.nav_share)
+        //    //{
 
-            //}
-            //else if (id == Resource.Id.nav_send)
-            //{
+        //    //}
+        //    //else if (id == Resource.Id.nav_send)
+        //    //{
 
-            //}
+        //    //}
 
-            DrawerLayout drawer = FindViewById<DrawerLayout>(Resource.Id.drawer_layout);
-            drawer.CloseDrawer(GravityCompat.Start);
-            return true;
-        }
+        //    DrawerLayout drawer = FindViewById<DrawerLayout>(Resource.Id.drawer_layout);
+        //    drawer.CloseDrawer(GravityCompat.Start);
+        //    return true;
+        //}
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
             Xamarin.Essentials.Platform.OnRequestPermissionsResult(requestCode, permissions, grantResults);

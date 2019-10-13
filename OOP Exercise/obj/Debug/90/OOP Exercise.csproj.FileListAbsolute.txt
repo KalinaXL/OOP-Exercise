@@ -344,7 +344,6 @@ C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\bin\Debug\App.
 C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\bin\Debug\App.App-Signed.apk
 C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\bin\App.App.apk
 C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\app\app\R.java
-C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\OOP Exercise.csprojAssemblyReference.cache
 C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\bin\Debug\OOP_Exercise.dll
 C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\bin\Debug\OOP_Exercise.pdb
 C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\OOP_Exercise.dll
