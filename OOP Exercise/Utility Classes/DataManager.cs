@@ -14,7 +14,7 @@ namespace OOP_Exercise.Utility_Classes
         private static List<CurrentQuestion> currQuesList = new List<CurrentQuestion>();
         internal static List<CurrentQuestion> CurrQuesList { get => currQuesList; set => currQuesList = value; }
 
-       
+
         public static List<Question> QuestionsList = new List<Question>();
         public static byte[] AnswersChoosed;
         public static int NumOfQuesAnswered;

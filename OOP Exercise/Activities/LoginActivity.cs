@@ -1,16 +1,13 @@
 ﻿using Android.App;
 using Android.Content;
-using Android.Net;
 using Android.OS;
 using Android.Preferences;
 using Android.Views;
 using Android.Widget;
 using OOP_Exercise.Login_And_Scrape_Data;
 using OOP_Exercise.Utility_Classes;
-using SQLite;
 using System;
 using System.Threading;
-using System.Threading.Tasks;
 using Xamarin.Essentials;
 
 namespace OOP_Exercise
@@ -24,16 +21,16 @@ namespace OOP_Exercise
         EditText txtPassword;
         CheckBox checkBoxRememberMe;
 
-       
+
         protected override void OnCreate(Bundle savedInstanceState)
         {
-            
+
             base.OnCreate(savedInstanceState);
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             SetContentView(Resource.Layout.activity_login);
             FindWidgetFromId();
             GetAccountPrefers();
-            btnLogin.Click += BtnLogin_Click;           
+            btnLogin.Click += BtnLogin_Click;
             // Create your application here
         }
 
@@ -44,7 +41,7 @@ namespace OOP_Exercise
                 new ThreadSharedPrefes(true, this).Run();
                 return;
             }
-            new ThreadSharedPrefes(true,this, txtUsername.Text, txtPassword.Text).Run();
+            new ThreadSharedPrefes(true, this, txtUsername.Text, txtPassword.Text).Run();
 
         }
         void GetAccountPrefers()
@@ -59,40 +56,15 @@ namespace OOP_Exercise
             //}
             //if (prefs.Contains("username") && prefs.Contains("password"))
             //{
-                string username = prefs.GetString("username", "Tên đăng nhập");
-                string password = prefs.GetString("password", "Mật khẩu");
-                RunOnUiThread(() => 
-                {
-                    txtUsername.Text = username;
-                    txtPassword.Text = password;
-                });
-              
+            string username = prefs.GetString("username", "");
+            string password = prefs.GetString("password", "");
+            RunOnUiThread(() =>
+            {
+                txtUsername.Text = username;
+                txtPassword.Text = password;
+            });
+
             //}
-        }
-
-        private async void LoadBackData()
-        {
-            try
-            {
-                bool isSuccess = await DatabaseUtility.GetInfoDatabase();
-                if (!isSuccess)
-                    return;
-            }
-            catch
-            {
-                return;
-            }
-            Handler handler = new Handler();
-          
-            Action action = new Action(() =>
-            {
-                Intent intent = new Intent(this, typeof(MainActivity));
-                this.StartActivity(intent);
-            }
-            );
-            handler.Post(action);
-            Finish();
-
         }
 
         void FindWidgetFromId()
@@ -104,8 +76,8 @@ namespace OOP_Exercise
             txtPassword = FindViewById<EditText>(Resource.Id.txtPassword);
         }
 
-        private async void  BtnLogin_Click(object sender, EventArgs e)
-        { 
+        private async void BtnLogin_Click(object sender, EventArgs e)
+        {
             if (txtUsername.Text.Length == 0)
             {
                 AlertDialog.Builder dialog = new AlertDialog.Builder(this);
@@ -126,7 +98,7 @@ namespace OOP_Exercise
                 alert.Show();
                 return;
             }
-           
+
 
             if (Connectivity.NetworkAccess == NetworkAccess.None)
             {
@@ -137,14 +109,14 @@ namespace OOP_Exercise
             {
                 LoginManager.GetWeekAndYear();
             }).Start();
-            RunOnUiThread(new Action(()=>
+            RunOnUiThread(new Action(() =>
              {
-                progressBar.Visibility = ViewStates.Visible;
-                btnLogin.Visibility = ViewStates.Gone;
-                txtUsername.Enabled = txtPassword.Enabled = false;
+                 progressBar.Visibility = ViewStates.Visible;
+                 btnLogin.Visibility = ViewStates.Gone;
+                 txtUsername.Enabled = txtPassword.Enabled = false;
              }));
-            bool isLoginSuccess =  await LoginUtility.CrawlData(txtUsername.Text, txtPassword.Text);
-            
+            bool isLoginSuccess = await LoginUtility.CrawlData(txtUsername.Text, txtPassword.Text).ConfigureAwait(true);
+
             if (isLoginSuccess)
             {
                 SaveAccountPrefers();
@@ -157,18 +129,17 @@ namespace OOP_Exercise
                     this.StartActivity(intent);
                 });
                 handler.Post(action);
-                handler.PostAtFrontOfQueue(new Action(()=>{ DatabaseUtility.SaveInfoDatabase(); }));
-                
+                handler.Post(new Action(() => { DatabaseUtility.SaveInfoDatabase(); }));
+
 
                 new Thread(() =>
                 {
                     DatabaseUtility.CloneExistingDatabase();
-                   
+
                 }).Start();
-                //this.OverridePendingTransition();
-                
+
                 this.Finish();
-               
+
             }
             else
             {
@@ -182,10 +153,10 @@ namespace OOP_Exercise
                 alert.SetButton("OK", (c, events) => { });
                 alert.Show();
             }
-            
-            
+
+
         }
 
-      
+
     }
 }

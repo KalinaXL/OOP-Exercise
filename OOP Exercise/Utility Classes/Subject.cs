@@ -12,7 +12,7 @@ namespace DataOfUser
         public string TimeEnd { get; set; }
         public string Date { get; set; }
         public string Week { get; set; }
-        public Subject(string name, string room, string timestart, string timeend,string date,string week)
+        public Subject(string name, string room, string timestart, string timeend, string date, string week)
         {
             this.Name = name;
             this.Room = room;
@@ -22,6 +22,6 @@ namespace DataOfUser
             this.Week = week;
         }
         public Subject() { }
-        
+
     }
 }

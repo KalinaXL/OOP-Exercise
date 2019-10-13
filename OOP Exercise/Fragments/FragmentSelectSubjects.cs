@@ -1,15 +1,11 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Android.OS;
-using Android.Runtime;
+﻿using Android.OS;
 using Android.Support.V4.App;
 using Android.Support.V7.Widget;
-
-using Android.Util;
 using Android.Views;
 using OOP_Exercise.Login_And_Scrape_Data;
 using OOP_Exercise.Utility_Classes;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace OOP_Exercise.Fragments
 {

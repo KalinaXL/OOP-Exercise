@@ -27,6 +27,7 @@ background;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher_round.xml
 bitmap;obj\Debug\90\res\drawable\slashbackground.xml
 Button;obj\Debug\90\res\layout\activity_login.xml
 Button;obj\Debug\90\res\layout\app_bar_question.xml
+Button;obj\Debug\90\res\layout\fragment_info.xml
 Button;obj\Debug\90\res\layout\header_answer_sheet.xml
 cache-path;C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\lp\40\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 CheckBox;obj\Debug\90\res\layout\activity_login.xml
@@ -69,6 +70,7 @@ LinearLayout;obj\Debug\90\res\layout\activity_result.xml
 LinearLayout;obj\Debug\90\res\layout\content_quiz.xml
 LinearLayout;obj\Debug\90\res\layout\fragment_exam_scheduler.xml
 LinearLayout;obj\Debug\90\res\layout\fragment_first_quiz.xml
+LinearLayout;obj\Debug\90\res\layout\fragment_info.xml
 LinearLayout;obj\Debug\90\res\layout\fragment_question_item.xml
 LinearLayout;obj\Debug\90\res\layout\fragment_quiz.xml
 LinearLayout;obj\Debug\90\res\layout\fragment_scheduler.xml

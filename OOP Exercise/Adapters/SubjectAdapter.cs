@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-
-
-using Android.Content;
+﻿using Android.Content;
 using Android.OS;
 using Android.Support.V7.Widget;
 using Android.Views;
-
 using Android.Widget;
-using Java.Lang;
+using System;
+using System.Collections.Generic;
 
 namespace OOP_Exercise.Fragments
 {
@@ -75,10 +71,10 @@ namespace OOP_Exercise.Fragments
             {
                 //subjectName.Visibility = ViewStates.Invisible;
                 ClickSelectSubject(subjectName, e);
-                
+
             }
         }
-        
+
 
 
     }

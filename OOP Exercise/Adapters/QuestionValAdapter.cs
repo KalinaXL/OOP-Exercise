@@ -1,13 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-using Android.App;
-using Android.Content;
-using Android.OS;
-using Android.Runtime;
-using Android.Support.V4.Content;
+﻿using Android.Content;
 using Android.Support.V7.Widget;
 using Android.Views;
 using Android.Widget;
@@ -34,7 +25,7 @@ namespace OOP_Exercise.Adapters
             MyViewVal myView = holder as MyViewVal;
             myView.txtQues.Text = $"Câu hỏi {position + 1}";
 
-            switch(stateOfQues[position])
+            switch (stateOfQues[position])
             {
                 case StateOfQuestion.RIGHT:
                     myView.txtQues.SetBackgroundResource(Resource.Drawable.right_question_style);
@@ -50,25 +41,25 @@ namespace OOP_Exercise.Adapters
 
         public override RecyclerView.ViewHolder OnCreateViewHolder(ViewGroup parent, int viewType)
         {
-            View view = LayoutInflater.From(context).Inflate(Resource.Layout.layout_question_val,parent,false);
+            View view = LayoutInflater.From(context).Inflate(Resource.Layout.layout_question_val, parent, false);
             MyViewVal myView = new MyViewVal(view);
-           
+
             return myView;
         }
 
-       
+
 
         public class MyViewVal : RecyclerView.ViewHolder
         {
             public TextView txtQues;
-           
+
             public MyViewVal(View itemView) : base(itemView)
             {
                 txtQues = itemView.FindViewById<TextView>(Resource.Id.txtQuesValId);
             }
-            
+
         }
     }
-   
+
 
 }

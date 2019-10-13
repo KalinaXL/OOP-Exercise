@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using Android.Content;
-using Android.OS;
-using Android.Runtime;
+﻿using Android.Content;
 using Android.Support.V4.App;
-using FragmentManager = Android.Support.V4.App.FragmentManager;
-using OOP_Exercise.Fragments;
 using Java.Lang;
+using OOP_Exercise.Fragments;
+using System.Collections.Generic;
+using FragmentManager = Android.Support.V4.App.FragmentManager;
 
 namespace OOP_Exercise.Adapters
 {
@@ -14,7 +11,7 @@ namespace OOP_Exercise.Adapters
     {
         Context context;
         List<FragmentQuiz> fragmentList;
-        public QuizFragmentAdapter(FragmentManager fm,Context context, List<FragmentQuiz> fragmentList) : base(fm)
+        public QuizFragmentAdapter(FragmentManager fm, Context context, List<FragmentQuiz> fragmentList) : base(fm)
         {
             this.context = context;
             this.fragmentList = fragmentList;
@@ -31,8 +28,8 @@ namespace OOP_Exercise.Adapters
         }
         public override ICharSequence GetPageTitleFormatted(int position)
         {
-            
-            return new Java.Lang.StringBuilder($"Câu hỏi {position+1}");
+
+            return new Java.Lang.StringBuilder($"Câu hỏi {position + 1}");
         }
     }
 

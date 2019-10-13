@@ -1,11 +1,8 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-
-
-using Android.Content;
+﻿using Android.Content;
 using Android.Views;
 using Android.Widget;
 using DataOfUser;
+using System.Collections.Generic;
 
 namespace OOP_Exercise.Resources.Fragments
 {
@@ -19,16 +16,16 @@ namespace OOP_Exercise.Resources.Fragments
         TextView endTime;
         TextView subjectName;
         TextView roomName;
-      
 
-        public CustomExpandableListAdapter(Context context, List<string> titleName,Dictionary<string,List<Subject>> items)
+
+        public CustomExpandableListAdapter(Context context, List<string> titleName, Dictionary<string, List<Subject>> items)
         {
             this.context = context;
             this.titleName = titleName;
             this.Items = items;
-           
+
         }
-        
+
         public override int GroupCount { get => titleName.Count; }
 
         public override bool HasStableIds { get => false; }
@@ -53,16 +50,16 @@ namespace OOP_Exercise.Resources.Fragments
             var subjects = Items[titleName[groupPosition]][childPosition];
 
             //Expand the view today
-             
+
             View view = convertView;
             if (view == null)
             {
                 view = LayoutInflater.From(context).Inflate(Resource.Layout.listItemView, null, false);
             }
-           
-           
 
-           
+
+
+
             startTime = view.FindViewById<TextView>(Resource.Id.startTime);
             startTime.Text = subjects.TimeStart;
 
@@ -97,7 +94,7 @@ namespace OOP_Exercise.Resources.Fragments
             {
                 view = LayoutInflater.From(context).Inflate(Resource.Layout.listHeaderView, null, false);
             }
-           
+
 
             titleHeaderName = view.FindViewById<TextView>(Resource.Id.titleHeaderName);
             titleHeaderName.Text = "Thứ " + titleName[groupPosition];

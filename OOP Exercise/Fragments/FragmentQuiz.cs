@@ -1,21 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
+﻿using Android.OS;
 using Android.Support.V4.App;
-using Android.Content;
-using Android.OS;
-using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using OOP_Exercise.Utility_Classes;
+using System;
 
 
 namespace OOP_Exercise.Fragments
 {
-   
-    class FragmentQuiz:Fragment
+
+    class FragmentQuiz : Fragment
     {
         TextView txtQuestionContent;
         RadioButton choiceA, choiceB, choiceC, choiceD, choiceE;
@@ -23,12 +17,12 @@ namespace OOP_Exercise.Fragments
         int indexOfQuestion;
         bool isAnswer;
         public event EventHandler RadioChanged;
-      
+
 
         public override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            isAnswer = false;   
+            isAnswer = false;
 
             // Create your fragment here
         }
@@ -38,7 +32,7 @@ namespace OOP_Exercise.Fragments
             // Use this to return your custom view for this Fragment
             // return inflater.Inflate(Resource.Layout.YourFragment, container, false);
             View view = inflater.Inflate(Resource.Layout.fragment_question_item, container, false);
-         
+
             indexOfQuestion = Arguments.GetInt("index", -1);
             question = DataManager.QuestionsList[indexOfQuestion];
             DataManager.AnswersChoosed[indexOfQuestion] = 0;
@@ -46,11 +40,11 @@ namespace OOP_Exercise.Fragments
             LoadContent();
             if (DataManager.IsReadResult)
                 Validate();
-            
+
             return view;
         }
 
-   
+
 
         void FindIdOfWidget(View view)
         {
@@ -77,7 +71,7 @@ namespace OOP_Exercise.Fragments
             choiceB.Text = question.AnswerB;
             choiceC.Text = question.AnswerC;
             choiceD.Text = question.AnswerD;
-          
+
         }
 
         private void ChoiceE_CheckedChange(object sender, CompoundButton.CheckedChangeEventArgs e)
@@ -94,7 +88,7 @@ namespace OOP_Exercise.Fragments
                 if (RadioChanged != null)
                     RadioChanged(null, null);
 
-                
+
             }
         }
 
@@ -110,7 +104,7 @@ namespace OOP_Exercise.Fragments
             }
             if (RadioChanged != null)
                 RadioChanged(null, null);
-           
+
         }
 
         private void ChoiceC_CheckedChange(object sender, CompoundButton.CheckedChangeEventArgs e)
@@ -125,7 +119,7 @@ namespace OOP_Exercise.Fragments
             }
             if (RadioChanged != null)
                 RadioChanged(null, null);
-           
+
         }
 
         private void ChoiceB_CheckedChange(object sender, CompoundButton.CheckedChangeEventArgs e)
@@ -140,7 +134,7 @@ namespace OOP_Exercise.Fragments
             }
             if (RadioChanged != null)
                 RadioChanged(null, null);
-           
+
         }
 
         private void ChoiceA_CheckedChange(object sender, CompoundButton.CheckedChangeEventArgs e)
@@ -155,7 +149,7 @@ namespace OOP_Exercise.Fragments
             }
             if (RadioChanged != null)
                 RadioChanged(null, null);
-            
+
         }
 
         public byte GetAnswerChoosed()

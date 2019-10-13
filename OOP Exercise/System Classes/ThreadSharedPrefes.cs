@@ -1,20 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-using Android.App;
-using Android.Content;
-using Android.OS;
+﻿using Android.Content;
 using Android.Preferences;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
 using Java.Lang;
 
 namespace OOP_Exercise
 {
-    class ThreadSharedPrefes:Thread
+    class ThreadSharedPrefes : Thread
     {
         string username;
         string password;
@@ -27,7 +17,7 @@ namespace OOP_Exercise
             this.username = username;
             this.password = password;
         }
-        
+
         void SaveInfo()
         {
             ISharedPreferences sharePrefs = PreferenceManager.GetDefaultSharedPreferences(context);

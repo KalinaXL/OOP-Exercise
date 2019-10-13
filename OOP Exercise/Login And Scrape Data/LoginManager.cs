@@ -21,14 +21,14 @@ namespace OOP_Exercise.Login_And_Scrape_Data
         public static ExamSchedule Exam { get; set; }
         public static int CurrentWeekOfYear { get; set; }
         public static int Year { get; set; }
-       
+
         public static void GetWeekAndYear()
         {
             CultureInfo myCI = new CultureInfo("vi-VN");
             Calendar myCal = myCI.Calendar;
             CalendarWeekRule myCWR = myCI.DateTimeFormat.CalendarWeekRule;
             CurrentWeekOfYear = myCal.GetWeekOfYear(DateTime.Now, myCWR, DayOfWeek.Monday);
-            Year = DateTime.Now.Year;
+           // Year = DateTime.Now.Year;
         }
 
     }

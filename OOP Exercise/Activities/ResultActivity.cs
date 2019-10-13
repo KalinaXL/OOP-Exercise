@@ -1,19 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-using Android.App;
+﻿using Android.App;
 using Android.Content;
 using Android.OS;
-using Android.Runtime;
+using Android.Support.V7.App;
 using Android.Support.V7.Widget;
 using Android.Views;
-using Android.Support.V7.App;
 using Android.Widget;
-using OOP_Exercise.Utility_Classes;
 using OOP_Exercise.Adapters;
 using OOP_Exercise.Fragments;
+using OOP_Exercise.Utility_Classes;
+using System;
 
 namespace OOP_Exercise.Activities
 {
@@ -36,13 +31,13 @@ namespace OOP_Exercise.Activities
             txtLevelGain = FindViewById<TextView>(Resource.Id.txtLevelGain);
             txtNumRightQues = FindViewById<TextView>(Resource.Id.txtNumRightQues);
             recyclerView = FindViewById<RecyclerView>(Resource.Id.recyclerViewAns);
-          
-           
+
+
 
             answersOfUser = Intent.GetByteArrayExtra("Answers");
 
             SupportActionBar.SetDisplayHomeAsUpEnabled(true);
-            
+
             EvaluateAnswer();
             recyclerView.HasFixedSize = true;
             recyclerView.SetLayoutManager(new GridLayoutManager(this, 2));
@@ -58,7 +53,7 @@ namespace OOP_Exercise.Activities
             MenuInflater.Inflate(Resource.Menu.result_item, menu);
             return base.OnCreateOptionsMenu(menu);
         }
-    
+
         public override bool OnOptionsItemSelected(IMenuItem item)
         {
             switch (item.ItemId)
@@ -105,7 +100,7 @@ namespace OOP_Exercise.Activities
                 if (answersOfUser[i] == 0)
                 {
                     stateOfQues[i] = StateOfQuestion.MISSED;
-                   
+
                 }
                 else if (answersOfUser[i] == DataManager.QuestionsList[i].CorrectAnswer)
                 {
@@ -117,7 +112,7 @@ namespace OOP_Exercise.Activities
                     stateOfQues[i] = StateOfQuestion.WRONG;
                 }
             }
-            RunOnUiThread(() => 
+            RunOnUiThread(() =>
             {
                 txtNumRightQues.Text = $"{numRight}/{numOfQues}";
                 double fraction = (double)numRight / numOfQues;
@@ -132,9 +127,9 @@ namespace OOP_Exercise.Activities
                 else
                     txtLevelGain.Text = "Bạn cần học hành nghiêm túc hơn!";
             });
-           
+
         }
-           
+
 
     }
 }

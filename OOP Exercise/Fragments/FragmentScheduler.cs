@@ -1,20 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Android.Graphics;
-using Android.Icu.Util;
+﻿using Android.Graphics;
 using Android.OS;
-using Android.Runtime;
 using Android.Support.V4.App;
-
-using Android.Util;
 using Android.Views;
 using Android.Widget;
-using DataOfUser;
-using Java.Lang;
 using OOP_Exercise.Login_And_Scrape_Data;
 using OOP_Exercise.Utility_Classes;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace OOP_Exercise.Resources.Fragments
 {
@@ -67,13 +60,13 @@ namespace OOP_Exercise.Resources.Fragments
             chevronLeft.Click += ChevronLeft_Click;
             chevronRight.Click += ChevronRight_Click;
 
-            toolbar.Title = "Lịch học tuần "+LoginManager.CurrentWeekOfYear;
+            toolbar.Title = "Lịch học tuần " + LoginManager.CurrentWeekOfYear;
             toolbar.SetTitleTextColor(Color.White);
             adapter = new CustomExpandableListAdapter(this.Activity, titleNames, SaveInfo.SchedulerOfDay);
             expandListView.SetAdapter(adapter);
             return view;
-          
-           
+
+
         }
 
         private void ChevronRight_Click(object sender, EventArgs e)

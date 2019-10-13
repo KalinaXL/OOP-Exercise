@@ -1,14 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading;
-using System.Timers;
-using Android.App;
+﻿using Android.App;
 using Android.Content;
-
-
+using Android.OS;
 using Android.Runtime;
 using Android.Support.Design.Widget;
 using Android.Support.V4.View;
@@ -17,16 +9,15 @@ using Android.Support.V7.App;
 using Android.Support.V7.Widget;
 using Android.Views;
 using Android.Widget;
-using DataOfUser;
-
 using OOP_Exercise.Activities;
 using OOP_Exercise.Adapters;
 using OOP_Exercise.Fragments;
 using OOP_Exercise.Utility_Classes;
 using SQLite;
-using Android.Net;
-using Android.OS;
-using System.Threading.Tasks;
+using System;
+using System.Linq;
+using System.Text;
+using System.Timers;
 
 namespace OOP_Exercise
 {
@@ -38,7 +29,7 @@ namespace OOP_Exercise
         System.Timers.Timer countDownTimer;
         AnswerSheetAdapter adapter;
 
-      
+
         TextView txtTimer;
         TextView txtQuesAns;
         Button btnSubmit;
@@ -46,7 +37,7 @@ namespace OOP_Exercise
         TabLayout tabLayout;
         ViewPager viewPager;
         QuizFragmentAdapter quizFragmentAdapter;
-       
+
         int numOfQues = 0;
         string subjectName = "";
         protected override void OnDestroy()
@@ -66,7 +57,7 @@ namespace OOP_Exercise
             txtSubjecTest.Text = subjectName;
             SetSupportActionBar(toolbar);
 
-           
+
             DrawerLayout drawer = FindViewById<DrawerLayout>(Resource.Id.drawer_layout);
             ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawer, toolbar, Resource.String.navigation_drawer_open, Resource.String.navigation_drawer_close);
             drawer.AddDrawerListener(toggle);
@@ -75,21 +66,21 @@ namespace OOP_Exercise
             NavigationView navigationView = FindViewById<NavigationView>(Resource.Id.nav_view);
             navigationView.SetNavigationItemSelectedListener(this);
 
-        
+
 
 
             //DatabaseUtility.CloneExistingDatabase();
 
             DataManager.NumOfQuesAnswered = 0;
             GetQuestions();
-            
+
             numOfQues = DataManager.QuestionsList.Count;
             if (numOfQues > 0)
             {
                 txtQuesAns = FindViewById<TextView>(Resource.Id.txt_question_answered);
                 txtTimer = FindViewById<TextView>(Resource.Id.txt_timer);
                 txtQuesAns.Visibility = txtTimer.Visibility = ViewStates.Visible;
-                txtQuesAns.Text = String.Format("0/{0}",numOfQues);
+                txtQuesAns.Text = String.Format("0/{0}", numOfQues);
 
                 btnSubmit = FindViewById<Button>(Resource.Id.btnSubmit);
                 answerSheetView = FindViewById<RecyclerView>(Resource.Id.grid_answer);
@@ -108,7 +99,7 @@ namespace OOP_Exercise
 
                 tabLayout.SetupWithViewPager(viewPager);
                 btnSubmit.Click += BtnSubmit_Click;
-            }   
+            }
             else
             {
                 Toast.MakeText(this, "Không có dữ liệu câu hỏi về môn này", ToastLength.Short).Show();
@@ -116,8 +107,8 @@ namespace OOP_Exercise
             }
 
         }
-   
-        
+
+
         private void BtnSubmit_Click(object sender, EventArgs e)
         {
             if (!DataManager.IsReadResult)
@@ -149,7 +140,7 @@ namespace OOP_Exercise
             }
 
         }
-        
+
         private void GenerateFragmentList()
         {
             if (DataManager.FragmentQuizList.Count > 0)
@@ -172,7 +163,7 @@ namespace OOP_Exercise
             if (DataManager.IsReadResult)
                 return;
             adapter.NotifyDataSetChanged();
-            RunOnUiThread(() => 
+            RunOnUiThread(() =>
             {
                 txtQuesAns.Text = String.Format("{0}/{1}", DataManager.NumOfQuesAnswered, numOfQues);
             });
@@ -212,10 +203,10 @@ namespace OOP_Exercise
             );
 
         }
-       
+
 
         private void GetQuestions()
-        { 
+        {
             if (DataManager.QuestionsList.Count > 0)
             {
                 DataManager.QuestionsList.Clear();
@@ -231,10 +222,10 @@ namespace OOP_Exercise
                 return;
             TOTAL_TIME = categories[0].TotalTime * 60;
             int IDCategory = categories[0].ID;
-            
+
             DataManager.QuestionsList = sql.Query<Question>("SELECT * FROM Questions").Where(x => x.ID == IDCategory).ToList();
 
-            
+
             int lenOfQuesList = DataManager.QuestionsList.Count;
             for (int i = 0; i < lenOfQuesList; i++)
             {
@@ -257,7 +248,7 @@ namespace OOP_Exercise
 
         public override bool OnCreateOptionsMenu(IMenu menu)
         {
-           // MenuInflater.Inflate(Resource.Menu.menu_main, menu);
+            // MenuInflater.Inflate(Resource.Menu.menu_main, menu);
             return true;
         }
 
@@ -341,7 +332,7 @@ namespace OOP_Exercise
                     }
                 }
             }
-           
+
         }
 
     }

@@ -2,7 +2,6 @@
 using System;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
-using System.Threading;
 using System.Threading.Tasks;
 using xNet;
 
@@ -17,16 +16,16 @@ namespace OOP_Exercise.Login_And_Scrape_Data
             try
             {
                 #region Initialize HttpRequest
-                Task task = new Task(new Action(() =>
+                await Task.Run(new Action(() =>
                 {
                     HttpRequest request = new HttpRequest();
                     request.Cookies = new CookieDictionary();
                     request.UserAgent = LoginManager.userAgent;
 
-                #endregion
+                    #endregion
 
-                #region Get LT, execution and cookies
-                HttpResponse response;
+                    #region Get LT, execution and cookies
+                    HttpResponse response;
                     try
                     {
                         response = request.Get(LoginManager.loginUrl);
@@ -50,11 +49,11 @@ namespace OOP_Exercise.Login_And_Scrape_Data
                             request.Cookies.TryAdd(item2[0], item2[1]);
                     }
 
-                #endregion
+                    #endregion
 
-                #region Login
-                //Login 
-                string dataPost = "username=" + username + "&password=" + password + "&lt=" + LT + "&execution=" + execution + "&_eventId=submit&submit=Login";
+                    #region Login
+                    //Login 
+                    string dataPost = "username=" + username + "&password=" + password + "&lt=" + LT + "&execution=" + execution + "&_eventId=submit&submit=%C4%90%C4%83ng+nh%E1%BA%ADp";
                     try
                     {
                         response = request.Post(LoginManager.loginUrl, dataPost, LoginManager.ContentTypeToLogin);
@@ -63,11 +62,11 @@ namespace OOP_Exercise.Login_And_Scrape_Data
                     {
                         throw e;
                     }
-                #endregion
+                    #endregion
 
-                #region Get Request & Token
-                // Get Request
-                try
+                    #region Get Request & Token
+                    // Get Request
+                    try
                     {
                         response = request.Get(LoginManager.stinfoUrl);
                     }
@@ -77,31 +76,31 @@ namespace OOP_Exercise.Login_And_Scrape_Data
                     }
                     string page = response.ToString();
 
-                //Get Token
-                page = Regex.Match(page, @"<meta name=""_token"" content=""(.*?) ", RegexOptions.IgnoreCase).Value;
+                    //Get Token
+                    page = Regex.Match(page, @"<meta name=""_token"" content=""(.*?) ", RegexOptions.IgnoreCase).Value;
                     string[] arr = page.Split('"');
-                #endregion
+                    #endregion
 
-                #region Get Data
+                    #region Get Data
 
-                try // check token
-                {
+                    try // check token
+                    {
                         string token = arr[arr.Length - 2]; // if login fail, there is no token is returned --> crash
-                    if (token.Length != 40)
+                        if (token.Length != 40)
                             throw new Exception();
-                    //Get token
-                    token = string.Format("_token={0}", token);
+                        //Get token
+                        token = string.Format("_token={0}", token);
 
-                    //Get Information of Student
-                    response = request.Post(LoginManager.scheduleUrl, token, LoginManager.ContentTypeToGetData);
-                    json_tkb = response.ToString();
+                        //Get Information of Student
+                        response = request.Post(LoginManager.scheduleUrl, token, LoginManager.ContentTypeToGetData);
+                        json_tkb = response.ToString();
 
-                    // Get Exam Schedule
-                    response = request.Post(LoginManager.examUrl, token, LoginManager.ContentTypeToGetData);
-                    json_exam = response.ToString();
+                        // Get Exam Schedule
+                        response = request.Post(LoginManager.examUrl, token, LoginManager.ContentTypeToGetData);
+                        json_exam = response.ToString();
 
-                    // Data is stored to response with Json type
-                    // Handle Json File 
+                        // Data is stored to response with Json type
+                        // Handle Json File 
 
                     }
                     catch (Exception ex)
@@ -109,8 +108,7 @@ namespace OOP_Exercise.Login_And_Scrape_Data
                         throw ex;
                     }
                 }));
-                task.Start();
-                await task;
+                
                 #endregion
             }
             catch (Exception e)

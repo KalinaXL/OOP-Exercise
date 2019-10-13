@@ -1,19 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-using Android.Support.V4.App;
-using Android.Content;
+﻿
 using Android.OS;
-using Android.Runtime;
+using Android.Support.V4.App;
 using Android.Support.V7.Widget;
-using Android.Util;
 using Android.Views;
-using Android.Widget;
 using OOP_Exercise.Adapters;
 using OOP_Exercise.Utility_Classes;
-using OOP_Exercise.Login_And_Scrape_Data;
 
 namespace OOP_Exercise.Fragments
 {
@@ -39,7 +30,7 @@ namespace OOP_Exercise.Fragments
             rcViewMidTerm.SetLayoutManager(new GridLayoutManager(this.Activity, 1));
             rcViewFinalTerm.SetLayoutManager(new GridLayoutManager(this.Activity, 1));
 
- 
+
 
             rcViewMidTerm.SetAdapter(new ExamSchedulerAdapter(this.Activity, SaveInfo.examMidList));
             rcViewFinalTerm.SetAdapter(new ExamSchedulerAdapter(this.Activity, SaveInfo.examFinalList));

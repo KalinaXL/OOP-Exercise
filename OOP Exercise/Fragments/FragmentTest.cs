@@ -1,16 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-
-using Android.Content;
-using Android.OS;
-using Android.Runtime;
+﻿using Android.OS;
 using Android.Support.V4.App;
-using Android.Util;
 using Android.Views;
-using Android.Widget;
+using System;
 
 namespace OOP_Exercise.Fragments
 {
@@ -38,7 +29,7 @@ namespace OOP_Exercise.Fragments
             trans.AddToBackStack(null);
             trans.Commit();
         }
-
+        
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
             // Use this to return your custom view for this Fragment
@@ -55,9 +46,9 @@ namespace OOP_Exercise.Fragments
             }
             trans.Add(Resource.Id.fragment_test, fragSelectTerm, "Select term");
             trans.Commit();
-            return view;         
+            return view;
         }
 
-       
+
     }
 }

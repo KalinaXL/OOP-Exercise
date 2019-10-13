@@ -20,6 +20,6 @@
         public string giokt { get; set; }
         public string ngay_cap_nhat { get; set; }
         public string macoso { get; set; }
-        
+
     }
 }

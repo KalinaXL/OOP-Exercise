@@ -1,26 +1,25 @@
 ﻿using Android.App;
-using Android.Database;
 using Android.OS;
 using Android.Runtime;
 using Android.Support.Design.Widget;
 using Android.Support.V7.App;
 using Android.Views;
-using Android.Widget;
-using DataOfUser;
 using OOP_Exercise.Fragments;
+using OOP_Exercise.Login_And_Scrape_Data;
 using OOP_Exercise.Resources.Fragments;
-
+using System;
 using SupportFragment = Android.Support.V4.App.Fragment;
 namespace OOP_Exercise
 {
-    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme.NoActionBar")]
+    [Activity(Label = "Main", Theme = "@style/AppTheme.NoActionBar")]
     public class MainActivity : AppCompatActivity, BottomNavigationView.IOnNavigationItemSelectedListener
     {
         SupportFragment currentFragment;
         FragmentScheduler fragScheduler;
         FragmentTest fragTest;
         FragmentExam fragExam;
-      
+        FragmentInfo fragInfo;
+
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -28,7 +27,7 @@ namespace OOP_Exercise
             SetContentView(Resource.Layout.activity_main);
 
             BottomNavigationView navigation = FindViewById<BottomNavigationView>(Resource.Id.navigation);
-            
+
             navigation.SetOnNavigationItemSelectedListener(this);
             InitFragment();
 
@@ -38,14 +37,13 @@ namespace OOP_Exercise
 
             currentFragment = fragScheduler;
 
-            
-
         }
         void InitFragment()
         {
             fragScheduler = new FragmentScheduler();
             fragTest = new FragmentTest();
             fragExam = new FragmentExam();
+            fragInfo = new FragmentInfo();
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
@@ -59,18 +57,20 @@ namespace OOP_Exercise
             {
                 case Resource.Id.navigation_scheduler:
                     ShowFragment(fragScheduler);
-                    
+
                     return true;
                 case Resource.Id.navigation_exam:
+                    LoginManager.Year = DateTime.Now.Year;
                     ShowFragment(fragExam);
-                  
+
                     return true;
                 case Resource.Id.navigation_test:
                     ShowFragment(fragTest);
-                    
+
                     return true;
                 case Resource.Id.navigation_info:
-                   //TO DO
+                    ShowFragment(fragInfo);
+                    //TO DO
                     return true;
                 case Resource.Id.navigation_others:
                     //TO DO
@@ -83,17 +83,17 @@ namespace OOP_Exercise
         {
             if (fragment.IsVisible)
                 return;
-            RunOnUiThread(()=>
+            RunOnUiThread(() =>
             {
                 var trans = SupportFragmentManager.BeginTransaction();
                 trans.Replace(Resource.Id.frameLayout, fragment);
                 trans.AddToBackStack(null);
                 trans.Commit();
-                 currentFragment = fragment;
+                currentFragment = fragment;
             }
             );
 
-           
+
         }
     }
 }

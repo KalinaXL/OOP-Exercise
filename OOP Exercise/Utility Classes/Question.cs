@@ -14,6 +14,6 @@ namespace OOP_Exercise
         public string AnswerE { get; set; }
         public byte CorrectAnswer { get; set; }
         public byte CategoryID { get; set; }
-      
+
     }
 }

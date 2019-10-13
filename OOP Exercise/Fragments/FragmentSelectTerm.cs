@@ -1,30 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-
-using Android.Content;
-using Android.OS;
-using Android.Runtime;
+﻿using Android.OS;
 using Android.Support.V4.App;
-using Android.Util;
 using Android.Views;
 using Android.Widget;
 using OOP_Exercise.Utility_Classes;
+using System;
 
 namespace OOP_Exercise.Fragments
 {
     public class FragmentSelectTerm : Fragment
     {
-        public static  EventHandler ClickSelectTerm;
+        public static EventHandler ClickSelectTerm;
         LinearLayout midTerm;
         LinearLayout finalTerm;
-        
+
         public override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            
+
             // Create your fragment here
         }
 
@@ -40,12 +32,12 @@ namespace OOP_Exercise.Fragments
             return view;
         }
 
-      
 
-        private void FinalTerm_Click(object sender,EventArgs e)
+
+        private void FinalTerm_Click(object sender, EventArgs e)
         {
-              DataManager.IsMidTerm = 0;
-              ClickSelectTerm(sender, e);
+            DataManager.IsMidTerm = 0;
+            ClickSelectTerm(sender, e);
         }
 
         private void MidTerm_Click(object sender, EventArgs e)
@@ -54,5 +46,5 @@ namespace OOP_Exercise.Fragments
             ClickSelectTerm(sender, e);
         }
     }
-   
+
 }

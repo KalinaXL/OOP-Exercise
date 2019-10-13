@@ -1,21 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-using Android.App;
+﻿using Android.App;
 using Android.Content;
 using Android.OS;
 using Android.Preferences;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
 using OOP_Exercise.Login_And_Scrape_Data;
 using OOP_Exercise.Utility_Classes;
+using System;
 
 namespace OOP_Exercise.Activities
 {
-    [Activity(Label = "BKStudent",Theme="@style/SlashTheme", MainLauncher = true)]
+    [Activity(Label = "BKStudent", Theme = "@style/SlashTheme", MainLauncher = true)]
     public class SlashScreen : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
@@ -54,6 +47,7 @@ namespace OOP_Exercise.Activities
             }
             else
             {
+                LoginManager.IsLoadData = false;
                 action = new Action(() =>
                 {
                     Intent intent = new Intent(this, typeof(LoginActivity));

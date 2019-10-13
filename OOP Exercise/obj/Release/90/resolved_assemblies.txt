@@ -1,4 +1,4 @@
-C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Release\90\android\assets\OOP Exercise.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Release\90\android\assets\OOP_Exercise.dll
 C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Release\90\android\assets\Java.Interop.dll
 C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Release\90\android\assets\Mono.Android.dll
 C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Release\90\android\assets\mscorlib.dll
