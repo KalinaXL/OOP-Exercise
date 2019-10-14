@@ -344,3 +344,4 @@ C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Release\90
 C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Release\90\android\src\md59292efd5466a1dae0285c0a6bc841169\ThreadSharedPrefes.java
 C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Release\90\android\src\md56ef1c2f256bd0fc180a8e8b98081d7c4\ResultActivity.java
 C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Release\90\android\src\md56ef1c2f256bd0fc180a8e8b98081d7c4\SlashScreen.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Release\90\OOP Exercise.csprojAssemblyReference.cache
