@@ -1,4 +1,4 @@
-**Ứng dụng mobile trên nền tảng Android\**
+**Ứng dụng mobile trên nền tảng Android** \
 *Viết bằng C# - Xamarin*
 ***
 ### 1. Giới thiệu về sản phẩm
