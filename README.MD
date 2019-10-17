@@ -15,7 +15,7 @@
 ### 3.  Tài liệu & Tham khảo
 * Trường Đại học Bách Khoa TP.HCM, Logo [https://upload.wikimedia.org/wikipedia/vi/thumb/c/cd/Logo-hcmut.svg/1004px-Logo-hcmut.svg.png](https://upload.wikimedia.org/wikipedia/vi/thumb/c/cd/Logo-hcmut.svg/1004px-Logo-hcmut.svg.png)  [xem 16/09/2019]
 * Google, Material Icon [https://material.io/resources/icons/?style=baseline](https://material.io/resources/icons/?style=baseline)  [xem 16/09/2019]
-*  Frank A. Krueger, SQLite Net [https://github.com/praeclarum/sqlite-net](https://github.com/praeclarum/sqlite-net)  [xem 16/09/2019]
-
+* Frank A. Krueger, SQLite Net [https://github.com/praeclarum/sqlite-net](https://github.com/praeclarum/sqlite-net)  [xem 16/09/2019]
+* Ruslan Khuduev, xNet, [https://github.com/X-rus/xNet](https://github.com/X-rus/xNet) [xem 16/09/2019]
 
 

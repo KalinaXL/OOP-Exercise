@@ -36,18 +36,18 @@ namespace OOP_Exercise
 
         void SaveAccountPrefers()
         {
-            if (!checkBoxRememberMe.Checked)
-            {
-                new ThreadSharedPrefes(true, this).Run();
-                return;
-            }
-            new ThreadSharedPrefes(true, this, txtUsername.Text, txtPassword.Text).Run();
+            //if (!checkBoxRememberMe.Checked)
+            //{
+            //    new ThreadSharedPrefes(true, this).Run();
+            //    return;
+            //}
+            new ThreadSharedPrefes(checkBoxRememberMe.Checked, this, txtUsername.Text, txtPassword.Text).Run();
 
         }
         void GetAccountPrefers()
         {
             ISharedPreferences prefs = PreferenceManager.GetDefaultSharedPreferences(this);
-            //bool isSaveInfo = prefs.GetBoolean("IsSaveInfo", false);
+            bool isSaveInfo = prefs.GetBoolean("IsSaveSignUp", false);
             //if (isSaveInfo)
             //{
             //    LoginManager.IsLoadData = true;
@@ -56,13 +56,16 @@ namespace OOP_Exercise
             //}
             //if (prefs.Contains("username") && prefs.Contains("password"))
             //{
-            string username = prefs.GetString("username", "");
-            string password = prefs.GetString("password", "");
-            RunOnUiThread(() =>
+            if (isSaveInfo)
             {
-                txtUsername.Text = username;
-                txtPassword.Text = password;
-            });
+                string username = prefs.GetString("username", "");
+                string password = prefs.GetString("password", "");
+                RunOnUiThread(() =>
+                {
+                    txtUsername.Text = username;
+                    txtPassword.Text = password;
+                });
+            }
 
             //}
         }

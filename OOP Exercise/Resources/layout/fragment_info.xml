@@ -10,5 +10,11 @@
         android:text="Đăng xuất"
         android:layout_gravity="center"
     />
-
+    <Button
+    android:id="@+id/btnUpdateInfo"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Cập nhật thông tin"
+    android:layout_gravity="center"
+    />
 </LinearLayout>

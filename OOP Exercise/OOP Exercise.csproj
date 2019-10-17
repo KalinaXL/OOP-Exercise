@@ -79,6 +79,7 @@
     <Compile Include="Adapters\ExamSchedulerAdapter.cs" />
     <Compile Include="Adapters\QuestionValAdapter.cs" />
     <Compile Include="Adapters\QuizFragmentAdapter.cs" />
+    <Compile Include="Fragments\DialogInfo.cs" />
     <Compile Include="Fragments\FragmentExam.cs" />
     <Compile Include="Fragments\FragmentInfo.cs" />
     <Compile Include="Fragments\SpaceDecoration.cs" />
@@ -367,6 +368,11 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\fragment_info.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\dialog_info.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

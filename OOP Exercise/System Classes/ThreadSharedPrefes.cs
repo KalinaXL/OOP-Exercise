@@ -22,12 +22,11 @@ namespace OOP_Exercise
         {
             ISharedPreferences sharePrefs = PreferenceManager.GetDefaultSharedPreferences(context);
             ISharedPreferencesEditor editor = sharePrefs.Edit();
-            if (username != null)
-            {
-                editor.PutString("username", username);
-                editor.PutString("password", password);
-            }
-            editor.PutBoolean("IsSaveInfo", isSaveState);
+           
+            editor.PutString("username", username);
+            editor.PutString("password", password);
+            editor.PutBoolean("IsSaveInfo", true);
+            editor.PutBoolean("IsSaveSignUp", isSaveState);
             editor.Apply();
         }
         public override void Run()

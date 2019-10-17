@@ -67,6 +67,7 @@ LinearLayout;obj\Debug\90\res\layout\activity_login.xml
 LinearLayout;obj\Debug\90\res\layout\activity_main.xml
 LinearLayout;obj\Debug\90\res\layout\activity_result.xml
 LinearLayout;obj\Debug\90\res\layout\content_quiz.xml
+LinearLayout;obj\Debug\90\res\layout\dialog_info.xml
 LinearLayout;obj\Debug\90\res\layout\fragment_exam_scheduler.xml
 LinearLayout;obj\Debug\90\res\layout\fragment_first_quiz.xml
 LinearLayout;obj\Debug\90\res\layout\fragment_info.xml
@@ -83,6 +84,7 @@ path;obj\Debug\90\res\drawable\ic_dashboard_black_24dp.xml
 path;obj\Debug\90\res\drawable\ic_home_black_24dp.xml
 paths;C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\lp\40\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 ProgressBar;obj\Debug\90\res\layout\activity_login.xml
+ProgressBar;obj\Debug\90\res\layout\dialog_info.xml
 ProgressBar;obj\Debug\90\res\layout\fragment_question_item.xml
 RadioButton;obj\Debug\90\res\layout\fragment_question_item.xml
 RadioGroup;obj\Debug\90\res\layout\fragment_question_item.xml
@@ -127,6 +129,7 @@ style;obj\Debug\90\res\values\styles.xml
 TextView;obj\Debug\90\res\layout\activity_result.xml
 TextView;obj\Debug\90\res\layout\app_bar_question.xml
 TextView;obj\Debug\90\res\layout\content_quiz.xml
+TextView;obj\Debug\90\res\layout\dialog_info.xml
 TextView;obj\Debug\90\res\layout\fragment_exam_scheduler.xml
 TextView;obj\Debug\90\res\layout\fragment_question_item.xml
 TextView;obj\Debug\90\res\layout\fragment_select_term.xml
