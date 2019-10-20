@@ -134,13 +134,6 @@ namespace OOP_Exercise
                 handler.Post(action);
                 handler.Post(new Action(() => { DatabaseUtility.SaveInfoDatabase(); }));
 
-
-                new Thread(() =>
-                {
-                    DatabaseUtility.CloneExistingDatabase();
-
-                }).Start();
-
                 this.Finish();
 
             }

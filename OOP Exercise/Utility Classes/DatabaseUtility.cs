@@ -6,34 +6,16 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using xNet;
 
 namespace OOP_Exercise.Utility_Classes
 {
     public static class DatabaseUtility
     {
         public static string ExistingFile = "database.db";
-        public static string NewFile = "data.db";
-        public static string dbPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), NewFile);
+        public static string jsonPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), "data.json");
         public static string dbInfoPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.LocalApplicationData), "dbInfo.db");
-        public static void CloneExistingDatabase()
-        {
-            if (File.Exists(dbPath))
-                File.Delete(dbPath);
-
-            using (BinaryReader br = new BinaryReader(Android.App.Application.Context.Assets.Open(ExistingFile)))
-            {
-                using (BinaryWriter bw = new BinaryWriter(new FileStream(dbPath, FileMode.Create)))
-                {
-                    var buffer = new byte[2048];
-                    int len = 0;
-                    while ((len = br.Read(buffer, 0, buffer.Length)) > 0)
-                    {
-                        bw.Write(buffer, 0, len);
-                    }
-                }
-
-            }
-        }
+        
         public static async void SaveInfoDatabase()
         {
             if (File.Exists(dbInfoPath))
@@ -49,8 +31,8 @@ namespace OOP_Exercise.Utility_Classes
                                         .Select(item => new Subject(item.ten_mh, item.phong1, item.giobd, item.giokt, item.thu1, item.tuan_hoc) )
                                         .ToList();
                 sql.InsertAll(listSub);
-                sql.CreateTable<CurrentWeek>();
-                sql.Insert(new CurrentWeek() { Week = LoginManager.CurrentWeekOfYear });
+                //sql.CreateTable<CurrentWeek>();
+                //sql.Insert(new CurrentWeek() { Week = LoginManager.CurrentWeekOfYear });
                 sql.Close();
 
             }
@@ -59,10 +41,12 @@ namespace OOP_Exercise.Utility_Classes
         }
         public static async Task<bool> GetInfoDatabase()
         {
+            
             await Task.Run(new Action(() =>
             {
                 SQLiteConnection sql = new SQLiteConnection(dbInfoPath);
-                LoginManager.CurrentWeekOfYear = sql.Table<CurrentWeek>().Select(item => item).First().Week;
+                //LoginManager.CurrentWeekOfYear = sql.Table<CurrentWeek>().Select(item => item).First().Week;
+                LoginManager.GetWeekAndYear();
                 SaveInfo.examMidList = sql.Table<ExamScheduler>().Where(item => item.IsMidTerm).ToList();
                 SaveInfo.examFinalList = sql.Table<ExamScheduler>().Where(item => !item.IsMidTerm).ToList();
                 SaveInfo.subjectList = sql.Table<Subject>().Select(item => item).ToList();
@@ -100,7 +84,6 @@ namespace OOP_Exercise.Utility_Classes
             SaveInfo.examFinalList.Sort(new SortItemExam());
 
         }
-
 
     }
 

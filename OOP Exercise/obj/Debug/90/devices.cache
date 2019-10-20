@@ -4,4 +4,12 @@
     <ResultingAbi>x86</ResultingAbi>
     <SdkVersion>21</SdkVersion>
   </Device>
+  <Device id="e1edd431">
+    <ResultingAbi>armeabi-v7a</ResultingAbi>
+    <SdkVersion>28</SdkVersion>
+  </Device>
+  <Device id="G0W0MX0572340SJE">
+    <ResultingAbi>armeabi-v7a</ResultingAbi>
+    <SdkVersion>22</SdkVersion>
+  </Device>
 </Devices>

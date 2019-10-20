@@ -108,8 +108,8 @@ namespace OOP_Exercise.Fragments
             editor.Apply();
             if (File.Exists(DatabaseUtility.dbInfoPath))
                 File.Delete(DatabaseUtility.dbInfoPath);
-            if (File.Exists(DatabaseUtility.dbPath))
-                File.Delete(DatabaseUtility.dbPath);
+            if (File.Exists(DatabaseUtility.jsonPath))
+                File.Delete(DatabaseUtility.jsonPath);
             handler.Post(new Action(()=>
             {
                 Intent intent = new Intent(this.Activity, typeof(LoginActivity));

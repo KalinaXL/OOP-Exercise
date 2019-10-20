@@ -399,3 +399,13 @@ C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\a
 C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\System.Web.Services.dll
 C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\layout\dialog_info.xml
 C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\md5494cd4bba66202ddc5bfb427204796f9\DialogInfo.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\Firebase.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\LiteDB.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\System.Reactive.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\System.Runtime.InteropServices.WindowsRuntime.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\Firebase.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\LiteDB.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\System.Reactive.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\System.Runtime.InteropServices.WindowsRuntime.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\layout\slash_screen.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\OOP Exercise.csprojAssemblyReference.cache

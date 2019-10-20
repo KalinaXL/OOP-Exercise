@@ -27,7 +27,7 @@ namespace OOP_Exercise.Fragments
                 return;
             trans.Replace(Resource.Id.fragment_test, fragSelectSuject, "Select subject");
             trans.AddToBackStack(null);
-            trans.Commit();
+            trans.CommitAllowingStateLoss();
         }
         
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)

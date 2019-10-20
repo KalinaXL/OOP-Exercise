@@ -3,6 +3,6 @@
   <PropertyGroup>
     <AndroidDesignerPreferredTheme>AppTheme</AndroidDesignerPreferredTheme>
     <AndroidDesignerPreferredDevice>Nexus 5</AndroidDesignerPreferredDevice>
-    <SelectedDevice>Genymotion Custom</SelectedDevice>
+    <SelectedDevice>Amazon KFAUWI</SelectedDevice>
   </PropertyGroup>
 </Project>

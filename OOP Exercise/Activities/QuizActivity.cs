@@ -12,11 +12,13 @@ using Android.Widget;
 using OOP_Exercise.Activities;
 using OOP_Exercise.Adapters;
 using OOP_Exercise.Fragments;
+using OOP_Exercise.System_Classes;
 using OOP_Exercise.Utility_Classes;
 using SQLite;
 using System;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 using System.Timers;
 
 namespace OOP_Exercise
@@ -24,7 +26,7 @@ namespace OOP_Exercise
     [Activity(Label = "QuizActivity", Theme = "@style/AppTheme.NoActionBar")]
     public class QuizActivity : AppCompatActivity//, NavigationView.IOnNavigationItemSelectedListener
     {
-        int TOTAL_TIME = 0;
+        static int TOTAL_TIME = 0;
         RecyclerView answerSheetView;
         System.Timers.Timer countDownTimer;
         AnswerSheetAdapter adapter;
@@ -39,22 +41,62 @@ namespace OOP_Exercise
         QuizFragmentAdapter quizFragmentAdapter;
 
         int numOfQues = 0;
-        string subjectName = "";
         protected override void OnDestroy()
         {
             if (countDownTimer != null)
                 countDownTimer.Stop();
             base.OnDestroy();
         }
-        protected override void OnCreate(Bundle savedInstanceState)
+        protected override  void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
+            
             SetContentView(Resource.Layout.activity_quiz);
             Android.Support.V7.Widget.Toolbar toolbar = FindViewById<Android.Support.V7.Widget.Toolbar>(Resource.Id.toolbar);
-            subjectName = Intent.GetStringExtra("SubjectName");
+            
             TextView txtSubjecTest = FindViewById<TextView>(Resource.Id.txtSubjectTest);
-            txtSubjecTest.Text = subjectName;
+            txtSubjecTest.Text = Intent.GetStringExtra("SubjectName");
+
+            DataManager.NumOfQuesAnswered = 0;
+            //bool isFinished = await GetQuestions().ConfigureAwait(true);
+
+            //if (isFinished)
+            //{
+            numOfQues = DataManager.QuestionsList.Count;
+           
+                    
+            txtQuesAns = FindViewById<TextView>(Resource.Id.txt_question_answered);
+            txtTimer = FindViewById<TextView>(Resource.Id.txt_timer);
+            txtQuesAns.Visibility = txtTimer.Visibility = ViewStates.Visible;
+            txtQuesAns.Text = String.Format("0/{0}", numOfQues);
+
+            btnSubmit = FindViewById<Button>(Resource.Id.btnSubmit);
+            answerSheetView = FindViewById<RecyclerView>(Resource.Id.grid_answer);
+            answerSheetView.HasFixedSize = true;
+            answerSheetView.SetLayoutManager(new GridLayoutManager(this, 10));
+            adapter = new AnswerSheetAdapter(this, DataManager.CurrQuesList);
+            answerSheetView.SetAdapter(adapter);
+            TimerCountDown();
+            viewPager = FindViewById<ViewPager>(Resource.Id.viewpager);
+            tabLayout = FindViewById<TabLayout>(Resource.Id.sliding_tabs);
+
+            GenerateFragmentList();
+
+            quizFragmentAdapter = new QuizFragmentAdapter(SupportFragmentManager, this, DataManager.FragmentQuizList);
+            viewPager.Adapter = quizFragmentAdapter;
+
+            tabLayout.SetupWithViewPager(viewPager);
+            btnSubmit.Click += BtnSubmit_Click;
+            
+            //}
+            //else
+            //{
+            //    Toast.MakeText(this, "Không có dữ liệu câu hỏi về môn này", ToastLength.Short).Show();
+            //    Finish();
+            //}
+
+           
             //SetSupportActionBar(toolbar);
 
 
@@ -71,40 +113,8 @@ namespace OOP_Exercise
 
             //DatabaseUtility.CloneExistingDatabase();
 
-            DataManager.NumOfQuesAnswered = 0;
-            GetQuestions();
-
-            numOfQues = DataManager.QuestionsList.Count;
-            if (numOfQues > 0)
-            {
-                txtQuesAns = FindViewById<TextView>(Resource.Id.txt_question_answered);
-                txtTimer = FindViewById<TextView>(Resource.Id.txt_timer);
-                txtQuesAns.Visibility = txtTimer.Visibility = ViewStates.Visible;
-                txtQuesAns.Text = String.Format("0/{0}", numOfQues);
-
-                btnSubmit = FindViewById<Button>(Resource.Id.btnSubmit);
-                answerSheetView = FindViewById<RecyclerView>(Resource.Id.grid_answer);
-                answerSheetView.HasFixedSize = true;
-                answerSheetView.SetLayoutManager(new GridLayoutManager(this, 10));
-                adapter = new AnswerSheetAdapter(this, DataManager.CurrQuesList);
-                answerSheetView.SetAdapter(adapter);
-                TimerCountDown();
-                viewPager = FindViewById<ViewPager>(Resource.Id.viewpager);
-                tabLayout = FindViewById<TabLayout>(Resource.Id.sliding_tabs);
-
-                GenerateFragmentList();
-
-                quizFragmentAdapter = new QuizFragmentAdapter(SupportFragmentManager, this, DataManager.FragmentQuizList);
-                viewPager.Adapter = quizFragmentAdapter;
-
-                tabLayout.SetupWithViewPager(viewPager);
-                btnSubmit.Click += BtnSubmit_Click;
-            }
-            else
-            {
-                Toast.MakeText(this, "Không có dữ liệu câu hỏi về môn này", ToastLength.Short).Show();
-                Finish();
-            }
+            
+           
 
         }
 
@@ -205,7 +215,7 @@ namespace OOP_Exercise
         }
 
 
-        private void GetQuestions()
+        public static async Task<bool> GetQuestions(string subjectName)
         {
             if (DataManager.QuestionsList.Count > 0)
             {
@@ -216,21 +226,53 @@ namespace OOP_Exercise
                     DataManager.AnswersChoosed[i] = 0;
             }
 
-            SQLiteConnection sql = new SQLiteConnection(DatabaseUtility.dbPath);
-            var categories = sql.Query<Category>("SELECT * FROM Category").Where(x => x.IsMidTerm == DataManager.IsMidTerm && x.Name == String.Join(' ', Encoding.UTF8.GetBytes(subjectName))).ToList();
-            if (categories.Count == 0)
-                return;
-            TOTAL_TIME = categories[0].TotalTime * 60;
-            int IDCategory = categories[0].ID;
+            //SQLiteConnection sql = new SQLiteConnection(DatabaseUtility.dbPath);
+            //var categories = sql.Query<Category>("SELECT * FROM Category").Where(x => x.IsMidTerm == DataManager.IsMidTerm && x.Name == String.Join(' ', Encoding.UTF8.GetBytes(subjectName))).ToList();
+            //if (categories.Count == 0)
+            //    return;
+            //TOTAL_TIME = categories[0].TotalTime * 60;
+            //int IDCategory = categories[0].ID;
 
-            DataManager.QuestionsList = sql.Query<Question>("SELECT * FROM Questions").Where(x => x.ID == IDCategory).ToList();
+            //DataManager.QuestionsList = sql.Query<Question>("SELECT * FROM Questions").Where(x => x.ID == IDCategory).ToList();
+            bool isSuccess = (await FireBaseHelper.GetSubExam(DataManager.IsMidTerm ? "Mid" : "Final", subjectName).ConfigureAwait(true));
 
-
-            int lenOfQuesList = DataManager.QuestionsList.Count;
-            for (int i = 0; i < lenOfQuesList; i++)
+            
+            if (isSuccess)
             {
-                DataManager.CurrQuesList.Add(new CurrentQuestion(i, false));
+                int lenOfQuesList = FireBaseHelper.Ques.Count;
+                if (lenOfQuesList == 0)
+                {
+                    await FireBaseHelper.LoadDataFromFile(DataManager.IsMidTerm ? "Mid" : "Final", subjectName).ConfigureAwait(true);
+                    if (FireBaseHelper.Ques == null)
+                        return false;
+                    lenOfQuesList = FireBaseHelper.Ques.Count;
+                    if (lenOfQuesList == 0)
+                        return false;
+                }
+                DataManager.QuestionsList = FireBaseHelper.Ques;
+                TOTAL_TIME = FireBaseHelper.Time * 60;
+                for (int i = 0; i < lenOfQuesList; i++)
+                {
+                    DataManager.CurrQuesList.Add(new CurrentQuestion(i, false));
+                }
             }
+            else
+            {
+                await FireBaseHelper.LoadDataFromFile(DataManager.IsMidTerm ? "Mid" : "Final", subjectName).ConfigureAwait(true);
+                if (FireBaseHelper.Ques == null)
+                    return false;
+                int lenOfQuesList = FireBaseHelper.Ques.Count;
+                if (lenOfQuesList == 0)
+                    return false;
+                DataManager.QuestionsList = FireBaseHelper.Ques;
+                TOTAL_TIME = FireBaseHelper.Time * 60;
+                for (int i = 0; i < lenOfQuesList; i++)
+                {
+                    DataManager.CurrQuesList.Add(new CurrentQuestion(i, false));
+                }
+
+            }
+            return true;
         }
 
         public override void OnBackPressed()

@@ -90,6 +90,7 @@
     <Compile Include="Login And Scrape Data\LoginUtility.cs" />
     <Compile Include="Login And Scrape Data\Namhoc.cs" />
     <Compile Include="Login And Scrape Data\ThongtinSV.cs" />
+    <Compile Include="System Classes\FireBaseHelper.cs" />
     <Compile Include="Utility Classes\CurrentQuestion.cs" />
     <Compile Include="Adapters\CustomExpandableListAdapter.cs" />
     <Compile Include="Fragments\FragmentQuiz.cs" />
@@ -98,7 +99,6 @@
     <Compile Include="Fragments\FragmentTest.cs" />
     <Compile Include="Adapters\SubjectAdapter.cs" />
     <Compile Include="System Classes\MyDatabase.cs" />
-    <Compile Include="Utility Classes\CurrentWeek.cs" />
     <Compile Include="Utility Classes\DatabaseUtility.cs" />
     <Compile Include="Utility Classes\DataManager.cs" />
     <Compile Include="Utility Classes\ExamScheduler.cs" />
@@ -117,7 +117,6 @@
     <Compile Include="Utility Classes\Category.cs" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidAsset Include="Assets\database.db" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Properties\AndroidManifest.xml">
       <SubType>Designer</SubType>
@@ -155,6 +154,9 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_launcher_round.png" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="FirebaseDatabase.net">
+      <Version>4.0.2</Version>
+    </PackageReference>
     <PackageReference Include="Newtonsoft.Json">
       <Version>12.0.2</Version>
     </PackageReference>
@@ -373,6 +375,11 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\dialog_info.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\slash_screen.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

@@ -56,6 +56,7 @@ ImageView;obj\Debug\90\res\layout\fragment_scheduler.xml
 ImageView;obj\Debug\90\res\layout\fragment_select_term.xml
 ImageView;obj\Debug\90\res\layout\layout_exam_item.xml
 ImageView;obj\Debug\90\res\layout\listitemview.xml
+ImageView;obj\Debug\90\res\layout\slash_screen.xml
 include;obj\Debug\90\res\layout\activity_quiz.xml
 include;obj\Debug\90\res\layout\app_bar_question.xml
 item;obj\Debug\90\res\drawable\slashbackground.xml
@@ -78,6 +79,7 @@ LinearLayout;obj\Debug\90\res\layout\fragment_select_subject.xml
 LinearLayout;obj\Debug\90\res\layout\fragment_select_term.xml
 LinearLayout;obj\Debug\90\res\layout\layout_question_val.xml
 LinearLayout;obj\Debug\90\res\layout\listheaderview.xml
+LinearLayout;obj\Debug\90\res\layout\slash_screen.xml
 menu;obj\Debug\90\res\menu\navigation.xml
 menu;obj\Debug\90\res\menu\result_item.xml
 path;obj\Debug\90\res\drawable\ic_dashboard_black_24dp.xml

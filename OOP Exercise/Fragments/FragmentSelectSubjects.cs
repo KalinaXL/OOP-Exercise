@@ -38,11 +38,11 @@ namespace OOP_Exercise.Fragments
             List<string> subjectList;
             if (LoginManager.IsLoadData)
             {
-                subjectList = (from item in SaveInfo.subjectList where (item.Name[0] != 'P') select item.Name).ToList();
+                subjectList = (from item in SaveInfo.subjectList  select item.Name).ToList();
             }
             else
             {
-                subjectList = (from item in LoginManager.Scheduler[0].tkb where (item.ten_mh[0] != 'P') select item.ten_mh).ToList();
+                subjectList = (from item in LoginManager.Scheduler[0].tkb  select item.ten_mh).ToList();
             }
 
             SubjectAdapter adapter = new SubjectAdapter(this.Activity, subjectList);

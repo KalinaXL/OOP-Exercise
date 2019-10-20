@@ -36,13 +36,13 @@ namespace OOP_Exercise.Fragments
 
         private void FinalTerm_Click(object sender, EventArgs e)
         {
-            DataManager.IsMidTerm = 0;
+            DataManager.IsMidTerm = false;
             ClickSelectTerm(sender, e);
         }
 
         private void MidTerm_Click(object sender, EventArgs e)
         {
-            DataManager.IsMidTerm = 1;
+            DataManager.IsMidTerm = true;
             ClickSelectTerm(sender, e);
         }
     }

@@ -3,8 +3,10 @@ using Android.OS;
 using Android.Support.V7.Widget;
 using Android.Views;
 using Android.Widget;
+using OOP_Exercise.Utility_Classes;
 using System;
 using System.Collections.Generic;
+using System.IO;
 
 namespace OOP_Exercise.Fragments
 {
@@ -38,19 +40,28 @@ namespace OOP_Exercise.Fragments
             return myview;
         }
 
-        private void Myview_ClickSelectSubject(object sender, EventArgs e)
+        private async void Myview_ClickSelectSubject(object sender, EventArgs e)
         {
             Handler h = new Handler();
             Toast.MakeText(this.context, "Đang tải dữ liệu...", ToastLength.Long).Show();
-            Action action = async () =>
+            string subjectName = (sender as TextView).Text;
+            bool isFinish = await QuizActivity.GetQuestions(subjectName).ConfigureAwait(true);
+            if (isFinish)
             {
-                Intent intent = new Intent(this.context, typeof(QuizActivity));
-                Bundle bundle = new Bundle();
-                bundle.PutString("SubjectName", (sender as TextView).Text);
-                intent.PutExtras(bundle);
-                this.context.StartActivity(intent);
-            };
-            h.Post(action);
+                Action action = () =>
+                {
+                    Intent intent = new Intent(this.context, typeof(QuizActivity));
+                    Bundle bundle = new Bundle();
+                    bundle.PutString("SubjectName", subjectName);
+                    intent.PutExtras(bundle);
+                    this.context.StartActivity(intent);
+                };
+                h.Post(action);
+            }
+            else
+            {
+                Toast.MakeText(this.context, "Không có dữ liệu về môn học này !!!", ToastLength.Short).Show();
+            }
         }
 
         public class MyViewSubject : RecyclerView.ViewHolder

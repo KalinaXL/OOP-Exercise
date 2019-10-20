@@ -8,12 +8,13 @@ using System;
 
 namespace OOP_Exercise.Activities
 {
-    [Activity(Label = "BKStudent", Theme = "@style/SlashTheme", MainLauncher = true)]
+    [Activity(Label = "BKStudent", Theme = "@style/AppTheme.NoActionBar", MainLauncher = true)]
     public class SlashScreen : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
+            SetContentView(Resource.Layout.slash_screen);
             CheckSaveState();
 
             // Create your application here
