@@ -28,7 +28,7 @@ namespace OOP_Exercise
     {
         static int TOTAL_TIME = 0;
         RecyclerView answerSheetView;
-        System.Timers.Timer countDownTimer;
+        Timer countDownTimer;
         AnswerSheetAdapter adapter;
 
 
@@ -47,7 +47,7 @@ namespace OOP_Exercise
                 countDownTimer.Stop();
             base.OnDestroy();
         }
-        protected override  void OnCreate(Bundle savedInstanceState)
+        protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
@@ -58,12 +58,8 @@ namespace OOP_Exercise
             TextView txtSubjecTest = FindViewById<TextView>(Resource.Id.txtSubjectTest);
             txtSubjecTest.Text = Intent.GetStringExtra("SubjectName");
 
-            DataManager.NumOfQuesAnswered = 0;
-            //bool isFinished = await GetQuestions().ConfigureAwait(true);
-
-            //if (isFinished)
-            //{
-            numOfQues = DataManager.QuestionsList.Count;
+            InitAgain();
+           
            
                     
             txtQuesAns = FindViewById<TextView>(Resource.Id.txt_question_answered);
@@ -89,33 +85,7 @@ namespace OOP_Exercise
             tabLayout.SetupWithViewPager(viewPager);
             btnSubmit.Click += BtnSubmit_Click;
             
-            //}
-            //else
-            //{
-            //    Toast.MakeText(this, "Không có dữ liệu câu hỏi về môn này", ToastLength.Short).Show();
-            //    Finish();
-            //}
-
            
-            //SetSupportActionBar(toolbar);
-
-
-            //DrawerLayout drawer = FindViewById<DrawerLayout>(Resource.Id.drawer_layout);
-            //ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawer, toolbar, Resource.String.navigation_drawer_open, Resource.String.navigation_drawer_close);
-            //drawer.AddDrawerListener(toggle);
-            //toggle.SyncState();
-
-            //NavigationView navigationView = FindViewById<NavigationView>(Resource.Id.nav_view);
-            //navigationView.SetNavigationItemSelectedListener(this);
-
-
-
-
-            //DatabaseUtility.CloneExistingDatabase();
-
-            
-           
-
         }
 
 
@@ -215,7 +185,7 @@ namespace OOP_Exercise
         }
 
 
-        public static async Task<bool> GetQuestions(string subjectName)
+        public async void InitAgain()
         {
             if (DataManager.QuestionsList.Count > 0)
             {
@@ -225,54 +195,49 @@ namespace OOP_Exercise
                 for (int i = 0; i < DataManager.AnswersChoosed.Length; i++)
                     DataManager.AnswersChoosed[i] = 0;
             }
+            DataManager.NumOfQuesAnswered = 0;
+            DataManager.QuestionsList = FireBaseHelper.Ques;
+            TOTAL_TIME = FireBaseHelper.Time * 60;
+            numOfQues = DataManager.QuestionsList.Count;
+            for (int i = 0; i < numOfQues; i++)
+            {
+                DataManager.CurrQuesList.Add(new CurrentQuestion(i, false));
+            }
 
-            //SQLiteConnection sql = new SQLiteConnection(DatabaseUtility.dbPath);
-            //var categories = sql.Query<Category>("SELECT * FROM Category").Where(x => x.IsMidTerm == DataManager.IsMidTerm && x.Name == String.Join(' ', Encoding.UTF8.GetBytes(subjectName))).ToList();
-            //if (categories.Count == 0)
-            //    return;
-            //TOTAL_TIME = categories[0].TotalTime * 60;
-            //int IDCategory = categories[0].ID;
-
-            //DataManager.QuestionsList = sql.Query<Question>("SELECT * FROM Questions").Where(x => x.ID == IDCategory).ToList();
-            bool isSuccess = (await FireBaseHelper.GetSubExam(DataManager.IsMidTerm ? "Mid" : "Final", subjectName).ConfigureAwait(true));
+            //bool isSuccess = (await FireBaseHelper.GetSubExam(DataManager.IsMidTerm ? "Mid" : "Final", subjectName).ConfigureAwait(true));
 
             
-            if (isSuccess)
-            {
-                int lenOfQuesList = FireBaseHelper.Ques.Count;
-                if (lenOfQuesList == 0)
-                {
-                    await FireBaseHelper.LoadDataFromFile(DataManager.IsMidTerm ? "Mid" : "Final", subjectName).ConfigureAwait(true);
-                    if (FireBaseHelper.Ques == null)
-                        return false;
-                    lenOfQuesList = FireBaseHelper.Ques.Count;
-                    if (lenOfQuesList == 0)
-                        return false;
-                }
-                DataManager.QuestionsList = FireBaseHelper.Ques;
-                TOTAL_TIME = FireBaseHelper.Time * 60;
-                for (int i = 0; i < lenOfQuesList; i++)
-                {
-                    DataManager.CurrQuesList.Add(new CurrentQuestion(i, false));
-                }
-            }
-            else
-            {
-                await FireBaseHelper.LoadDataFromFile(DataManager.IsMidTerm ? "Mid" : "Final", subjectName).ConfigureAwait(true);
-                if (FireBaseHelper.Ques == null)
-                    return false;
-                int lenOfQuesList = FireBaseHelper.Ques.Count;
-                if (lenOfQuesList == 0)
-                    return false;
-                DataManager.QuestionsList = FireBaseHelper.Ques;
-                TOTAL_TIME = FireBaseHelper.Time * 60;
-                for (int i = 0; i < lenOfQuesList; i++)
-                {
-                    DataManager.CurrQuesList.Add(new CurrentQuestion(i, false));
-                }
+            //if (isSuccess)
+            //{
+            //    int lenOfQuesList = FireBaseHelper.Ques.Count;
+            //    if (lenOfQuesList == 0)
+            //    {
+            //        await FireBaseHelper.LoadDataFromFile(DataManager.IsMidTerm ? "Mid" : "Final", subjectName).ConfigureAwait(true);
+            //        if (FireBaseHelper.Ques == null)
+            //            return false;
+            //        lenOfQuesList = FireBaseHelper.Ques.Count;
+            //        if (lenOfQuesList == 0)
+            //            return false;
+            //    }
+                
+            //}
+            //else
+            //{
+            //    await FireBaseHelper.LoadDataFromFile(DataManager.IsMidTerm ? "Mid" : "Final", subjectName).ConfigureAwait(true);
+            //    if (FireBaseHelper.Ques == null)
+            //        return false;
+            //    int lenOfQuesList = FireBaseHelper.Ques.Count;
+            //    if (lenOfQuesList == 0)
+            //        return false;
+            //    DataManager.QuestionsList = FireBaseHelper.Ques;
+            //    TOTAL_TIME = FireBaseHelper.Time * 60;
+            //    for (int i = 0; i < lenOfQuesList; i++)
+            //    {
+            //        DataManager.CurrQuesList.Add(new CurrentQuestion(i, false));
+            //    }
 
-            }
-            return true;
+            //}
+            //return true;
         }
 
         public override void OnBackPressed()
@@ -290,18 +255,12 @@ namespace OOP_Exercise
 
         public override bool OnCreateOptionsMenu(IMenu menu)
         {
-            // MenuInflater.Inflate(Resource.Menu.menu_main, menu);
             return true;
         }
 
         public override bool OnOptionsItemSelected(IMenuItem item)
         {
-            //int id = item.ItemId;
-            //if (id == Resource.Id.action_settings)
-            //{
-            //    return true;
-            //}
-
+        
             return base.OnOptionsItemSelected(item);
         }
 
@@ -312,39 +271,7 @@ namespace OOP_Exercise
                 .SetAction("Action", (Android.Views.View.IOnClickListener)null).Show();
         }
 
-        //public bool OnNavigationItemSelected(IMenuItem item)
-        //{
-        //    int id = item.ItemId;
-
-        //    //if (id == Resource.Id.nav_camera)
-        //    //{
-        //    //    // Handle the camera action
-        //    //}
-        //    //else if (id == Resource.Id.nav_gallery)
-        //    //{
-
-        //    //}
-        //    //else if (id == Resource.Id.nav_slideshow)
-        //    //{
-
-        //    //}
-        //    //else if (id == Resource.Id.nav_manage)
-        //    //{
-
-        //    //}
-        //    //else if (id == Resource.Id.nav_share)
-        //    //{
-
-        //    //}
-        //    //else if (id == Resource.Id.nav_send)
-        //    //{
-
-        //    //}
-
-        //    DrawerLayout drawer = FindViewById<DrawerLayout>(Resource.Id.drawer_layout);
-        //    drawer.CloseDrawer(GravityCompat.Start);
-        //    return true;
-        //}
+   
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
             Xamarin.Essentials.Platform.OnRequestPermissionsResult(requestCode, permissions, grantResults);

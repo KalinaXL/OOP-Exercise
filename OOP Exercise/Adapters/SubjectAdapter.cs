@@ -1,5 +1,6 @@
 ﻿using Android.Content;
 using Android.OS;
+using Android.Support.V4.App;
 using Android.Support.V7.Widget;
 using Android.Views;
 using Android.Widget;
@@ -14,10 +15,13 @@ namespace OOP_Exercise.Fragments
     {
         Context context;
         List<string> subjects;
+        
+
         public SubjectAdapter(Context context, List<string> subjects)
         {
             this.context = context;
             this.subjects = subjects;
+           
         }
         public override int ItemCount
         {
@@ -42,26 +46,36 @@ namespace OOP_Exercise.Fragments
 
         private async void Myview_ClickSelectSubject(object sender, EventArgs e)
         {
-            Handler h = new Handler();
-            Toast.MakeText(this.context, "Đang tải dữ liệu...", ToastLength.Long).Show();
             string subjectName = (sender as TextView).Text;
-            bool isFinish = await QuizActivity.GetQuestions(subjectName).ConfigureAwait(true);
-            if (isFinish)
-            {
-                Action action = () =>
-                {
-                    Intent intent = new Intent(this.context, typeof(QuizActivity));
-                    Bundle bundle = new Bundle();
-                    bundle.PutString("SubjectName", subjectName);
-                    intent.PutExtras(bundle);
-                    this.context.StartActivity(intent);
-                };
-                h.Post(action);
-            }
-            else
-            {
-                Toast.MakeText(this.context, "Không có dữ liệu về môn học này !!!", ToastLength.Short).Show();
-            }
+            DialogSubject dialog = new DialogSubject(DataManager.IsMidTerm,subjectName);
+            
+            FragmentTransaction transaction = (context as FragmentActivity).SupportFragmentManager.BeginTransaction();
+            dialog.Show(transaction, "dialog sub term");
+            //Handler h = new Handler();
+            ////Toast.MakeText(this.context, "Đang tải dữ liệu...", ToastLength.Long).Show();
+            
+            //bool isFinish = await QuizActivity.GetQuestions(subjectName).ConfigureAwait(true);
+            
+            //if (isFinish)
+            //{
+                
+            //    Action action = () =>
+            //    {
+            //        Intent intent = new Intent(this.context, typeof(QuizActivity));
+            //        Bundle bundle = new Bundle();
+            //        bundle.PutString("SubjectName", subjectName);
+            //        intent.PutExtras(bundle);
+                    
+            //        this.context.StartActivity(intent);
+            //        dialog.Dismiss();
+            //    };
+            //    h.Post(action);
+            //}
+            //else
+            //{
+            //    dialog.Dismiss();
+            //    Toast.MakeText(this.context, "Không có dữ liệu về môn học này !!!", ToastLength.Short).Show();
+            //}
         }
 
         public class MyViewSubject : RecyclerView.ViewHolder

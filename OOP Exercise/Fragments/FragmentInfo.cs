@@ -62,6 +62,7 @@ namespace OOP_Exercise.Fragments
             }
             if (Connectivity.NetworkAccess == NetworkAccess.None)
             {
+                dialog.Dismiss();
                 Toast.MakeText(this.Activity, "Không thể kết nối với Wifi/3G/4G", ToastLength.Short).Show();
                 return;
             }

@@ -10,6 +10,7 @@ android.support.design.widget.TabLayout;obj\Debug\90\res\layout\content_quiz.xml
 android.support.v4.view.ViewPager;obj\Debug\90\res\layout\content_quiz.xml
 android.support.v4.widget.DrawerLayout;obj\Debug\90\res\layout\activity_quiz.xml
 android.support.v7.widget.CardView;obj\Debug\90\res\layout\fragment_select_term.xml
+android.support.v7.widget.CardView;obj\Debug\90\res\layout\item_term_subject.xml
 android.support.v7.widget.CardView;obj\Debug\90\res\layout\layout_exam_item.xml
 android.support.v7.widget.CardView;obj\Debug\90\res\layout\layout_subject_item.xml
 android.support.v7.widget.CardView;obj\Debug\90\res\layout\listitemview.xml
@@ -37,6 +38,7 @@ corners;obj\Debug\90\res\drawable\list_item_style.xml
 corners;obj\Debug\90\res\drawable\missed_question_style.xml
 corners;obj\Debug\90\res\drawable\number_right_answer_style.xml
 corners;obj\Debug\90\res\drawable\right_question_style.xml
+corners;obj\Debug\90\res\drawable\style_term_sub.xml
 corners;obj\Debug\90\res\drawable\wrong_question_style.xml
 dimen;obj\Debug\90\res\values\dimens.xml
 EditText;obj\Debug\90\res\layout\activity_login.xml
@@ -77,9 +79,11 @@ LinearLayout;obj\Debug\90\res\layout\fragment_quiz.xml
 LinearLayout;obj\Debug\90\res\layout\fragment_scheduler.xml
 LinearLayout;obj\Debug\90\res\layout\fragment_select_subject.xml
 LinearLayout;obj\Debug\90\res\layout\fragment_select_term.xml
+LinearLayout;obj\Debug\90\res\layout\item_term_subject.xml
 LinearLayout;obj\Debug\90\res\layout\layout_question_val.xml
 LinearLayout;obj\Debug\90\res\layout\listheaderview.xml
 LinearLayout;obj\Debug\90\res\layout\slash_screen.xml
+ListView;obj\Debug\90\res\layout\dialog_term_subject.xml
 menu;obj\Debug\90\res\menu\navigation.xml
 menu;obj\Debug\90\res\menu\result_item.xml
 path;obj\Debug\90\res\drawable\ic_dashboard_black_24dp.xml
@@ -87,6 +91,7 @@ path;obj\Debug\90\res\drawable\ic_home_black_24dp.xml
 paths;C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\lp\40\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 ProgressBar;obj\Debug\90\res\layout\activity_login.xml
 ProgressBar;obj\Debug\90\res\layout\dialog_info.xml
+ProgressBar;obj\Debug\90\res\layout\dialog_term_subject.xml
 ProgressBar;obj\Debug\90\res\layout\fragment_question_item.xml
 RadioButton;obj\Debug\90\res\layout\fragment_question_item.xml
 RadioGroup;obj\Debug\90\res\layout\fragment_question_item.xml
@@ -94,6 +99,7 @@ RelativeLayout;obj\Debug\90\res\layout\activity_login.xml
 RelativeLayout;obj\Debug\90\res\layout\activity_result.xml
 RelativeLayout;obj\Debug\90\res\layout\app_bar_question.xml
 RelativeLayout;obj\Debug\90\res\layout\content_quiz.xml
+RelativeLayout;obj\Debug\90\res\layout\dialog_term_subject.xml
 RelativeLayout;obj\Debug\90\res\layout\fragment_question_item.xml
 RelativeLayout;obj\Debug\90\res\layout\fragment_scheduler.xml
 RelativeLayout;obj\Debug\90\res\layout\header_answer_sheet.xml
@@ -116,6 +122,7 @@ shape;obj\Debug\90\res\drawable\number_right_answer_style.xml
 shape;obj\Debug\90\res\drawable\ques_has_ans.xml
 shape;obj\Debug\90\res\drawable\ques_no_ans.xml
 shape;obj\Debug\90\res\drawable\right_question_style.xml
+shape;obj\Debug\90\res\drawable\style_term_sub.xml
 shape;obj\Debug\90\res\drawable\wrong_question_style.xml
 size;obj\Debug\90\res\drawable\progressbar_style.xml
 solid;obj\Debug\90\res\drawable\missed_question_style.xml
@@ -132,9 +139,11 @@ TextView;obj\Debug\90\res\layout\activity_result.xml
 TextView;obj\Debug\90\res\layout\app_bar_question.xml
 TextView;obj\Debug\90\res\layout\content_quiz.xml
 TextView;obj\Debug\90\res\layout\dialog_info.xml
+TextView;obj\Debug\90\res\layout\dialog_term_subject.xml
 TextView;obj\Debug\90\res\layout\fragment_exam_scheduler.xml
 TextView;obj\Debug\90\res\layout\fragment_question_item.xml
 TextView;obj\Debug\90\res\layout\fragment_select_term.xml
+TextView;obj\Debug\90\res\layout\item_term_subject.xml
 TextView;obj\Debug\90\res\layout\layout_exam_item.xml
 TextView;obj\Debug\90\res\layout\layout_question_val.xml
 TextView;obj\Debug\90\res\layout\layout_subject_item.xml
@@ -144,5 +153,6 @@ Toolbar;obj\Debug\90\res\layout\fragment_scheduler.xml
 vector;obj\Debug\90\res\drawable\ic_dashboard_black_24dp.xml
 vector;obj\Debug\90\res\drawable\ic_home_black_24dp.xml
 View;obj\Debug\90\res\layout\fragment_exam_scheduler.xml
+View;obj\Debug\90\res\layout\item_term_subject.xml
 View;obj\Debug\90\res\layout\layout_grid_ans_sheet_item.xml
 View;obj\Debug\90\res\layout\listitemview.xml

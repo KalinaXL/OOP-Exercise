@@ -79,7 +79,9 @@
     <Compile Include="Adapters\ExamSchedulerAdapter.cs" />
     <Compile Include="Adapters\QuestionValAdapter.cs" />
     <Compile Include="Adapters\QuizFragmentAdapter.cs" />
+    <Compile Include="Adapters\SubTermAdapter.cs" />
     <Compile Include="Fragments\DialogInfo.cs" />
+    <Compile Include="Fragments\DialogSubject.cs" />
     <Compile Include="Fragments\FragmentExam.cs" />
     <Compile Include="Fragments\FragmentInfo.cs" />
     <Compile Include="Fragments\SpaceDecoration.cs" />
@@ -91,6 +93,9 @@
     <Compile Include="Login And Scrape Data\Namhoc.cs" />
     <Compile Include="Login And Scrape Data\ThongtinSV.cs" />
     <Compile Include="System Classes\FireBaseHelper.cs" />
+    <Compile Include="System Classes\SubExam.cs" />
+    <Compile Include="System Classes\Term.cs" />
+    <Compile Include="System Classes\TermTime.cs" />
     <Compile Include="Utility Classes\CurrentQuestion.cs" />
     <Compile Include="Adapters\CustomExpandableListAdapter.cs" />
     <Compile Include="Fragments\FragmentQuiz.cs" />
@@ -190,9 +195,6 @@
     <AndroidResource Include="Resources\drawable\progressbar_style.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\anim\Scale.xml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\fragment_scheduler.xml">
@@ -380,6 +382,21 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\slash_screen.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\dialog_term_subject.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\item_term_subject.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\style_term_sub.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

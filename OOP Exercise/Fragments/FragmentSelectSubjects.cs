@@ -38,7 +38,7 @@ namespace OOP_Exercise.Fragments
             List<string> subjectList;
             if (LoginManager.IsLoadData)
             {
-                subjectList = (from item in SaveInfo.subjectList  select item.Name).ToList();
+                subjectList = (from item in SaveInfo.subjectList where !item.Name.Contains("(mr") && !item.Name.Contains("(th") && !item.Name.Contains("(bt")  select item.Name).ToList();
             }
             else
             {
