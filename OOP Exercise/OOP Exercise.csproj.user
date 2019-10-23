@@ -3,6 +3,6 @@
   <PropertyGroup>
     <AndroidDesignerPreferredTheme>AppTheme</AndroidDesignerPreferredTheme>
     <AndroidDesignerPreferredDevice>Nexus 5</AndroidDesignerPreferredDevice>
-    <SelectedDevice>Amazon KFAUWI</SelectedDevice>
+    <SelectedDevice>Samsung SM-J415F</SelectedDevice>
   </PropertyGroup>
 </Project>

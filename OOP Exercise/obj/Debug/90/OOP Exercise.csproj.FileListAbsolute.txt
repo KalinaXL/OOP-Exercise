@@ -34,8 +34,6 @@ C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\r
 C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\values\ic_launcher_background.xml
 C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\values\strings.xml
 C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\values\styles.xml
-C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\drawable\ic_home_black_24dp.xml
-C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\drawable\ic_dashboard_black_24dp.xml
 C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\menu\navigation.xml
 C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher.xml
 C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher_round.xml
@@ -70,7 +68,6 @@ C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\r
 C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\drawable\midterm.png
 C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\layout\fragment_quiz.xml
 C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\layout\layout_subject_item.xml
-C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\layout\header_answer_sheet.xml
 C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\layout\content_quiz.xml
 C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\layout\app_bar_question.xml
 C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\layout\activity_quiz.xml
@@ -89,14 +86,7 @@ C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\r
 C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\drawable\outline_room_black_18dp.png
 C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\layout\fragment_exam_scheduler.xml
 C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\drawable\finalterm.png
-C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\drawable\ic_test.png
-C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\drawable\ic_scheduler.png
-C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\drawable\ic_exam.png
-C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\drawable\ic_info.png
-C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\drawable\ic_account.png
 C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\layout\layout_exam_item.xml
-C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\drawable\ic_chevron_left.png
-C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\drawable\ic_chevron_right.png
 C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\drawable\slashbackground.xml
 C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\drawable\slash.png
 C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\uploadflags.txt
@@ -412,4 +402,11 @@ C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\r
 C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\drawable\style_term_sub.xml
 C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\md5494cd4bba66202ddc5bfb427204796f9\DialogSubject.java
 C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\md53cdff0a15255e7359ea06f913889c935\SubTermAdapter.java
-C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\OOP Exercise.csprojAssemblyReference.cache
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\drawable\ic_exam_vector.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\drawable\ic_info_vector.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\drawable\ic_scheduler_vector.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\drawable\ic_test_vector.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\drawable\ic_account_vector.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\drawable\ic_chevron_left_vector.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\drawable\ic_chevron_right_vector.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\drawable\cancel.png

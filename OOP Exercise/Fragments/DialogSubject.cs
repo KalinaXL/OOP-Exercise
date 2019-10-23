@@ -24,6 +24,7 @@ namespace OOP_Exercise.Fragments
         TextView textView;
         bool isMidTerm;
         string subjectName;
+        ImageView img;
         public DialogSubject(bool isMidTerm, string subjectName)
         {
             this.isMidTerm = isMidTerm;
@@ -36,6 +37,7 @@ namespace OOP_Exercise.Fragments
             lsSubject = view.FindViewById<ListView>(Resource.Id.lsview_term_subject);
             progress = view.FindViewById<ProgressBar>(Resource.Id.bar_sub_term);
             textView = view.FindViewById<TextView>(Resource.Id.txtSubTerm);
+            img = view.FindViewById<ImageView>(Resource.Id.imgCancel);
             lsSubject.ItemClick += LsSubject_ItemClickAsync;         
             
             return view;
@@ -132,14 +134,14 @@ namespace OOP_Exercise.Fragments
                     else
                     {
                         progress.Visibility = ViewStates.Gone;
-                        textView.Visibility = ViewStates.Visible;
+                        img.Visibility = textView.Visibility = ViewStates.Visible;
                         textView.Text = "Không có dữ liệu !!!";
                     }
                 }
                 else
                 {
                     progress.Visibility = ViewStates.Gone;
-                    textView.Visibility = ViewStates.Visible;
+                    img.Visibility = textView.Visibility = ViewStates.Visible;
                     textView.Text = "Không có dữ liệu !!!";
 
                 }
