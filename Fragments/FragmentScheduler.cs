@@ -1,0 +1,88 @@
+﻿using Android.Graphics;
+using Android.OS;
+using Android.Support.V4.App;
+using Android.Views;
+using Android.Widget;
+using OOP_Exercise.Login_And_Scrape_Data;
+using OOP_Exercise.Utility_Classes;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace OOP_Exercise.Resources.Fragments
+{
+    public class FragmentScheduler : Fragment
+    {
+        Toolbar toolbar;
+        ExpandableListView expandListView;
+        List<string> titleNames;
+        ImageView chevronLeft;
+        ImageView chevronRight;
+        CustomExpandableListAdapter adapter;
+
+        public override void OnCreate(Bundle savedInstanceState)
+        {
+            base.OnCreate(savedInstanceState);
+
+            // GetData();
+            titleNames = SaveInfo.SchedulerOfDay.Keys.ToList();
+            // Create your fragment here
+        }
+
+        //void GetData()
+        //{
+        //    string week = LoginManager.CurrentWeekOfYear.ToString();
+        //    SaveInfo.SchedulerOfDay = LoginManager.Scheduler[0].tkb
+        //                        .Where(item => item.tuan_hoc.Contains(week))
+        //                        .Select(item => new { K = item.thu1, Subject = new Subject(item.ten_mh, item.phong1, item.giobd, item.giokt,item.thu1) })
+        //                        .Distinct()
+        //                        .GroupBy(item => item.K).ToDictionary(item => item.Key, item => item.Select(item2 => item2.Subject).ToList());
+        //    titleNames = SaveInfo.SchedulerOfDay.Keys.ToList();
+        //}
+        void UpdateUI()
+        {
+            toolbar.Title = "Lịch học tuần " + LoginManager.CurrentWeekOfYear;
+            toolbar.SetTitleTextColor(Color.White);
+            adapter = new CustomExpandableListAdapter(this.Activity, titleNames, SaveInfo.SchedulerOfDay);
+            expandListView.SetAdapter(adapter);
+        }
+
+        public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
+        {
+            // Use this to return your custom view for this Fragment
+            // return inflater.Inflate(Resource.Layout.YourFragment, container, false);
+
+            View view = inflater.Inflate(Resource.Layout.fragment_scheduler, container, false);
+            expandListView = view.FindViewById<ExpandableListView>(Resource.Id.expandableListView);
+            toolbar = view.FindViewById<Toolbar>(Resource.Id.toolbarSheduler);
+            chevronLeft = view.FindViewById<ImageView>(Resource.Id.chevron_left);
+            chevronRight = view.FindViewById<ImageView>(Resource.Id.chevron_right);
+            chevronLeft.Click += ChevronLeft_Click;
+            chevronRight.Click += ChevronRight_Click;
+
+            toolbar.Title = "Lịch học tuần " + LoginManager.CurrentWeekOfYear;
+            toolbar.SetTitleTextColor(Color.White);
+            adapter = new CustomExpandableListAdapter(this.Activity, titleNames, SaveInfo.SchedulerOfDay);
+            expandListView.SetAdapter(adapter);
+            return view;
+
+
+        }
+
+        private void ChevronRight_Click(object sender, EventArgs e)
+        {
+            ++LoginManager.CurrentWeekOfYear;
+            DatabaseUtility.GetDataScheduler();
+            titleNames = SaveInfo.SchedulerOfDay.Keys.ToList();
+            UpdateUI();
+        }
+
+        private void ChevronLeft_Click(object sender, EventArgs e)
+        {
+            --LoginManager.CurrentWeekOfYear;
+            DatabaseUtility.GetDataScheduler();
+            titleNames = SaveInfo.SchedulerOfDay.Keys.ToList();
+            UpdateUI();
+        }
+    }
+}
