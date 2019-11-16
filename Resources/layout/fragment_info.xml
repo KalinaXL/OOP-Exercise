@@ -1,0 +1,118 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/bg1"
+        android:weightSum = "6"
+        
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:text="Thông tin Sinh Viên"
+                android:textColor="#33FF5B"
+                android:layout_centerInParent = "true"
+                android:textSize="30sp"
+                    
+               
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+        </RelativeLayout>
+
+        <TextView
+           android:id="@+id/txt_hovaten"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text = "Họ và tên:..."
+          android:textSize = "22sp"
+          android:textColor = "#AFFF33"
+          android:layout_gravity="left"
+          android:fontFamily="sans-serif"/>
+
+        <TextView
+                android:id="@+id/txt_mssv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text = "Mã Số:..."
+                android:textSize = "22sp"
+                android:textColor = "#AFFF33"
+                android:layout_gravity="left"
+                android:fontFamily="sans-serif"/>
+
+        <TextView
+          android:id="@+id/txt_quequan"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text = "Quê Quán:..."
+          android:textSize = "22sp"
+          android:textColor = "#AFFF33"
+          android:layout_gravity="left"
+          android:fontFamily="sans-serif"/>
+
+        <TextView
+          android:id="@+id/txt_gioitinh"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text = "Giới Tính: ..."
+          android:textSize = "22sp"
+          android:textColor = "#AFFF33"
+          android:layout_gravity="left"
+          android:fontFamily="sans-serif"/>
+
+        <TextView
+          android:id="@+id/txt_ngaysinh"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text = "Ngày Sinh: ..."
+          android:textSize = "22sp"
+          android:textColor = "#AFFF33"
+          android:layout_gravity="left"
+          android:fontFamily="sans-serif"/>
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đăng xuất"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="130dp"
+        />
+
+        <Button
+            android:id="@+id/btnUpdateInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cập nhật thông tin"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="100dp"
+        />
+
+        
+
+
+
+ 
+    </LinearLayout>
+    
+    
+
+
+
+
+
+
+</RelativeLayout>
