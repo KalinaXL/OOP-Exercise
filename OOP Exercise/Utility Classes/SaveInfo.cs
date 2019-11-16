@@ -10,6 +10,7 @@ namespace OOP_Exercise.Utility_Classes
         public static List<ExamScheduler> examFinalList { get; set; }
         public static Dictionary<string, List<Subject>> SchedulerOfDay { get; set; }
         public static List<Subject> subjectList { get; set; }
+        public static List<string> profile { get; set; }
 
     }
 }

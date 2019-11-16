@@ -26,13 +26,18 @@ namespace OOP_Exercise.Utility_Classes
                 sql.CreateTable<ExamScheduler>();
                 sql.InsertAll(SaveInfo.examMidList);
                 sql.InsertAll(SaveInfo.examFinalList);
+
                 sql.CreateTable<Subject>();
                 List<Subject> listSub = LoginManager.Scheduler[0].tkb
                                         .Select(item => new Subject(item.ten_mh, item.phong1, item.giobd, item.giokt, item.thu1, item.tuan_hoc) )
                                         .ToList();
                 sql.InsertAll(listSub);
+
+                sql.CreateTable<String>();
+                sql.InsertAll(SaveInfo.profile);
                 //sql.CreateTable<CurrentWeek>();
                 //sql.Insert(new CurrentWeek() { Week = LoginManager.CurrentWeekOfYear });
+
                 sql.Close();
 
             }
@@ -54,6 +59,7 @@ namespace OOP_Exercise.Utility_Classes
                 SaveInfo.SchedulerOfDay = SaveInfo.subjectList.Where(item => item.Week.Contains(week)).Select(item => new { item.Date, Subject = new Subject(item.Name, item.Room, item.TimeStart, item.TimeEnd, item.Date, item.Week) })
                     .GroupBy(item => item.Date).Distinct().ToDictionary(item => item.Key, item => item.Select(iter => iter.Subject).ToList());
                 sql.Close();
+              
             }));
             return true;
         }
@@ -83,6 +89,10 @@ namespace OOP_Exercise.Utility_Classes
                                      .ToList();
             SaveInfo.examFinalList.Sort(new SortItemExam());
 
+        }
+        public static void GetProfile()
+        {
+            SaveInfo.profile = LoginManager.profile;
         }
 
     }
