@@ -1,6 +1,9 @@
-﻿using Newtonsoft.Json;
+﻿using HtmlAgilityPack;
+using Newtonsoft.Json;
+using OOP_Exercise.Utility_Classes;
 using System;
 using System.Collections.Generic;
+using System.Net;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using xNet;
@@ -13,6 +16,7 @@ namespace OOP_Exercise.Login_And_Scrape_Data
         {
             string json_tkb = "";
             string json_exam = "";
+            List<string> profile_Student = new List<string>();
             try
             {
                 #region Initialize HttpRequest
@@ -102,6 +106,39 @@ namespace OOP_Exercise.Login_And_Scrape_Data
                         // Data is stored to response with Json type
                         // Handle Json File 
 
+                        
+
+                        //Parse htmlfile
+                        request.UserAgent = LoginManager.userAgent;
+                        // request.CharacterSet = Encoding.UTF8;
+                        request.AddHeader("Accept", @"*/*");
+                        request.AddHeader("Accept-Language", "vi,en;q=0.9");
+                        request.AddHeader("X-Requested-With", "XMLHttpRequest");
+                        request.Referer = LoginManager.stinfoUrl;
+
+                        // Get information of Student
+                        response = request.Get(LoginManager.profileUrl);
+                        string htmlFile = response.ToString();
+
+
+                        HtmlDocument document = new HtmlDocument();
+                        document.LoadHtml(htmlFile);
+
+                        // get data of student
+                        
+                        byte counter = 0;
+                        foreach (HtmlNode node in document.DocumentNode.SelectNodes("//div[@class='info-acc-table']//td"))
+                        {
+                            if (++counter <= 5)
+                            {
+                                profile_Student.Add(WebUtility.HtmlDecode(node.InnerText.ToString()));
+
+                            }
+                            else
+                                break;
+
+                        }
+
                     }
                     catch (Exception ex)
                     {
@@ -124,7 +161,7 @@ namespace OOP_Exercise.Login_And_Scrape_Data
                 //}).Start();
                 Task getScheduler = new Task(new Action(() => { LoginManager.Scheduler = JsonConvert.DeserializeObject<List<ThongtinSV>>(json_tkb); }));
                 Task getExam = new Task(new Action(() => { LoginManager.Exam = JsonConvert.DeserializeObject<ExamSchedule>(json_exam); }));
-
+                Task getProfile = new Task(new Action(() => { LoginManager.profile = profile_Student; }));
                 //new Thread(() =>
                 //{
                 //    LoginManager.Exam = JsonConvert.DeserializeObject<ExamScheduler>(json_exam);
@@ -132,8 +169,10 @@ namespace OOP_Exercise.Login_And_Scrape_Data
                 //}).Start();
                 getScheduler.Start();
                 getExam.Start();
+                getProfile.Start();
                 await getScheduler;
                 await getExam;
+                await getProfile;
             }
 
             catch (Exception e)
