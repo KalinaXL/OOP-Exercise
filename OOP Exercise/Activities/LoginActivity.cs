@@ -125,6 +125,8 @@ namespace OOP_Exercise
                 SaveAccountPrefers();
                 DatabaseUtility.GetDataScheduler();
                 DatabaseUtility.GetDataExam();
+                DatabaseUtility.GetProfile();
+                
                 Handler handler = new Handler();
                 Action action = new Action(() =>
                 {
