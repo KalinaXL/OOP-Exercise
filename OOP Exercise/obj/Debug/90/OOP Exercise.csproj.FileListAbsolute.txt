@@ -1,0 +1,863 @@
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\bin\Debug\xNet.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\build.props
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\adb.props
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\stamp\_BuildLibraryImportsCache.stamp
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\resourcepaths.cache
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res.flag
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\flata\8d6b62a7abd09e4c1c458204d9d0c54cc592093e.stamp
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\flata\58439add2d13b6586f41b8d06d8d9c9da9910698.stamp
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\flata\6d1d048817d6d3ca8eec479a5c5ea1b0838b6b0b.stamp
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\flata\31a74f97fe1a1f02bdf35f9f3207778ab5badde4.stamp
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\flata\0381e22cdace96db799d5458e6f85cf0b82a522d.stamp
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\flata\bddf4fc8176b1ed6c1423f974bc0b922bbe14ea0.stamp
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\flata\494fc93f8d9857a312b326c31f63728b36c7f23f.stamp
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\flata\7dbc2b10387ccb58c6e737fc7adc55ec7d3c2706.stamp
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\flata\0e16d31b4cc35866e270bede679bde5ce8686cd4.stamp
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\flata\8d6b62a7abd09e4c1c458204d9d0c54cc592093e.flata
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\flata\58439add2d13b6586f41b8d06d8d9c9da9910698.flata
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\flata\6d1d048817d6d3ca8eec479a5c5ea1b0838b6b0b.flata
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\flata\31a74f97fe1a1f02bdf35f9f3207778ab5badde4.flata
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\flata\0381e22cdace96db799d5458e6f85cf0b82a522d.flata
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\flata\bddf4fc8176b1ed6c1423f974bc0b922bbe14ea0.flata
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\flata\494fc93f8d9857a312b326c31f63728b36c7f23f.flata
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\flata\7dbc2b10387ccb58c6e737fc7adc55ec7d3c2706.flata
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\flata\0e16d31b4cc35866e270bede679bde5ce8686cd4.flata
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\flata\compiled.flata
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\R.txt
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\R.cs.flag
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\OOP Exercise.csproj.CoreCompileInputs.cache
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\OOP Exercise.csproj.CopyComplete
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\layout\activity_main.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\values\colors.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\values\dimens.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\values\ic_launcher_background.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\values\strings.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\values\styles.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\menu\navigation.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher_round.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\mipmap-hdpi\ic_launcher.png
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\mipmap-hdpi\ic_launcher_foreground.png
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\mipmap-hdpi\ic_launcher_round.png
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\mipmap-mdpi\ic_launcher.png
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\mipmap-mdpi\ic_launcher_foreground.png
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\mipmap-mdpi\ic_launcher_round.png
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\mipmap-xhdpi\ic_launcher.png
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\mipmap-xhdpi\ic_launcher_foreground.png
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\mipmap-xhdpi\ic_launcher_round.png
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\mipmap-xxhdpi\ic_launcher.png
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\mipmap-xxhdpi\ic_launcher_foreground.png
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\mipmap-xxhdpi\ic_launcher_round.png
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\mipmap-xxxhdpi\ic_launcher.png
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\mipmap-xxxhdpi\ic_launcher_foreground.png
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\mipmap-xxxhdpi\ic_launcher_round.png
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\layout\activity_login.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\mipmap-xxhdpi\logo.png
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\drawable\edit_text_login_style.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\drawable\login_background.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\drawable\progressbar_style.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\layout\fragment_scheduler.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\layout\listitemview.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\drawable\list_item_style.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\layout\listheaderview.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\drawable\logo.png
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\layout\fragment_select_term.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\layout\fragment_select_subject.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\layout\fragment_first_quiz.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\drawable\midterm.png
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\layout\fragment_quiz.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\layout\layout_subject_item.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\layout\content_quiz.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\layout\app_bar_question.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\layout\activity_quiz.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\drawable\ques_no_ans.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\drawable\ques_has_ans.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\layout\layout_grid_ans_sheet_item.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\layout\fragment_question_item.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\layout\activity_result.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\drawable\number_right_answer_style.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\layout\layout_question_val.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\drawable\right_question_style.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\drawable\wrong_question_style.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\drawable\missed_question_style.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\menu\result_item.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\drawable\baseline_timer_black_18dp.png
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\drawable\outline_room_black_18dp.png
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\layout\fragment_exam_scheduler.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\drawable\finalterm.png
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\layout\layout_exam_item.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\drawable\slashbackground.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\drawable\slash.png
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\uploadflags.txt
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\resolvedassemblies.hash
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\Java.Interop.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\Mono.Android.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\mscorlib.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\Newtonsoft.Json.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\SQLite-net.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\SQLitePCLRaw.batteries_green.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\SQLitePCLRaw.core.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\SQLitePCLRaw.lib.e_sqlite3.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\System.Core.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\System.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\System.Numerics.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\System.Numerics.Vectors.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\System.Runtime.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\System.Xml.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Arch.Core.Common.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Arch.Core.Runtime.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Arch.Lifecycle.Common.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Arch.Lifecycle.LiveData.Core.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Arch.Lifecycle.LiveData.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Arch.Lifecycle.Runtime.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Arch.Lifecycle.ViewModel.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Support.Annotations.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Support.AsyncLayoutInflater.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Support.Collections.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Support.Compat.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Support.CoordinaterLayout.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Support.Core.UI.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Support.Core.Utils.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Support.CursorAdapter.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Support.CustomTabs.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Support.CustomView.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Support.Design.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Support.DocumentFile.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Support.DrawerLayout.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Support.Fragment.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Support.Interpolator.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Support.Loader.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Support.LocalBroadcastManager.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Support.Print.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Support.SlidingPaneLayout.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Support.SwipeRefreshLayout.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Support.Transition.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Support.v7.AppCompat.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Support.v7.CardView.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Support.v7.RecyclerView.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Support.Vector.Drawable.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Support.VersionedParcelable.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Support.ViewPager.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Essentials.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\xNet.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\System.Net.Http.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\System.Drawing.Common.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\System.Runtime.Serialization.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\System.ServiceModel.Internals.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\netstandard.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\System.Data.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\System.Transactions.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\System.IO.Compression.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\System.IO.Compression.FileSystem.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\System.ComponentModel.Composition.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\System.Web.Services.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\System.Xml.Linq.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\System.Collections.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\System.Runtime.Extensions.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\System.Linq.Expressions.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\System.Reflection.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\System.Diagnostics.Debug.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\System.Threading.Tasks.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\System.Linq.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\System.Threading.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\System.Reflection.Extensions.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\System.Globalization.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\Mono.Security.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\Mono.Android.pdb
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Essentials.dll.mdb
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\link.flag
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\Java.Interop.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\Mono.Android.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\Mono.Android.pdb
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\Mono.Security.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\mscorlib.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\Newtonsoft.Json.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\SQLite-net.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\SQLitePCLRaw.batteries_green.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\SQLitePCLRaw.core.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\SQLitePCLRaw.lib.e_sqlite3.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\System.Core.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\System.Data.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\System.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\System.Net.Http.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\System.Numerics.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\System.Runtime.Serialization.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\System.Xml.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\System.Xml.Linq.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Arch.Core.Common.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Arch.Core.Runtime.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Arch.Lifecycle.Common.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Arch.Lifecycle.LiveData.Core.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Arch.Lifecycle.LiveData.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Arch.Lifecycle.Runtime.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Arch.Lifecycle.ViewModel.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Support.Annotations.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Support.AsyncLayoutInflater.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Support.Collections.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Support.Compat.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Support.CoordinaterLayout.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Support.Core.UI.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Support.Core.Utils.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Support.CursorAdapter.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Support.CustomTabs.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Support.CustomView.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Support.Design.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Support.DocumentFile.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Support.DrawerLayout.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Support.Fragment.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Support.Interpolator.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Support.Loader.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Support.LocalBroadcastManager.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Support.Print.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Support.SlidingPaneLayout.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Support.SwipeRefreshLayout.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Support.Transition.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Support.v7.AppCompat.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Support.v7.CardView.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Support.v7.RecyclerView.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Support.Vector.Drawable.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Support.VersionedParcelable.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Support.ViewPager.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Essentials.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Essentials.dll.mdb
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\xNet.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\mono\MonoRuntimeProvider.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\machine.config
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\bin\mono.android.jar
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\static.flag
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\buildid.txt
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v7\widget\ActionMenuView_OnMenuItemClickListenerImplementor.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v7\widget\ContentFrameLayout_OnAttachListenerImplementor.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v7\widget\FitWindowsViewGroup_OnFitSystemWindowsListenerImplementor.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v7\widget\MenuItemHoverListenerImplementor.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v7\widget\PopupMenu_OnDismissListenerImplementor.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v7\widget\PopupMenu_OnMenuItemClickListenerImplementor.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v7\widget\RecyclerView_ItemAnimator_ItemAnimatorFinishedListenerImplementor.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v7\widget\RecyclerView_OnChildAttachStateChangeListenerImplementor.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v7\widget\RecyclerView_OnItemTouchListenerImplementor.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v7\widget\RecyclerView_RecyclerListenerImplementor.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v7\widget\SearchView_OnCloseListenerImplementor.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v7\widget\SearchView_OnQueryTextListenerImplementor.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v7\widget\SearchView_OnSuggestionListenerImplementor.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v7\widget\ShareActionProvider_OnShareTargetSelectedListenerImplementor.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v7\widget\Toolbar_OnMenuItemClickListenerImplementor.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v7\widget\ViewStubCompat_OnInflateListenerImplementor.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v7\app\ActionBar_OnMenuVisibilityListenerImplementor.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v7\app\ActionBar_OnNavigationListenerImplementor.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v7\app\ActionBar_TabListenerImplementor.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v4\widget\DrawerLayout_DrawerListenerImplementor.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v4\widget\NestedScrollView_OnScrollChangeListenerImplementor.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v4\widget\SlidingPaneLayout_PanelSlideListenerImplementor.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v4\widget\SwipeRefreshLayout_OnRefreshListenerImplementor.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v4\view\accessibility\AccessibilityManagerCompat_AccessibilityStateChangeListenerImplementor.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v4\view\accessibility\AccessibilityManagerCompat_TouchExplorationStateChangeListenerImplementor.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v4\view\ActionProvider_SubUiVisibilityListenerImplementor.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v4\view\ActionProvider_VisibilityListenerImplementor.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v4\view\AsyncLayoutInflater_OnInflateFinishedListenerImplementor.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v4\view\MenuItemCompat_OnActionExpandListenerImplementor.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v4\view\OnApplyWindowInsetsListenerImplementor.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v4\view\ViewPager_OnAdapterChangeListenerImplementor.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v4\view\ViewPager_OnPageChangeListenerImplementor.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v4\view\ViewPropertyAnimatorListenerImplementor.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v4\view\ViewPropertyAnimatorUpdateListenerImplementor.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v4\os\CancellationSignal_OnCancelListenerImplementor.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v4\content\Loader_OnLoadCanceledListenerImplementor.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v4\content\Loader_OnLoadCompleteListenerImplementor.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\xamarin\essentials\fileProvider.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v4\app\FragmentManager_OnBackStackChangedListenerImplementor.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v4\app\SharedElementCallback_OnSharedElementsReadyListenerImplementor.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v13\view\inputmethod\InputConnectionCompat_OnCommitContentListenerImplementor.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v13\view\DragStartHelper_OnDragStartListenerImplementor.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\transition\Transition_TransitionListenerImplementor.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\android\support\v7\widget\Toolbar_NavigationOnClickEventDispatcher.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\design\widget\AppBarLayout_OnOffsetChangedListenerImplementor.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\design\widget\BottomNavigationView_OnNavigationItemReselectedListenerImplementor.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\design\widget\BottomNavigationView_OnNavigationItemSelectedListenerImplementor.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\design\widget\NavigationView_OnNavigationItemSelectedListenerImplementor.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\design\widget\SwipeDismissBehavior_OnDismissListenerImplementor.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\design\widget\TabLayout_BaseOnTabSelectedListenerImplementor.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\android\support\v7\recyclerview\R.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\design\chip\ChipGroup_OnCheckedChangeListenerImplementor.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\android\support\v7\cardview\R.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\android\support\v7\appcompat\R.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\android\support\v7\app\AlertDialog_IDialogInterfaceOnCancelListenerImplementor.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\android\support\v7\app\AlertDialog_IDialogInterfaceOnClickListenerImplementor.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\android\support\v7\app\AlertDialog_IDialogInterfaceOnMultiChoiceClickListenerImplementor.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\app\ApplicationRegistration.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\android\support\transition\R.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\android\support\design\widget\Snackbar_SnackbarActionClickImplementor.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\mono\MonoPackageManager_Resources.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\android\support\design\R.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\md5dcb6eccdc824e0677ffae8ccdde42930\CustomTabsServiceConnectionImpl.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\md5dcb6eccdc824e0677ffae8ccdde42930\KeepAliveService.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\android\support\customtabs\CustomTabsClient_CustomTabsCallbackImpl.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\android\support\customtabs\R.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\android\support\coordinatorlayout\R.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\md5d630c3d3bfb5f5558520331566132d97\AccelerometerListener.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\md5d630c3d3bfb5f5558520331566132d97\ActivityLifecycleContextListener.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\md5d630c3d3bfb5f5558520331566132d97\BarometerListener.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\md5d630c3d3bfb5f5558520331566132d97\BatteryBroadcastReceiver.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\md5d630c3d3bfb5f5558520331566132d97\ConnectivityBroadcastReceiver.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\md5d630c3d3bfb5f5558520331566132d97\EnergySaverBroadcastReceiver.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\md5d630c3d3bfb5f5558520331566132d97\GyroscopeListener.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\md5d630c3d3bfb5f5558520331566132d97\Listener.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\md5d630c3d3bfb5f5558520331566132d97\MagnetometerListener.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\md5d630c3d3bfb5f5558520331566132d97\OrientationSensorListener.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\md5d630c3d3bfb5f5558520331566132d97\SensorListener.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\md5d630c3d3bfb5f5558520331566132d97\SingleLocationListener.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\md5d630c3d3bfb5f5558520331566132d97\TextToSpeechImplementation.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\android\support\compat\R.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\bin\packaged_resources
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\bin\classes.dex
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\stamp\_BuildAdditionalResourcesCache.stamp
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\stamp\_CleanIntermediateIfNuGetsChange.stamp
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\stamp\_CompileToDalvik.stamp
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\stamp\_ConvertCustomView.stamp
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\stamp\_ConvertLibraryResourcesCases.stamp
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\stamp\_ConvertResourcesCases.stamp
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\stamp\_CopyIntermediateAssemblies.stamp
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\stamp\_CopyMdbFiles.stamp
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\stamp\_CopyPdbFiles.stamp
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\layout\fragment_info.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\bin\Debug\App.App.apk
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\bin\Debug\App.App-Signed.apk
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\bin\App.App.apk
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\app\app\R.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\bin\Debug\OOP_Exercise.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\bin\Debug\OOP_Exercise.pdb
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\OOP_Exercise.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\OOP_Exercise.pdb
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\OOP_Exercise.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\OOP_Exercise.pdb
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\OOP_Exercise.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\OOP_Exercise.pdb
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\md56ef1c2f256bd0fc180a8e8b98081d7c4\ResultActivity.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\md56ef1c2f256bd0fc180a8e8b98081d7c4\SlashScreen.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\md5494cd4bba66202ddc5bfb427204796f9\FragmentExam.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\md5494cd4bba66202ddc5bfb427204796f9\FragmentInfo.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\md5494cd4bba66202ddc5bfb427204796f9\FragmentQuiz.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\md5494cd4bba66202ddc5bfb427204796f9\FragmentSelectSubjects.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\md5494cd4bba66202ddc5bfb427204796f9\FragmentSelectTerm.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\md5494cd4bba66202ddc5bfb427204796f9\FragmentTest.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\md5494cd4bba66202ddc5bfb427204796f9\SpaceDecoration.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\md5494cd4bba66202ddc5bfb427204796f9\SubjectAdapter.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\md5494cd4bba66202ddc5bfb427204796f9\SubjectAdapter_MyViewSubject.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\md53cdff0a15255e7359ea06f913889c935\AnswerSheetAdapter.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\md53cdff0a15255e7359ea06f913889c935\AnswerSheetAdapter_MyViewAnswer.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\md53cdff0a15255e7359ea06f913889c935\ExamSchedulerAdapter.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\md53cdff0a15255e7359ea06f913889c935\ExamSchedulerAdapter_MyViewHolder.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\md53cdff0a15255e7359ea06f913889c935\QuestionValAdapter.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\md53cdff0a15255e7359ea06f913889c935\QuestionValAdapter_MyViewVal.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\md53cdff0a15255e7359ea06f913889c935\QuizFragmentAdapter.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\md51cdb2c17108678c58291ecb9ff25de25\CustomExpandableListAdapter.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\md51cdb2c17108678c58291ecb9ff25de25\FragmentScheduler.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\md5afbdca38ac54f93ca26953156a484b01\MyDatabase.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\md59292efd5466a1dae0285c0a6bc841169\LoginActivity.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\md59292efd5466a1dae0285c0a6bc841169\MainActivity.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\md59292efd5466a1dae0285c0a6bc841169\QuizActivity.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\md59292efd5466a1dae0285c0a6bc841169\ThreadSharedPrefes.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\netstandard.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\System.Collections.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\System.ComponentModel.Composition.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\System.Diagnostics.Debug.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\System.Drawing.Common.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\System.Globalization.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\System.IO.Compression.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\System.IO.Compression.FileSystem.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\System.Linq.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\System.Linq.Expressions.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\System.Numerics.Vectors.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\System.Reflection.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\System.Reflection.Extensions.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\System.Runtime.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\System.Runtime.Extensions.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\System.ServiceModel.Internals.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\System.Threading.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\System.Threading.Tasks.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\System.Transactions.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\System.Web.Services.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\layout\dialog_info.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\md5494cd4bba66202ddc5bfb427204796f9\DialogInfo.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\Firebase.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\LiteDB.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\System.Reactive.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\System.Runtime.InteropServices.WindowsRuntime.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\Firebase.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\LiteDB.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\System.Reactive.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\System.Runtime.InteropServices.WindowsRuntime.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\layout\slash_screen.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\layout\dialog_term_subject.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\layout\item_term_subject.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\drawable\style_term_sub.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\md5494cd4bba66202ddc5bfb427204796f9\DialogSubject.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\src\md53cdff0a15255e7359ea06f913889c935\SubTermAdapter.java
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\drawable\ic_exam_vector.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\drawable\ic_info_vector.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\drawable\ic_scheduler_vector.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\drawable\ic_test_vector.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\drawable\ic_account_vector.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\drawable\ic_chevron_left_vector.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\drawable\ic_chevron_right_vector.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\drawable\cancel.png
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\HtmlAgilityPack.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\linksrc\HtmlAgilityPack.pdb
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\HtmlAgilityPack.dll
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\android\assets\HtmlAgilityPack.pdb
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\drawable\background_info.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\drawable\info_home_vector.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\drawable\info_birthday_vector.xml
+C:\Users\Nguyen Huynh Minh\source\repos\OOP Exercise\OOP Exercise\obj\Debug\90\res\drawable\info_gender_vector.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\bin\Debug\OOP_Exercise.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\bin\Debug\OOP_Exercise.pdb
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\bin\Debug\App.App.apk
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\bin\Debug\App.App-Signed.apk
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\bin\Debug\xNet.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\build.props
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\adb.props
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\OOP Exercise.csprojAssemblyReference.cache
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\stamp\_BuildLibraryImportsCache.stamp
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\resourcepaths.cache
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res.flag
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\flata\beb64cbf6d8176ee4dfa84ee2a624043e9d39289.stamp
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\flata\2333b34d83d72836e1b204c19479d15032853e80.stamp
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\flata\d41493716db98af9ba75b622792b3f566001c3b6.stamp
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\flata\f7ff26a911b8504cef39fd25563b68176c43594f.stamp
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\flata\fe8231eea56afc30527b374e3b47cd046994f097.stamp
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\flata\8b80ff952002f16ef1758d02c4549cfc481d7cc8.stamp
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\flata\8fb1727b2fd4bbcb59eac473e569b7bb2713a178.stamp
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\flata\54bd386925e031cd162224ca5cacc8097049db4b.stamp
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\flata\d366be182c8a60d5cfef3e6b57e642a1eff9caff.stamp
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\flata\beb64cbf6d8176ee4dfa84ee2a624043e9d39289.flata
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\flata\2333b34d83d72836e1b204c19479d15032853e80.flata
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\flata\d41493716db98af9ba75b622792b3f566001c3b6.flata
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\flata\f7ff26a911b8504cef39fd25563b68176c43594f.flata
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\flata\fe8231eea56afc30527b374e3b47cd046994f097.flata
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\flata\8b80ff952002f16ef1758d02c4549cfc481d7cc8.flata
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\flata\8fb1727b2fd4bbcb59eac473e569b7bb2713a178.flata
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\flata\54bd386925e031cd162224ca5cacc8097049db4b.flata
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\flata\d366be182c8a60d5cfef3e6b57e642a1eff9caff.flata
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\flata\compiled.flata
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\R.txt
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\R.cs.flag
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\OOP Exercise.csproj.CopyComplete
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\OOP_Exercise.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\OOP_Exercise.pdb
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\bin\App.App.apk
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\layout\activity_main.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\values\colors.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\values\dimens.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\values\ic_launcher_background.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\values\strings.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\values\styles.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\drawable\ic_info_vector.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\drawable\ic_exam_vector.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\menu\navigation.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher_round.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\mipmap-hdpi\ic_launcher.png
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\mipmap-hdpi\ic_launcher_foreground.png
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\mipmap-hdpi\ic_launcher_round.png
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\mipmap-mdpi\ic_launcher.png
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\mipmap-mdpi\ic_launcher_foreground.png
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\mipmap-mdpi\ic_launcher_round.png
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\mipmap-xhdpi\ic_launcher.png
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\mipmap-xhdpi\ic_launcher_foreground.png
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\mipmap-xhdpi\ic_launcher_round.png
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\mipmap-xxhdpi\ic_launcher.png
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\mipmap-xxhdpi\ic_launcher_foreground.png
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\mipmap-xxhdpi\ic_launcher_round.png
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\mipmap-xxxhdpi\ic_launcher.png
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\mipmap-xxxhdpi\ic_launcher_foreground.png
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\mipmap-xxxhdpi\ic_launcher_round.png
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\layout\activity_login.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\mipmap-xxhdpi\logo.png
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\drawable\edit_text_login_style.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\drawable\login_background.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\drawable\progressbar_style.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\layout\fragment_scheduler.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\layout\listitemview.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\drawable\list_item_style.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\layout\listheaderview.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\drawable\logo.png
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\layout\fragment_select_term.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\layout\fragment_select_subject.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\layout\fragment_first_quiz.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\drawable\midterm.png
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\layout\fragment_quiz.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\layout\layout_subject_item.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\layout\content_quiz.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\layout\app_bar_question.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\layout\activity_quiz.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\drawable\ques_no_ans.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\drawable\ques_has_ans.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\layout\layout_grid_ans_sheet_item.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\layout\fragment_question_item.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\layout\activity_result.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\drawable\number_right_answer_style.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\layout\layout_question_val.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\drawable\right_question_style.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\drawable\wrong_question_style.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\drawable\missed_question_style.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\menu\result_item.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\drawable\baseline_timer_black_18dp.png
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\drawable\outline_room_black_18dp.png
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\layout\fragment_exam_scheduler.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\drawable\finalterm.png
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\layout\layout_exam_item.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\drawable\slashbackground.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\drawable\slash.png
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\layout\fragment_info.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\layout\dialog_info.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\layout\slash_screen.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\layout\dialog_term_subject.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\layout\item_term_subject.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\drawable\style_term_sub.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\drawable\ic_scheduler_vector.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\drawable\ic_test_vector.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\drawable\ic_account_vector.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\drawable\ic_chevron_left_vector.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\drawable\ic_chevron_right_vector.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\drawable\cancel.png
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\drawable\background_info.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\drawable\info_home_vector.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\drawable\info_birthday_vector.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\drawable\info_gender_vector.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\drawable\bg3.jpg
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\drawable\bg2.png
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\uploadflags.txt
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\resolvedassemblies.hash
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\OOP_Exercise.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\Firebase.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\HtmlAgilityPack.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\Java.Interop.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\LiteDB.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\Mono.Android.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\mscorlib.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\Newtonsoft.Json.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\SQLite-net.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\SQLitePCLRaw.batteries_green.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\SQLitePCLRaw.batteries_v2.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\SQLitePCLRaw.core.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\SQLitePCLRaw.lib.e_sqlite3.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\SQLitePCLRaw.provider.e_sqlite3.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\System.Core.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\System.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\System.Net.Http.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\System.Numerics.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\System.Numerics.Vectors.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\System.Reactive.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\System.Runtime.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\System.Xml.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Arch.Core.Common.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Arch.Core.Runtime.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Arch.Lifecycle.Common.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Arch.Lifecycle.LiveData.Core.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Arch.Lifecycle.LiveData.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Arch.Lifecycle.Runtime.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Arch.Lifecycle.ViewModel.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Support.Annotations.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Support.AsyncLayoutInflater.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Support.Collections.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Support.Compat.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Support.CoordinaterLayout.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Support.Core.UI.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Support.Core.Utils.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Support.CursorAdapter.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Support.CustomTabs.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Support.CustomView.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Support.Design.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Support.DocumentFile.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Support.DrawerLayout.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Support.Fragment.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Support.Interpolator.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Support.Loader.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Support.LocalBroadcastManager.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Support.Print.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Support.SlidingPaneLayout.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Support.SwipeRefreshLayout.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Support.Transition.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Support.v7.AppCompat.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Support.v7.CardView.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Support.v7.RecyclerView.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Support.Vector.Drawable.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Support.VersionedParcelable.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Android.Support.ViewPager.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Essentials.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\xNet.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\netstandard.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\System.Data.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\System.Transactions.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\System.Drawing.Common.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\System.IO.Compression.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\System.IO.Compression.FileSystem.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\System.ComponentModel.Composition.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\System.Runtime.Serialization.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\System.ServiceModel.Internals.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\System.Web.Services.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\System.Xml.Linq.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\System.Collections.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\System.Runtime.Extensions.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\System.Linq.Expressions.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\System.Reflection.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\System.Diagnostics.Debug.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\System.Threading.Tasks.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\System.Linq.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\System.Threading.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\System.Reflection.Extensions.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\System.Globalization.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\Mono.Security.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\System.Runtime.InteropServices.WindowsRuntime.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\OOP_Exercise.pdb
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\HtmlAgilityPack.pdb
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\Mono.Android.pdb
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\linksrc\Xamarin.Essentials.dll.mdb
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\link.flag
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\Firebase.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\HtmlAgilityPack.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\HtmlAgilityPack.pdb
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\Java.Interop.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\LiteDB.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\Mono.Android.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\Mono.Android.pdb
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\Mono.Security.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\mscorlib.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\netstandard.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\Newtonsoft.Json.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\OOP_Exercise.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\OOP_Exercise.pdb
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\SQLite-net.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\SQLitePCLRaw.batteries_green.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\SQLitePCLRaw.batteries_v2.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\SQLitePCLRaw.core.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\SQLitePCLRaw.lib.e_sqlite3.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\SQLitePCLRaw.provider.e_sqlite3.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\System.Collections.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\System.ComponentModel.Composition.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\System.Core.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\System.Data.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\System.Diagnostics.Debug.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\System.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\System.Drawing.Common.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\System.Globalization.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\System.IO.Compression.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\System.IO.Compression.FileSystem.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\System.Linq.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\System.Linq.Expressions.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\System.Net.Http.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\System.Numerics.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\System.Numerics.Vectors.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\System.Reactive.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\System.Reflection.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\System.Reflection.Extensions.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\System.Runtime.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\System.Runtime.Extensions.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\System.Runtime.InteropServices.WindowsRuntime.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\System.Runtime.Serialization.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\System.ServiceModel.Internals.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\System.Threading.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\System.Threading.Tasks.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\System.Transactions.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\System.Web.Services.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\System.Xml.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\System.Xml.Linq.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Arch.Core.Common.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Arch.Core.Runtime.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Arch.Lifecycle.Common.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Arch.Lifecycle.LiveData.Core.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Arch.Lifecycle.LiveData.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Arch.Lifecycle.Runtime.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Arch.Lifecycle.ViewModel.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Support.Annotations.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Support.AsyncLayoutInflater.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Support.Collections.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Support.Compat.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Support.CoordinaterLayout.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Support.Core.UI.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Support.Core.Utils.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Support.CursorAdapter.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Support.CustomTabs.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Support.CustomView.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Support.Design.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Support.DocumentFile.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Support.DrawerLayout.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Support.Fragment.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Support.Interpolator.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Support.Loader.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Support.LocalBroadcastManager.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Support.Print.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Support.SlidingPaneLayout.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Support.SwipeRefreshLayout.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Support.Transition.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Support.v7.AppCompat.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Support.v7.CardView.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Support.v7.RecyclerView.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Support.Vector.Drawable.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Support.VersionedParcelable.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Android.Support.ViewPager.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Essentials.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\Xamarin.Essentials.dll.mdb
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\xNet.dll
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\typemap.jm.arm64-v8a.s
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\typemap.jm.armeabi-v7a.s
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\typemap.jm.x86.s
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\typemap.jm.x86_64.s
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\typemap.mj.arm64-v8a.s
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\typemap.mj.armeabi-v7a.s
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\typemap.mj.x86.s
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\typemap.mj.x86_64.s
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\mono\MonoRuntimeProvider.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\assets\machine.config
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\bin\mono.android.jar
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\static.flag
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\buildid.txt
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v7\widget\ActionMenuView_OnMenuItemClickListenerImplementor.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v7\widget\ContentFrameLayout_OnAttachListenerImplementor.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v7\widget\FitWindowsViewGroup_OnFitSystemWindowsListenerImplementor.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v7\widget\MenuItemHoverListenerImplementor.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v7\widget\PopupMenu_OnDismissListenerImplementor.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v7\widget\PopupMenu_OnMenuItemClickListenerImplementor.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v7\widget\RecyclerView_ItemAnimator_ItemAnimatorFinishedListenerImplementor.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v7\widget\RecyclerView_OnChildAttachStateChangeListenerImplementor.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v7\widget\RecyclerView_OnItemTouchListenerImplementor.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v7\widget\RecyclerView_RecyclerListenerImplementor.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v7\widget\SearchView_OnCloseListenerImplementor.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v7\widget\SearchView_OnQueryTextListenerImplementor.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v7\widget\SearchView_OnSuggestionListenerImplementor.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v7\widget\ShareActionProvider_OnShareTargetSelectedListenerImplementor.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v7\widget\Toolbar_OnMenuItemClickListenerImplementor.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v7\widget\ViewStubCompat_OnInflateListenerImplementor.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v7\app\ActionBar_OnMenuVisibilityListenerImplementor.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v7\app\ActionBar_OnNavigationListenerImplementor.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v7\app\ActionBar_TabListenerImplementor.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v4\widget\DrawerLayout_DrawerListenerImplementor.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v4\widget\NestedScrollView_OnScrollChangeListenerImplementor.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v4\widget\SlidingPaneLayout_PanelSlideListenerImplementor.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v4\widget\SwipeRefreshLayout_OnRefreshListenerImplementor.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v4\view\accessibility\AccessibilityManagerCompat_AccessibilityStateChangeListenerImplementor.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v4\view\accessibility\AccessibilityManagerCompat_TouchExplorationStateChangeListenerImplementor.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v4\view\ActionProvider_SubUiVisibilityListenerImplementor.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v4\view\ActionProvider_VisibilityListenerImplementor.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v4\view\AsyncLayoutInflater_OnInflateFinishedListenerImplementor.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v4\view\MenuItemCompat_OnActionExpandListenerImplementor.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v4\view\OnApplyWindowInsetsListenerImplementor.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v4\view\ViewPager_OnAdapterChangeListenerImplementor.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v4\view\ViewPager_OnPageChangeListenerImplementor.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v4\view\ViewPropertyAnimatorListenerImplementor.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v4\view\ViewPropertyAnimatorUpdateListenerImplementor.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\xamarin\essentials\fileProvider.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v4\os\CancellationSignal_OnCancelListenerImplementor.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v4\content\Loader_OnLoadCanceledListenerImplementor.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v4\content\Loader_OnLoadCompleteListenerImplementor.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\md56ef1c2f256bd0fc180a8e8b98081d7c4\ResultActivity.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\md56ef1c2f256bd0fc180a8e8b98081d7c4\SlashScreen.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v4\app\FragmentManager_OnBackStackChangedListenerImplementor.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v4\app\SharedElementCallback_OnSharedElementsReadyListenerImplementor.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\md5494cd4bba66202ddc5bfb427204796f9\DialogInfo.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\md5494cd4bba66202ddc5bfb427204796f9\DialogSubject.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\md5494cd4bba66202ddc5bfb427204796f9\FragmentExam.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\md5494cd4bba66202ddc5bfb427204796f9\FragmentInfo.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\md5494cd4bba66202ddc5bfb427204796f9\FragmentQuiz.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\md5494cd4bba66202ddc5bfb427204796f9\FragmentSelectSubjects.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\md5494cd4bba66202ddc5bfb427204796f9\FragmentSelectTerm.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\md5494cd4bba66202ddc5bfb427204796f9\FragmentTest.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\md5494cd4bba66202ddc5bfb427204796f9\SpaceDecoration.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\md5494cd4bba66202ddc5bfb427204796f9\SubjectAdapter.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\md5494cd4bba66202ddc5bfb427204796f9\SubjectAdapter_MyViewSubject.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v13\view\inputmethod\InputConnectionCompat_OnCommitContentListenerImplementor.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\md53cdff0a15255e7359ea06f913889c935\AnswerSheetAdapter.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\md53cdff0a15255e7359ea06f913889c935\AnswerSheetAdapter_MyViewAnswer.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\md53cdff0a15255e7359ea06f913889c935\ExamSchedulerAdapter.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\md53cdff0a15255e7359ea06f913889c935\ExamSchedulerAdapter_MyViewHolder.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\md53cdff0a15255e7359ea06f913889c935\QuestionValAdapter.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\md53cdff0a15255e7359ea06f913889c935\QuestionValAdapter_MyViewVal.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\md53cdff0a15255e7359ea06f913889c935\QuizFragmentAdapter.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\md53cdff0a15255e7359ea06f913889c935\SubTermAdapter.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\v13\view\DragStartHelper_OnDragStartListenerImplementor.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\md51cdb2c17108678c58291ecb9ff25de25\CustomExpandableListAdapter.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\md51cdb2c17108678c58291ecb9ff25de25\FragmentScheduler.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\transition\Transition_TransitionListenerImplementor.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\android\support\v7\widget\Toolbar_NavigationOnClickEventDispatcher.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\design\widget\AppBarLayout_OnOffsetChangedListenerImplementor.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\design\widget\BottomNavigationView_OnNavigationItemReselectedListenerImplementor.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\design\widget\BottomNavigationView_OnNavigationItemSelectedListenerImplementor.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\design\widget\NavigationView_OnNavigationItemSelectedListenerImplementor.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\design\widget\SwipeDismissBehavior_OnDismissListenerImplementor.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\design\widget\TabLayout_BaseOnTabSelectedListenerImplementor.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\android\support\v7\recyclerview\R.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\support\design\chip\ChipGroup_OnCheckedChangeListenerImplementor.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\android\support\v7\cardview\R.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\android\support\v7\appcompat\R.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\android\support\v7\app\AlertDialog_IDialogInterfaceOnCancelListenerImplementor.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\android\support\v7\app\AlertDialog_IDialogInterfaceOnClickListenerImplementor.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\android\support\v7\app\AlertDialog_IDialogInterfaceOnMultiChoiceClickListenerImplementor.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\mono\android\app\ApplicationRegistration.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\android\support\transition\R.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\mono\MonoPackageManager_Resources.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\android\support\design\widget\Snackbar_SnackbarActionClickImplementor.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\md5dcb6eccdc824e0677ffae8ccdde42930\CustomTabsServiceConnectionImpl.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\md5dcb6eccdc824e0677ffae8ccdde42930\KeepAliveService.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\android\support\design\R.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\android\support\customtabs\CustomTabsClient_CustomTabsCallbackImpl.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\android\support\customtabs\R.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\md5d630c3d3bfb5f5558520331566132d97\AccelerometerListener.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\md5d630c3d3bfb5f5558520331566132d97\ActivityLifecycleContextListener.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\md5d630c3d3bfb5f5558520331566132d97\BarometerListener.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\md5d630c3d3bfb5f5558520331566132d97\BatteryBroadcastReceiver.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\md5d630c3d3bfb5f5558520331566132d97\ConnectivityBroadcastReceiver.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\md5d630c3d3bfb5f5558520331566132d97\EnergySaverBroadcastReceiver.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\md5d630c3d3bfb5f5558520331566132d97\GyroscopeListener.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\md5d630c3d3bfb5f5558520331566132d97\Listener.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\md5d630c3d3bfb5f5558520331566132d97\MagnetometerListener.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\md5d630c3d3bfb5f5558520331566132d97\OrientationSensorListener.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\md5d630c3d3bfb5f5558520331566132d97\SensorListener.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\md5d630c3d3bfb5f5558520331566132d97\SingleLocationListener.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\md5d630c3d3bfb5f5558520331566132d97\TextToSpeechImplementation.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\android\support\coordinatorlayout\R.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\md5afbdca38ac54f93ca26953156a484b01\MyDatabase.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\android\support\compat\R.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\md59292efd5466a1dae0285c0a6bc841169\LoginActivity.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\md59292efd5466a1dae0285c0a6bc841169\MainActivity.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\md59292efd5466a1dae0285c0a6bc841169\QuizActivity.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\md59292efd5466a1dae0285c0a6bc841169\ThreadSharedPrefes.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\bin\packaged_resources
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\app\app\R.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\bin\classes.dex
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\stamp\_BuildAdditionalResourcesCache.stamp
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\stamp\_CleanIntermediateIfNuGetsChange.stamp
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\stamp\_CompileToDalvik.stamp
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\stamp\_ConvertCustomView.stamp
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\stamp\_ConvertLibraryResourcesCases.stamp
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\stamp\_ConvertResourcesCases.stamp
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\stamp\_CopyIntermediateAssemblies.stamp
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\stamp\_CopyMdbFiles.stamp
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\stamp\_CopyPdbFiles.stamp
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\drawable\btnlogout.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\drawable\btnupdate.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\layout\fragment_proviso.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\layout\layout_proviso_item.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\md5494cd4bba66202ddc5bfb427204796f9\FragmentProviso.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\md53cdff0a15255e7359ea06f913889c935\ProvisoAdapter.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\md53cdff0a15255e7359ea06f913889c935\ProvisoAdapter_MyViewHolder.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\layout\fragment_select_proviso.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\layout\fragment_intro.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\res\layout\fragment_rules.xml
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\md5494cd4bba66202ddc5bfb427204796f9\FragmentIntro.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\md5494cd4bba66202ddc5bfb427204796f9\FragmentRules.java
+E:\MinhLong\MT-183\_2019\_HK191\OOP\Assignment\OOP-Exercise-master\OOP-Exercise\OOP Exercise\obj\Debug\90\android\src\md5494cd4bba66202ddc5bfb427204796f9\FragmentSelectProviso.java

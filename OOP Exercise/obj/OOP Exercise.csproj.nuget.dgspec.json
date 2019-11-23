@@ -1,0 +1,78 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Nguyen Huynh Minh\\source\\repos\\OOP Release\\OOP-Exercise-master\\OOP-Exercise-master\\OOP Exercise\\OOP Exercise.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Nguyen Huynh Minh\\source\\repos\\OOP Release\\OOP-Exercise-master\\OOP-Exercise-master\\OOP Exercise\\OOP Exercise.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Nguyen Huynh Minh\\source\\repos\\OOP Release\\OOP-Exercise-master\\OOP-Exercise-master\\OOP Exercise\\OOP Exercise.csproj",
+        "projectName": "OOP Exercise",
+        "projectPath": "C:\\Users\\Nguyen Huynh Minh\\source\\repos\\OOP Release\\OOP-Exercise-master\\OOP-Exercise-master\\OOP Exercise\\OOP Exercise.csproj",
+        "packagesPath": "C:\\Users\\Nguyen Huynh Minh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nguyen Huynh Minh\\source\\repos\\OOP Release\\OOP-Exercise-master\\OOP-Exercise-master\\OOP Exercise\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Nguyen Huynh Minh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid90"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid90": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "dependencies": {
+            "FirebaseDatabase.net": {
+              "target": "Package",
+              "version": "[4.0.2, )"
+            },
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.11.16, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            },
+            "Xamarin.Android.Support.Core.Utils": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.CustomTabs": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.Design": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.6.292, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}

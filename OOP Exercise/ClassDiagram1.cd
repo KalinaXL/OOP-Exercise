@@ -1,0 +1,356 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="OOP_Exercise.LoginActivity" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAABAQBAAABAAAAAAAAACAACAAAAAAABAAAABAAAA=</HashCode>
+      <FileName>Activities\LoginActivity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Exercise.MainActivity" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIBAAIEAARCAAgAEAAAAAAAECAAA=</HashCode>
+      <FileName>Activities\MainActivity.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="OOP_Exercise.QuizActivity" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACABAAwAAIEAAAACIgACAAAUgCEEgAAEAAAAAkEQAQA=</HashCode>
+      <FileName>Activities\QuizActivity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Exercise.ThreadSharedPrefes" Collapsed="true">
+    <Position X="7.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAIAAAAAAAAAAAAAAAEAAAAAAACAAAAAAgAAAAI=</HashCode>
+      <FileName>System Classes\ThreadSharedPrefes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Exercise.CurrentQuestion" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEABAAAAAAAA=</HashCode>
+      <FileName>Utility Classes\CurrentQuestion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Exercise.Question" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAABAAAAAAAAAwDE=</HashCode>
+      <FileName>Utility Classes\Question.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Exercise.Activities.ResultActivity" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAiACAAAAQAAAAAEAgCAAgEAAAAAAAAAAABA=</HashCode>
+      <FileName>Activities\ResultActivity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Exercise.Activities.SlashScreen" Collapsed="true">
+    <Position X="4" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Activities\SlashScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Exercise.Adapters.AnswerSheetAdapter">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Class Name="OOP_Exercise.Adapters.AnswerSheetAdapter.MyViewAnswer" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Adapters\AnswerSheetAdapter.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAACAAEAAAAAAAAAGAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Adapters\AnswerSheetAdapter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Exercise.Adapters.ExamSchedulerAdapter" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAEAAAAAAAAAEAAAAAgAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Adapters\ExamSchedulerAdapter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Exercise.Adapters.QuestionValAdapter">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <NestedTypes>
+      <Class Name="OOP_Exercise.Adapters.QuestionValAdapter.MyViewVal" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Adapters\QuestionValAdapter.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAACAAEAAgAAAAAAEAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Adapters\QuestionValAdapter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Exercise.Adapters.QuizFragmentAdapter" Collapsed="true">
+    <Position X="11" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAEAAAAEAAAAQAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Adapters\QuizFragmentAdapter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Exercise.Adapters.SubTermAdapter" Collapsed="true">
+    <Position X="2.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAICAAAAAAAAAQAACAAAAAQAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Adapters\SubTermAdapter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Exercise.Resources.Fragments.CustomExpandableListAdapter" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UAACAAAACAAACAAAIAIgACAAAQAEAAAEIAACBACAABA=</HashCode>
+      <FileName>Adapters\CustomExpandableListAdapter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Exercise.Resources.Fragments.FragmentScheduler" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQIChAAAAAAAAAAAgCAAAAACAAAgAAAAEAAAgBAAA=</HashCode>
+      <FileName>Fragments\FragmentScheduler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Exercise.Fragments.SubjectAdapter" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAACAAEAAAAAAAAAEACAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Adapters\SubjectAdapter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Exercise.Fragments.DialogInfo" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fragments\DialogInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Exercise.Fragments.DialogSubject" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAEAAAAAgQAAAAACBAAAAIIIAAAAAAAAQ=</HashCode>
+      <FileName>Fragments\DialogSubject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Exercise.Fragments.FragmentExam" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAgAAAAAACAAgAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Fragments\FragmentExam.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Exercise.Fragments.FragmentInfo" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAgAAAABABAAQAAgAAAAABCQiCIAAAAAAACAAAAA=</HashCode>
+      <FileName>Fragments\FragmentInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Exercise.Fragments.FragmentIntro" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAgAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fragments\FragmentIntro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Exercise.Fragments.FragmentProviso" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAACAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Fragments\FragmentProviso.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Exercise.Fragments.FragmentQuiz" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAfABAAAACAAEAGAAgAAEAAACYAEAAAAAABCQgAAAQ=</HashCode>
+      <FileName>Fragments\FragmentQuiz.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Exercise.Fragments.FragmentRules" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAQACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fragments\FragmentRules.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Exercise.Fragments.FragmentSelectProviso" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AkAABAAAQAAAAAAAAAgAAAAAACAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Fragments\FragmentSelectProviso.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Exercise.Fragments.FragmentSelectSubjects" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAgAAAAAACAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fragments\FragmentSelectSubjects.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Exercise.Fragments.FragmentSelectTerm" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAABAgAAAAABCAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Fragments\FragmentSelectTerm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Exercise.Fragments.FragmentTest" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAEAEACAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fragments\FragmentTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Exercise.Fragments.SpaceDecoration" Collapsed="true">
+    <Position X="7.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Fragments\SpaceDecoration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Exercise.Login_And_Scrape_Data.ExamSchedule" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Login And Scrape Data\ExamSchedule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Exercise.Login_And_Scrape_Data.Lichhoc" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAABEIAAAAAAAAAAAAIAEALiACAAAAAQIASACIA=</HashCode>
+      <FileName>Login And Scrape Data\Lichhoc.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Exercise.Login_And_Scrape_Data.Lichthi" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAgAAAMACACAAAACAAIBAAAYAEAoAAYAQIASAAIA=</HashCode>
+      <FileName>Login And Scrape Data\Lichthi.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Exercise.Login_And_Scrape_Data.LoginConfig" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABCAEAgAAAAEYAAAAAAAAAAAAAAAAAAAAAACABA=</HashCode>
+      <FileName>Login And Scrape Data\LoginManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Exercise.Login_And_Scrape_Data.LoginDataManager" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQABAAAAAAAAAAAAAAAAEAAAABAABAQAAAAAAA=</HashCode>
+      <FileName>Login And Scrape Data\LoginManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Exercise.Login_And_Scrape_Data.LoginUtility" Collapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAACA=</HashCode>
+      <FileName>Login And Scrape Data\LoginUtility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Exercise.Login_And_Scrape_Data.Namhoc" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAUAAAA=</HashCode>
+      <FileName>Login And Scrape Data\Namhoc.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Exercise.Login_And_Scrape_Data.ThongtinSV" Collapsed="true">
+    <Position X="5.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAQCAAA=</HashCode>
+      <FileName>Login And Scrape Data\ThongtinSV.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Exercise.System_Classes.FireBaseHelper" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACACAAAAAAAAAAAAAAAAAAAIAAAABAAAQAAAAACAQQ=</HashCode>
+      <FileName>System Classes\FireBaseHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Exercise.System_Classes.SubExam" Collapsed="true">
+    <Position X="9.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAQA=</HashCode>
+      <FileName>System Classes\SubExam.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Exercise.System_Classes.Term" Collapsed="true">
+    <Position X="4" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>System Classes\Term.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Exercise.Utility_Classes.DatabaseUtility" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAIAAAAAACAAAAABAAQgAAAAAAAAAgEA=</HashCode>
+      <FileName>Utility Classes\DatabaseUtility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Exercise.Utility_Classes.DataManager" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAACAEAAAABCAAEAAgAAAAAIgCAAAAAAAAAABA=</HashCode>
+      <FileName>Utility Classes\DataManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Exercise.Utility_Classes.ExamScheduler" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAgAAAABEAAAAAAAAAAAIBAAAAACAAAAA=</HashCode>
+      <FileName>Utility Classes\ExamScheduler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Exercise.Utility_Classes.Person" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgACAAAAAgAQAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Utility Classes\Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Exercise.Utility_Classes.SaveInfo" Collapsed="true">
+    <Position X="2.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQBAAAAAAAAAAIAAAAAACAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utility Classes\SaveInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Exercise.Utility_Classes.SortItemExam" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Utility Classes\SortItemExam.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DataOfUser.Subject" Collapsed="true">
+    <Position X="11" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAABAAAAQAAAAAAAABAAQAAIAAAAA=</HashCode>
+      <FileName>Utility Classes\Subject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="OOP_Exercise.Utility_Classes.StateOfQuestion" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEgAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Utility Classes\StateOfQuestion.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
