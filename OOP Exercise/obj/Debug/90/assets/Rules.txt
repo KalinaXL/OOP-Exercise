@@ -1,0 +1,7 @@
+1.	Điều khoản sử dụng
+	1.1	Thu thập thông tin và dữ liệu
+		Ứng dụng chỉ lưu thông tin của tài khoản myBK tại chính thiết bị của bạn để thực hiện việc đăng nhập. Toàn bộ dữ liệu được gửi đi và nhận về từ mybk.hcmut.edu.vn.
+	1.2	Bảo mật
+		Chúng tôi coi trọng vấn đề bảo mật của bạn. BKStudent sẽ không lưu trữ, sử dụng hoặc chia sẻ thông tin thu thập được tại bất kì nơi nào khác, hoặc bất kì lý do nào khác ngoài việc đăng nhập lên elearning. 
+2.	Liên hệ
+	Nếu có bất kì thắc mắc hoặc cần sự hỗ trợ, vui lòng gửi đến abc@gmail.com.

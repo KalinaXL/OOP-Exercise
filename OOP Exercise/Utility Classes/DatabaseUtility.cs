@@ -51,14 +51,13 @@ namespace OOP_Exercise.Utility_Classes
             await Task.Run(new Action(() =>
             {
                 SQLiteConnection sql = new SQLiteConnection(dbInfoPath);
-           
                 LoginDataManager.GetWeekInYear();
                 SaveInfo.examMidList = sql.Table<ExamScheduler>().Where(item => item.IsMidTerm).ToList();
                 SaveInfo.examFinalList = sql.Table<ExamScheduler>().Where(item => !item.IsMidTerm).ToList();
                 SaveInfo.subjectList = sql.Table<Subject>().Select(item => item).ToList();
                 SaveInfo.PersonInfo = sql.Table<Person>().First();
             
-                    string week = LoginDataManager.CurrentWeekOfYear.ToString();
+                string week = LoginDataManager.CurrentWeekOfYear.ToString();
                 SaveInfo.SchedulerOfDay = SaveInfo.subjectList.Where(item => item.Week.Contains(week)).Select(item => new { item.Date, Subject = new Subject(item.Name, item.Room, item.TimeStart, item.TimeEnd, item.Date, item.Week) })
                         .GroupBy(item => item.Date).Distinct().ToDictionary(item => item.Key, item => item.Select(iter => iter.Subject).ToList());
              

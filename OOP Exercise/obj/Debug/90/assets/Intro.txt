@@ -1,0 +1,8 @@
+1.	Giới thiệu
+	•	BKStudent là ứng dụng được phát triển bởi nhóm Blue Stream, dành riêng cho sinh viên trường ĐH Bách Khoa TPHCM. 
+	•	Khi bạn sử dụng ứng dụng này, đồng nghĩa với việc bạn đồng ý những điều khoản sử dụng của chúng tôi.
+2.	Dịch vụ
+	Ứng dụng này dành riêng cho sinh viên trường ĐH Bách Khoa TPHCM. Bạn có thể đăng nhập vào BKStudent thông qua tài khoản MyBK. Ứng dụng hỗ trợ các chức năng như sau:
+		•	Xem thời khoá biểu
+		•	Xem lịch thi
+		•	Thi thử

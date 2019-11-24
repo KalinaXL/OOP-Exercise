@@ -50,10 +50,7 @@ namespace OOP_Exercise.Resources.Fragments
             chevronLeft.Click += ChevronLeft_Click;
             chevronRight.Click += ChevronRight_Click;
 
-            toolbar.Title = "Lịch học tuần " + LoginDataManager.CurrentWeekOfYear;
-            toolbar.SetTitleTextColor(Color.White);
-            adapter = new CustomExpandableListAdapter(this.Activity, titleNames, SaveInfo.SchedulerOfDay);
-            expandListView.SetAdapter(adapter);
+            UpdateUI();
             return view;
 
 
@@ -64,7 +61,6 @@ namespace OOP_Exercise.Resources.Fragments
             toolbar = view.FindViewById<Toolbar>(Resource.Id.toolbarSheduler);
             chevronLeft = view.FindViewById<ImageView>(Resource.Id.chevron_left);
             chevronRight = view.FindViewById<ImageView>(Resource.Id.chevron_right);
-            chevronLeft.Click += ChevronLeft_Click;
         }
         private void ChevronRight_Click(object sender, EventArgs e)
         {
